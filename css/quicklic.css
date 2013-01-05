@@ -1,0 +1,93 @@
+/* 
+    Document   : quicklic
+    Created on : 01/12/2012, 10:52:21
+    Author     : endel
+    Description:
+        Purpose of the stylesheet follows.
+*/
+.align-center{text-align:center;}
+body{height:100%;width:100%;}
+.center{margin:auto;}
+.invisible{visibility:hidden;}
+.clear{clear:both;}
+.barra-de-busca.no-margin-top{margin-top:0;}
+h1{font-size:18px; font-weight:bold; margin:10px 0px;}
+h2{font-size:16px; font-weight:bold; margin:8px 0px;}
+h3{font-size:14px; font-weight:bold; margin:6px 0px;}
+input[type="text"],input[type="password"]{font-size:18px;}
+a{color:#0e509e;}
+a:visited{color:#966;}
+input[type="text"],input[type="password"],textarea{
+  border-radius: 3px;-moz-border-radius: 3px; -webkit-border-radius: 3px; border: 1px solid #DDD; 
+  padding-left:5px;
+  margin:20px 10px;
+}
+.col{padding:10px;}
+.barra-de-busca{
+  height:30px; 
+  font-size:18px;
+}
+.botao-procurar{
+  margin:auto;
+  margin-bottom:10px;
+}
+input[type="submit"],input[type="image"]{ 
+  height:30px;
+  border-radius: 2px;
+  -moz-border-radius: 2px;
+  -webkit-border-radius: 2px; 
+  border: solid 1px #DDD; 
+  background-color: #EEE; 
+  color: #555;
+  font-weight: bold;
+}
+input[type="submit"]:hover,input[type="image"]:hover{
+  box-shadow:0px 1px 2px #999;
+  border: solid 1px #CCC;
+
+}
+#footer{
+  position:relative;
+  bottom:0;
+  left:0;
+}
+
+.logo-s{
+  width:180px;
+  height:26px;
+  margin-bottom:20px;
+  float:left;
+}
+.busca-header{
+  background:url('../images/topo.jpg');
+  margin-top:-40px;
+  padding-top:22px;
+  /*height:80px;*/
+}
+.resultados-busca h3{
+  font-size: 16px;
+  color: #06C;
+  text-decoration: underline;
+  margin-bottom: 5px;
+}
+#mainmenu *{
+  font-size:12px;
+}
+#mainmenu ul li a.highlight{
+  background-color:#fff;
+  color:#333;
+}
+#mainmenu ul li a.highlight:hover{
+  text-decoration:underline; 
+}
+div.form .errorMessage{
+  clear:both;
+}
+.resultados-busca li.row{padding:20px;}
+.resultados-busca li.row:hover{background:#fafafa;}
+.mensagem{border:dashed 2px #aaddaa; padding:10px; background:#dfd;display:none; font-weight:bold;}
+#mensagem-erro{border:dashed 2px #ddaaaa; padding:10px; background:#fdd;display:none; font-weight:bold;}
+.red{color: #966; text-decoration:none;}
+a.red:hover{text-decoration:underline;}
+.help-busca{font-style:italic;}
+#mobile-botao-procurar-results{display:none;}
