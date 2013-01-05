@@ -1,0 +1,1768 @@
+2012/12/01 12:29:29 [error] [php] trim() expects parameter 1 to be string, array given (/home/endel/www/pds/yii/web/CUrlManager.php:295)
+Stack trace:
+#0 /home/endel/www/pds/protected/views/site/index.php(10): CWebApplication->createUrl()
+#1 /home/endel/www/pds/yii/web/CBaseController.php(127): require()
+#2 /home/endel/www/pds/yii/web/CBaseController.php(96): SiteController->renderInternal()
+#3 /home/endel/www/pds/yii/web/CController.php(870): SiteController->renderFile()
+#4 /home/endel/www/pds/yii/web/CController.php(783): SiteController->renderPartial()
+#5 /home/endel/www/pds/protected/controllers/SiteController.php(32): SiteController->render()
+#6 /home/endel/www/pds/yii/web/actions/CInlineAction.php(50): SiteController->actionIndex()
+#7 /home/endel/www/pds/yii/web/CController.php(309): CInlineAction->runWithParams()
+#8 /home/endel/www/pds/yii/web/CController.php(287): SiteController->runAction()
+#9 /home/endel/www/pds/yii/web/CController.php(266): SiteController->runActionWithFilters()
+#10 /home/endel/www/pds/yii/web/CWebApplication.php(283): SiteController->run()
+#11 /home/endel/www/pds/yii/web/CWebApplication.php(142): CWebApplication->runController()
+#12 /home/endel/www/pds/yii/base/CApplication.php(162): CWebApplication->processRequest()
+#13 /home/endel/www/pds/index.php(13): CWebApplication->run()
+REQUEST_URI=/dev/pds/?
+in /home/endel/www/pds/protected/views/site/index.php (10)
+in /home/endel/www/pds/protected/controllers/SiteController.php (32)
+in /home/endel/www/pds/index.php (13)
+2012/12/01 12:29:40 [error] [php] trim() expects parameter 1 to be string, array given (/home/endel/www/pds/yii/web/CUrlManager.php:295)
+Stack trace:
+#0 /home/endel/www/pds/protected/views/site/index.php(10): CWebApplication->createUrl()
+#1 /home/endel/www/pds/yii/web/CBaseController.php(127): require()
+#2 /home/endel/www/pds/yii/web/CBaseController.php(96): SiteController->renderInternal()
+#3 /home/endel/www/pds/yii/web/CController.php(870): SiteController->renderFile()
+#4 /home/endel/www/pds/yii/web/CController.php(783): SiteController->renderPartial()
+#5 /home/endel/www/pds/protected/controllers/SiteController.php(32): SiteController->render()
+#6 /home/endel/www/pds/yii/web/actions/CInlineAction.php(50): SiteController->actionIndex()
+#7 /home/endel/www/pds/yii/web/CController.php(309): CInlineAction->runWithParams()
+#8 /home/endel/www/pds/yii/web/CController.php(287): SiteController->runAction()
+#9 /home/endel/www/pds/yii/web/CController.php(266): SiteController->runActionWithFilters()
+#10 /home/endel/www/pds/yii/web/CWebApplication.php(283): SiteController->run()
+#11 /home/endel/www/pds/yii/web/CWebApplication.php(142): CWebApplication->runController()
+#12 /home/endel/www/pds/yii/base/CApplication.php(162): CWebApplication->processRequest()
+#13 /home/endel/www/pds/index.php(13): CWebApplication->run()
+REQUEST_URI=/dev/pds/?
+in /home/endel/www/pds/protected/views/site/index.php (10)
+in /home/endel/www/pds/protected/controllers/SiteController.php (32)
+in /home/endel/www/pds/index.php (13)
+2012/12/01 12:29:42 [error] [php] trim() expects parameter 1 to be string, array given (/home/endel/www/pds/yii/web/CUrlManager.php:295)
+Stack trace:
+#0 /home/endel/www/pds/protected/views/site/index.php(10): CWebApplication->createUrl()
+#1 /home/endel/www/pds/yii/web/CBaseController.php(127): require()
+#2 /home/endel/www/pds/yii/web/CBaseController.php(96): SiteController->renderInternal()
+#3 /home/endel/www/pds/yii/web/CController.php(870): SiteController->renderFile()
+#4 /home/endel/www/pds/yii/web/CController.php(783): SiteController->renderPartial()
+#5 /home/endel/www/pds/protected/controllers/SiteController.php(32): SiteController->render()
+#6 /home/endel/www/pds/yii/web/actions/CInlineAction.php(50): SiteController->actionIndex()
+#7 /home/endel/www/pds/yii/web/CController.php(309): CInlineAction->runWithParams()
+#8 /home/endel/www/pds/yii/web/CController.php(287): SiteController->runAction()
+#9 /home/endel/www/pds/yii/web/CController.php(266): SiteController->runActionWithFilters()
+#10 /home/endel/www/pds/yii/web/CWebApplication.php(283): SiteController->run()
+#11 /home/endel/www/pds/yii/web/CWebApplication.php(142): CWebApplication->runController()
+#12 /home/endel/www/pds/yii/base/CApplication.php(162): CWebApplication->processRequest()
+#13 /home/endel/www/pds/index.php(13): CWebApplication->run()
+REQUEST_URI=/dev/pds/
+in /home/endel/www/pds/protected/views/site/index.php (10)
+in /home/endel/www/pds/protected/controllers/SiteController.php (32)
+in /home/endel/www/pds/index.php (13)
+2012/12/01 12:29:42 [error] [php] trim() expects parameter 1 to be string, array given (/home/endel/www/pds/yii/web/CUrlManager.php:295)
+Stack trace:
+#0 /home/endel/www/pds/protected/views/site/index.php(10): CWebApplication->createUrl()
+#1 /home/endel/www/pds/yii/web/CBaseController.php(127): require()
+#2 /home/endel/www/pds/yii/web/CBaseController.php(96): SiteController->renderInternal()
+#3 /home/endel/www/pds/yii/web/CController.php(870): SiteController->renderFile()
+#4 /home/endel/www/pds/yii/web/CController.php(783): SiteController->renderPartial()
+#5 /home/endel/www/pds/protected/controllers/SiteController.php(32): SiteController->render()
+#6 /home/endel/www/pds/yii/web/actions/CInlineAction.php(50): SiteController->actionIndex()
+#7 /home/endel/www/pds/yii/web/CController.php(309): CInlineAction->runWithParams()
+#8 /home/endel/www/pds/yii/web/CController.php(287): SiteController->runAction()
+#9 /home/endel/www/pds/yii/web/CController.php(266): SiteController->runActionWithFilters()
+#10 /home/endel/www/pds/yii/web/CWebApplication.php(283): SiteController->run()
+#11 /home/endel/www/pds/yii/web/CWebApplication.php(142): CWebApplication->runController()
+#12 /home/endel/www/pds/yii/base/CApplication.php(162): CWebApplication->processRequest()
+#13 /home/endel/www/pds/index.php(13): CWebApplication->run()
+REQUEST_URI=/dev/pds/
+in /home/endel/www/pds/protected/views/site/index.php (10)
+in /home/endel/www/pds/protected/controllers/SiteController.php (32)
+in /home/endel/www/pds/index.php (13)
+2012/12/01 12:29:45 [error] [php] trim() expects parameter 1 to be string, array given (/home/endel/www/pds/yii/web/CUrlManager.php:295)
+Stack trace:
+#0 /home/endel/www/pds/protected/views/site/index.php(10): CWebApplication->createUrl()
+#1 /home/endel/www/pds/yii/web/CBaseController.php(127): require()
+#2 /home/endel/www/pds/yii/web/CBaseController.php(96): SiteController->renderInternal()
+#3 /home/endel/www/pds/yii/web/CController.php(870): SiteController->renderFile()
+#4 /home/endel/www/pds/yii/web/CController.php(783): SiteController->renderPartial()
+#5 /home/endel/www/pds/protected/controllers/SiteController.php(32): SiteController->render()
+#6 /home/endel/www/pds/yii/web/actions/CInlineAction.php(50): SiteController->actionIndex()
+#7 /home/endel/www/pds/yii/web/CController.php(309): CInlineAction->runWithParams()
+#8 /home/endel/www/pds/yii/web/CController.php(287): SiteController->runAction()
+#9 /home/endel/www/pds/yii/web/CController.php(266): SiteController->runActionWithFilters()
+#10 /home/endel/www/pds/yii/web/CWebApplication.php(283): SiteController->run()
+#11 /home/endel/www/pds/yii/web/CWebApplication.php(142): CWebApplication->runController()
+#12 /home/endel/www/pds/yii/base/CApplication.php(162): CWebApplication->processRequest()
+#13 /home/endel/www/pds/index.php(13): CWebApplication->run()
+REQUEST_URI=/dev/pds/
+in /home/endel/www/pds/protected/views/site/index.php (10)
+in /home/endel/www/pds/protected/controllers/SiteController.php (32)
+in /home/endel/www/pds/index.php (13)
+2012/12/01 12:31:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "gii".' in /home/endel/www/pds/yii/web/CWebApplication.php:287
+Stack trace:
+#0 /home/endel/www/pds/yii/web/CWebApplication.php(142): CWebApplication->runController('gii')
+#1 /home/endel/www/pds/yii/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /home/endel/www/pds/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dev/pds/index.php?r=gii
+---
+2012/12/01 12:31:53 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not allowed to access this page.' in /home/endel/www/pds/yii/gii/GiiModule.php:169
+Stack trace:
+#0 /home/endel/www/pds/yii/web/CController.php(264): GiiModule->beforeControllerAction(Object(DefaultController), Object(CInlineAction))
+#1 /home/endel/www/pds/yii/web/CWebApplication.php(283): CController->run('')
+#2 /home/endel/www/pds/yii/web/CWebApplication.php(142): CWebApplication->runController('gii')
+#3 /home/endel/www/pds/yii/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /home/endel/www/pds/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/dev/pds/index.php?r=gii
+---
+2012/12/01 12:32:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "gii/index".' in /home/endel/www/pds/yii/web/CWebApplication.php:287
+Stack trace:
+#0 /home/endel/www/pds/yii/web/CWebApplication.php(142): CWebApplication->runController('gii/index')
+#1 /home/endel/www/pds/yii/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /home/endel/www/pds/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dev/pds/index.php?r=gii/index
+---
+2012/12/01 12:32:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "gii/create".' in /home/endel/www/pds/yii/web/CWebApplication.php:287
+Stack trace:
+#0 /home/endel/www/pds/yii/web/CWebApplication.php(142): CWebApplication->runController('gii/create')
+#1 /home/endel/www/pds/yii/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /home/endel/www/pds/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dev/pds/index.php?r=gii/create
+---
+2012/12/01 12:32:28 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not allowed to access this page.' in /home/endel/www/pds/yii/gii/GiiModule.php:169
+Stack trace:
+#0 /home/endel/www/pds/yii/web/CController.php(264): GiiModule->beforeControllerAction(Object(DefaultController), Object(CInlineAction))
+#1 /home/endel/www/pds/yii/web/CWebApplication.php(283): CController->run('')
+#2 /home/endel/www/pds/yii/web/CWebApplication.php(142): CWebApplication->runController('gii')
+#3 /home/endel/www/pds/yii/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /home/endel/www/pds/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/dev/pds/index.php?r=gii
+---
+2012/12/01 12:32:57 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not allowed to access this page.' in /home/endel/www/pds/yii/gii/GiiModule.php:169
+Stack trace:
+#0 /home/endel/www/pds/yii/web/CController.php(264): GiiModule->beforeControllerAction(Object(DefaultController), Object(CInlineAction))
+#1 /home/endel/www/pds/yii/web/CWebApplication.php(283): CController->run('')
+#2 /home/endel/www/pds/yii/web/CWebApplication.php(142): CWebApplication->runController('gii')
+#3 /home/endel/www/pds/yii/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /home/endel/www/pds/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/dev/pds/index.php?r=gii
+---
+2012/12/01 12:32:59 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not allowed to access this page.' in /home/endel/www/pds/yii/gii/GiiModule.php:169
+Stack trace:
+#0 /home/endel/www/pds/yii/web/CController.php(264): GiiModule->beforeControllerAction(Object(DefaultController), Object(CInlineAction))
+#1 /home/endel/www/pds/yii/web/CWebApplication.php(283): CController->run('')
+#2 /home/endel/www/pds/yii/web/CWebApplication.php(142): CWebApplication->runController('gii')
+#3 /home/endel/www/pds/yii/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /home/endel/www/pds/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/dev/pds/index.php?r=gii
+---
+2012/12/01 12:36:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "searchs".' in /home/endel/www/pds/yii/web/CController.php:484
+Stack trace:
+#0 /home/endel/www/pds/yii/web/CController.php(271): CController->missingAction('searchs')
+#1 /home/endel/www/pds/yii/web/CWebApplication.php(283): CController->run('searchs')
+#2 /home/endel/www/pds/yii/web/CWebApplication.php(142): CWebApplication->runController('busca/searchs')
+#3 /home/endel/www/pds/yii/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /home/endel/www/pds/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/dev/pds/index.php?r=busca/searchs
+---
+2012/12/01 12:41:40 [error] [exception.CException] exception 'CException' with message 'Property "CMenu.htmlOptionss" is not defined.' in /home/endel/www/pds/yii/base/CComponent.php:174
+Stack trace:
+#0 /home/endel/www/pds/yii/web/CWidgetFactory.php(162): CComponent->__set('htmlOptionss', Array)
+#1 /home/endel/www/pds/yii/web/CBaseController.php(147): CWidgetFactory->createWidget(Object(BuscaController), 'zii.widgets.CMe...', Array)
+#2 /home/endel/www/pds/yii/web/CBaseController.php(173): CBaseController->createWidget('zii.widgets.CMe...', Array)
+#3 /home/endel/www/pds/protected/views/layouts/main.php(43): CBaseController->widget('zii.widgets.CMe...', Array)
+#4 /home/endel/www/pds/yii/web/CBaseController.php(127): require('/home/endel/www...')
+#5 /home/endel/www/pds/yii/web/CBaseController.php(96): CBaseController->renderInternal('/home/endel/www...', Array, true)
+#6 /home/endel/www/pds/yii/web/widgets/CContentDecorator.php(77): CBaseController->renderFile('/home/endel/www...', Array, true)
+#7 /home/endel/www/pds/yii/web/widgets/CContentDecorator.php(55): CContentDecorator->decorate('<div id="conten...')
+#8 /home/endel/www/pds/yii/web/widgets/COutputProcessor.php(45): CContentDecorator->processOutput('<div id="conten...')
+#9 /home/endel/www/pds/yii/web/CBaseController.php(207): COutputProcessor->run()
+#10 /home/endel/www/pds/yii/web/CBaseController.php(301): CBaseController->endWidget('CContentDecorat...')
+#11 /home/endel/www/pds/protected/views/layouts/column1.php(6): CBaseController->endContent()
+#12 /home/endel/www/pds/yii/web/CBaseController.php(127): require('/home/endel/www...')
+#13 /home/endel/www/pds/yii/web/CBaseController.php(96): CBaseController->renderInternal('/home/endel/www...', Array, true)
+#14 /home/endel/www/pds/yii/web/CController.php(785): CBaseController->renderFile('/home/endel/www...', Array, true)
+#15 /home/endel/www/pds/protected/controllers/BuscaController.php(12): CController->render('search')
+#16 /home/endel/www/pds/yii/web/actions/CInlineAction.php(50): BuscaController->actionSearch()
+#17 /home/endel/www/pds/yii/web/CController.php(309): CInlineAction->runWithParams(Array)
+#18 /home/endel/www/pds/yii/web/CController.php(287): CController->runAction(Object(CInlineAction))
+#19 /home/endel/www/pds/yii/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#20 /home/endel/www/pds/yii/web/CWebApplication.php(283): CController->run('search')
+#21 /home/endel/www/pds/yii/web/CWebApplication.php(142): CWebApplication->runController('busca/search')
+#22 /home/endel/www/pds/yii/base/CApplication.php(162): CWebApplication->processRequest()
+#23 /home/endel/www/pds/index.php(13): CApplication->run()
+#24 {main}
+REQUEST_URI=/dev/pds/index.php/busca/search?
+HTTP_REFERER=http://localhost/dev/pds/
+---
+2012/12/01 12:49:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in /home/endel/www/pds/yii/web/CController.php:484
+Stack trace:
+#0 /home/endel/www/pds/yii/web/CController.php(271): CController->missingAction('images')
+#1 /home/endel/www/pds/yii/web/CWebApplication.php(283): CController->run('images')
+#2 /home/endel/www/pds/yii/web/CWebApplication.php(142): CWebApplication->runController('busca/images/s_...')
+#3 /home/endel/www/pds/yii/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /home/endel/www/pds/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/dev/pds/index.php/busca/images/s_logo.png
+HTTP_REFERER=http://localhost/dev/pds/index.php/busca/search?
+---
+2012/12/01 12:50:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in /home/endel/www/pds/yii/web/CController.php:484
+Stack trace:
+#0 /home/endel/www/pds/yii/web/CController.php(271): CController->missingAction('images')
+#1 /home/endel/www/pds/yii/web/CWebApplication.php(283): CController->run('images')
+#2 /home/endel/www/pds/yii/web/CWebApplication.php(142): CWebApplication->runController('busca/images/s_...')
+#3 /home/endel/www/pds/yii/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /home/endel/www/pds/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/dev/pds/index.php/busca/images/s_logo.png
+HTTP_REFERER=http://localhost/dev/pds/index.php/busca/search?
+---
+2012/12/01 13:39:29 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: could not find driver' in /home/endel/www/pds/yii/db/CDbConnection.php:382
+Stack trace:
+#0 /home/endel/www/pds/yii/db/CDbConnection.php(331): CDbConnection->open()
+#1 /home/endel/www/pds/yii/db/CDbConnection.php(309): CDbConnection->setActive(true)
+#2 /home/endel/www/pds/yii/base/CModule.php(388): CDbConnection->init()
+#3 /home/endel/www/pds/yii/base/CModule.php(104): CModule->getComponent('db')
+#4 /home/endel/www/pds/yii/gii/generators/model/ModelCode.php(57): CModule->__get('db')
+#5 /home/endel/www/pds/yii/web/CFormModel.php(40): ModelCode->init()
+#6 /home/endel/www/pds/yii/gii/CCodeGenerator.php(154): CFormModel->__construct()
+#7 /home/endel/www/pds/yii/gii/CCodeGenerator.php(64): CCodeGenerator->prepare()
+#8 /home/endel/www/pds/yii/web/actions/CInlineAction.php(50): CCodeGenerator->actionIndex()
+#9 /home/endel/www/pds/yii/web/CController.php(309): CInlineAction->runWithParams(Array)
+#10 /home/endel/www/pds/yii/web/CController.php(287): CController->runAction(Object(CInlineAction))
+#11 /home/endel/www/pds/yii/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 /home/endel/www/pds/yii/web/CWebApplication.php(283): CController->run('')
+#13 /home/endel/www/pds/yii/web/CWebApplication.php(142): CWebApplication->runController('gii/model')
+#14 /home/endel/www/pds/yii/base/CApplication.php(162): CWebApplication->processRequest()
+#15 /home/endel/www/pds/index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/dev/pds/index.php/gii/model
+---
+2012/12/01 15:46:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "busca".' in /home/endel/www/pds/yii/web/CController.php:484
+Stack trace:
+#0 /home/endel/www/pds/yii/web/CController.php(271): CController->missingAction('busca')
+#1 /home/endel/www/pds/yii/web/CWebApplication.php(283): CController->run('busca')
+#2 /home/endel/www/pds/yii/web/CWebApplication.php(142): CWebApplication->runController('licitacoes/busc...')
+#3 /home/endel/www/pds/yii/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /home/endel/www/pds/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/dev/pds/index.php/licitacoes/busca
+---
+2012/12/01 15:49:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "search".' in /home/endel/www/pds/yii/web/CController.php:484
+Stack trace:
+#0 /home/endel/www/pds/yii/web/CController.php(271): CController->missingAction('search')
+#1 /home/endel/www/pds/yii/web/CWebApplication.php(283): CController->run('search')
+#2 /home/endel/www/pds/yii/web/CWebApplication.php(142): CWebApplication->runController('licitacoes/sear...')
+#3 /home/endel/www/pds/yii/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /home/endel/www/pds/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/dev/pds/index.php/licitacoes/search
+---
+2012/12/01 15:49:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "search".' in /home/endel/www/pds/yii/web/CController.php:484
+Stack trace:
+#0 /home/endel/www/pds/yii/web/CController.php(271): CController->missingAction('search')
+#1 /home/endel/www/pds/yii/web/CWebApplication.php(283): CController->run('search')
+#2 /home/endel/www/pds/yii/web/CWebApplication.php(142): CWebApplication->runController('licitacoes/sear...')
+#3 /home/endel/www/pds/yii/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /home/endel/www/pds/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/dev/pds/index.php/licitacoes/search
+---
+2012/12/01 15:50:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "busca".' in /home/endel/www/pds/yii/web/CController.php:484
+Stack trace:
+#0 /home/endel/www/pds/yii/web/CController.php(271): CController->missingAction('busca')
+#1 /home/endel/www/pds/yii/web/CWebApplication.php(283): CController->run('busca')
+#2 /home/endel/www/pds/yii/web/CWebApplication.php(142): CWebApplication->runController('licitacoes/busc...')
+#3 /home/endel/www/pds/yii/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /home/endel/www/pds/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/dev/pds/index.php/licitacoes/busca
+---
+2012/12/01 15:54:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "busca".' in /home/endel/www/pds/yii/web/CController.php:484
+Stack trace:
+#0 /home/endel/www/pds/yii/web/CController.php(271): CController->missingAction('busca')
+#1 /home/endel/www/pds/yii/web/CWebApplication.php(283): CController->run('busca')
+#2 /home/endel/www/pds/yii/web/CWebApplication.php(142): CWebApplication->runController('licitacoes/busc...')
+#3 /home/endel/www/pds/yii/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /home/endel/www/pds/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/dev/pds/index.php/licitacoes/busca
+---
+2012/12/01 16:09:52 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in /home/endel/www/pds/yii/web/CController.php:337
+Stack trace:
+#0 /home/endel/www/pds/yii/web/CController.php(310): CController->invalidActionParams(Object(CInlineAction))
+#1 /home/endel/www/pds/yii/web/filters/CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#2 /home/endel/www/pds/yii/web/filters/CFilter.php(41): CFilterChain->run()
+#3 /home/endel/www/pds/yii/web/CController.php(1146): CFilter->filter(Object(CFilterChain))
+#4 /home/endel/www/pds/yii/web/filters/CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#5 /home/endel/www/pds/yii/web/filters/CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#6 /home/endel/www/pds/yii/web/CController.php(292): CFilterChain->run()
+#7 /home/endel/www/pds/yii/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /home/endel/www/pds/yii/web/CWebApplication.php(283): CController->run('view')
+#9 /home/endel/www/pds/yii/web/CWebApplication.php(142): CWebApplication->runController('licitacoes/view')
+#10 /home/endel/www/pds/yii/base/CApplication.php(162): CWebApplication->processRequest()
+#11 /home/endel/www/pds/index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/dev/pds/index.php/licitacoes/view?id_licitacao=301
+HTTP_REFERER=http://localhost/dev/pds/index.php/licitacoes/search
+---
+2012/12/01 16:10:52 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in /home/endel/www/pds/yii/web/CController.php:337
+Stack trace:
+#0 /home/endel/www/pds/yii/web/CController.php(310): CController->invalidActionParams(Object(CInlineAction))
+#1 /home/endel/www/pds/yii/web/filters/CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#2 /home/endel/www/pds/yii/web/filters/CFilter.php(41): CFilterChain->run()
+#3 /home/endel/www/pds/yii/web/CController.php(1146): CFilter->filter(Object(CFilterChain))
+#4 /home/endel/www/pds/yii/web/filters/CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#5 /home/endel/www/pds/yii/web/filters/CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#6 /home/endel/www/pds/yii/web/CController.php(292): CFilterChain->run()
+#7 /home/endel/www/pds/yii/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /home/endel/www/pds/yii/web/CWebApplication.php(283): CController->run('view')
+#9 /home/endel/www/pds/yii/web/CWebApplication.php(142): CWebApplication->runController('licitacoes/view...')
+#10 /home/endel/www/pds/yii/base/CApplication.php(162): CWebApplication->processRequest()
+#11 /home/endel/www/pds/index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/dev/pds/index.php/licitacoes/view/id_licitacao/301
+---
+2012/12/01 16:11:01 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in /home/endel/www/pds/yii/web/CController.php:337
+Stack trace:
+#0 /home/endel/www/pds/yii/web/CController.php(310): CController->invalidActionParams(Object(CInlineAction))
+#1 /home/endel/www/pds/yii/web/filters/CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#2 /home/endel/www/pds/yii/web/filters/CFilter.php(41): CFilterChain->run()
+#3 /home/endel/www/pds/yii/web/CController.php(1146): CFilter->filter(Object(CFilterChain))
+#4 /home/endel/www/pds/yii/web/filters/CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#5 /home/endel/www/pds/yii/web/filters/CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#6 /home/endel/www/pds/yii/web/CController.php(292): CFilterChain->run()
+#7 /home/endel/www/pds/yii/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /home/endel/www/pds/yii/web/CWebApplication.php(283): CController->run('view')
+#9 /home/endel/www/pds/yii/web/CWebApplication.php(142): CWebApplication->runController('licitacoes/view')
+#10 /home/endel/www/pds/yii/base/CApplication.php(162): CWebApplication->processRequest()
+#11 /home/endel/www/pds/index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/dev/pds/index.php/licitacoes/view/
+---
+2012/12/01 16:11:35 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in /home/endel/www/pds/yii/web/CController.php:337
+Stack trace:
+#0 /home/endel/www/pds/yii/web/CController.php(310): CController->invalidActionParams(Object(CInlineAction))
+#1 /home/endel/www/pds/yii/web/filters/CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#2 /home/endel/www/pds/yii/web/filters/CFilter.php(41): CFilterChain->run()
+#3 /home/endel/www/pds/yii/web/CController.php(1146): CFilter->filter(Object(CFilterChain))
+#4 /home/endel/www/pds/yii/web/filters/CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#5 /home/endel/www/pds/yii/web/filters/CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#6 /home/endel/www/pds/yii/web/CController.php(292): CFilterChain->run()
+#7 /home/endel/www/pds/yii/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /home/endel/www/pds/yii/web/CWebApplication.php(283): CController->run('view')
+#9 /home/endel/www/pds/yii/web/CWebApplication.php(142): CWebApplication->runController('licitacoes/view...')
+#10 /home/endel/www/pds/yii/base/CApplication.php(162): CWebApplication->processRequest()
+#11 /home/endel/www/pds/index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/dev/pds/index.php/licitacoes/view/id_licitacao/301
+---
+2012/12/01 16:11:37 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in /home/endel/www/pds/yii/web/CController.php:337
+Stack trace:
+#0 /home/endel/www/pds/yii/web/CController.php(310): CController->invalidActionParams(Object(CInlineAction))
+#1 /home/endel/www/pds/yii/web/filters/CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#2 /home/endel/www/pds/yii/web/filters/CFilter.php(41): CFilterChain->run()
+#3 /home/endel/www/pds/yii/web/CController.php(1146): CFilter->filter(Object(CFilterChain))
+#4 /home/endel/www/pds/yii/web/filters/CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#5 /home/endel/www/pds/yii/web/filters/CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#6 /home/endel/www/pds/yii/web/CController.php(292): CFilterChain->run()
+#7 /home/endel/www/pds/yii/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /home/endel/www/pds/yii/web/CWebApplication.php(283): CController->run('view')
+#9 /home/endel/www/pds/yii/web/CWebApplication.php(142): CWebApplication->runController('licitacoes/view')
+#10 /home/endel/www/pds/yii/base/CApplication.php(162): CWebApplication->processRequest()
+#11 /home/endel/www/pds/index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/dev/pds/index.php/licitacoes/view?id_licitacao=301
+HTTP_REFERER=http://localhost/dev/pds/index.php/licitacoes/search
+---
+2012/12/01 16:13:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "busca".' in /home/endel/www/pds/yii/web/CController.php:484
+Stack trace:
+#0 /home/endel/www/pds/yii/web/CController.php(271): CController->missingAction('busca')
+#1 /home/endel/www/pds/yii/web/CWebApplication.php(283): CController->run('busca')
+#2 /home/endel/www/pds/yii/web/CWebApplication.php(142): CWebApplication->runController('licitacoes/busc...')
+#3 /home/endel/www/pds/yii/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /home/endel/www/pds/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/dev/pds/index.php/licitacoes/busca
+---
+2012/12/01 16:15:31 [error] [exception.CException] exception 'CException' with message 'BuscaController cannot find the requested view "search".' in /home/endel/www/pds/yii/web/CController.php:879
+Stack trace:
+#0 /home/endel/www/pds/yii/web/CController.php(783): CController->renderPartial('search', NULL, true)
+#1 /home/endel/www/pds/protected/controllers/BuscaController.php(12): CController->render('search')
+#2 /home/endel/www/pds/yii/web/actions/CInlineAction.php(50): BuscaController->actionSearch()
+#3 /home/endel/www/pds/yii/web/CController.php(309): CInlineAction->runWithParams(Array)
+#4 /home/endel/www/pds/yii/web/CController.php(287): CController->runAction(Object(CInlineAction))
+#5 /home/endel/www/pds/yii/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /home/endel/www/pds/yii/web/CWebApplication.php(283): CController->run('search')
+#7 /home/endel/www/pds/yii/web/CWebApplication.php(142): CWebApplication->runController('busca/search')
+#8 /home/endel/www/pds/yii/base/CApplication.php(162): CWebApplication->processRequest()
+#9 /home/endel/www/pds/index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/dev/pds/index.php/busca/search?
+---
+2012/12/01 16:17:05 [error] [exception.CException] exception 'CException' with message 'BuscaController cannot find the requested view "search".' in /home/endel/www/pds/yii/web/CController.php:879
+Stack trace:
+#0 /home/endel/www/pds/yii/web/CController.php(783): CController->renderPartial('search', NULL, true)
+#1 /home/endel/www/pds/protected/controllers/BuscaController.php(12): CController->render('search')
+#2 /home/endel/www/pds/yii/web/actions/CInlineAction.php(50): BuscaController->actionSearch()
+#3 /home/endel/www/pds/yii/web/CController.php(309): CInlineAction->runWithParams(Array)
+#4 /home/endel/www/pds/yii/web/CController.php(287): CController->runAction(Object(CInlineAction))
+#5 /home/endel/www/pds/yii/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /home/endel/www/pds/yii/web/CWebApplication.php(283): CController->run('search')
+#7 /home/endel/www/pds/yii/web/CWebApplication.php(142): CWebApplication->runController('busca/search')
+#8 /home/endel/www/pds/yii/base/CApplication.php(162): CWebApplication->processRequest()
+#9 /home/endel/www/pds/index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/dev/pds/index.php/busca/search?query=dada
+HTTP_REFERER=http://localhost/dev/pds/index.php/
+---
+2012/12/01 16:24:56 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%'aa'%' at line 1. The SQL statement executed was: SELECT * FROM `licitacoes` `t` WHERE data_all like %:value%.
+in /home/endel/www/pds/protected/controllers/LicitacoesController.php (125)
+in /home/endel/www/pds/index.php (13)
+2012/12/01 16:24:56 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%'aa'%' at line 1. The SQL statement executed was: SELECT * FROM `licitacoes` `t` WHERE data_all like %:value%' in /home/endel/www/pds/yii/db/CDbCommand.php:528
+Stack trace:
+#0 /home/endel/www/pds/yii/db/CDbCommand.php(390): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 /home/endel/www/pds/yii/db/ar/CActiveRecord.php(1291): CDbCommand->queryAll()
+#2 /home/endel/www/pds/yii/db/ar/CActiveRecord.php(1410): CActiveRecord->query(Object(CDbCriteria), true)
+#3 /home/endel/www/pds/protected/controllers/LicitacoesController.php(125): CActiveRecord->findAll('data_all like %...', Array)
+#4 /home/endel/www/pds/yii/web/actions/CInlineAction.php(50): LicitacoesController->actionSearch()
+#5 /home/endel/www/pds/yii/web/CController.php(309): CInlineAction->runWithParams(Array)
+#6 /home/endel/www/pds/yii/web/filters/CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#7 /home/endel/www/pds/yii/web/filters/CFilter.php(41): CFilterChain->run()
+#8 /home/endel/www/pds/yii/web/CController.php(1146): CFilter->filter(Object(CFilterChain))
+#9 /home/endel/www/pds/yii/web/filters/CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#10 /home/endel/www/pds/yii/web/filters/CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#11 /home/endel/www/pds/yii/web/CController.php(292): CFilterChain->run()
+#12 /home/endel/www/pds/yii/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 /home/endel/www/pds/yii/web/CWebApplication.php(283): CController->run('search')
+#14 /home/endel/www/pds/yii/web/CWebApplication.php(142): CWebApplication->runController('licitacoes/sear...')
+#15 /home/endel/www/pds/yii/base/CApplication.php(162): CWebApplication->processRequest()
+#16 /home/endel/www/pds/index.php(13): CApplication->run()
+#17 {main}
+REQUEST_URI=/dev/pds/index.php/licitacoes/search?query=aa
+HTTP_REFERER=http://localhost/dev/pds/index.php/
+---
+2012/12/01 16:25:20 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'data_all' in 'where clause'. The SQL statement executed was: SELECT * FROM `licitacoes` `t` WHERE data_all like :value.
+in /home/endel/www/pds/protected/controllers/LicitacoesController.php (125)
+in /home/endel/www/pds/index.php (13)
+2012/12/01 16:25:20 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'data_all' in 'where clause'. The SQL statement executed was: SELECT * FROM `licitacoes` `t` WHERE data_all like :value' in /home/endel/www/pds/yii/db/CDbCommand.php:528
+Stack trace:
+#0 /home/endel/www/pds/yii/db/CDbCommand.php(390): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 /home/endel/www/pds/yii/db/ar/CActiveRecord.php(1291): CDbCommand->queryAll()
+#2 /home/endel/www/pds/yii/db/ar/CActiveRecord.php(1410): CActiveRecord->query(Object(CDbCriteria), true)
+#3 /home/endel/www/pds/protected/controllers/LicitacoesController.php(125): CActiveRecord->findAll('data_all like :...', Array)
+#4 /home/endel/www/pds/yii/web/actions/CInlineAction.php(50): LicitacoesController->actionSearch()
+#5 /home/endel/www/pds/yii/web/CController.php(309): CInlineAction->runWithParams(Array)
+#6 /home/endel/www/pds/yii/web/filters/CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#7 /home/endel/www/pds/yii/web/filters/CFilter.php(41): CFilterChain->run()
+#8 /home/endel/www/pds/yii/web/CController.php(1146): CFilter->filter(Object(CFilterChain))
+#9 /home/endel/www/pds/yii/web/filters/CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#10 /home/endel/www/pds/yii/web/filters/CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#11 /home/endel/www/pds/yii/web/CController.php(292): CFilterChain->run()
+#12 /home/endel/www/pds/yii/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 /home/endel/www/pds/yii/web/CWebApplication.php(283): CController->run('search')
+#14 /home/endel/www/pds/yii/web/CWebApplication.php(142): CWebApplication->runController('licitacoes/sear...')
+#15 /home/endel/www/pds/yii/base/CApplication.php(162): CWebApplication->processRequest()
+#16 /home/endel/www/pds/index.php(13): CApplication->run()
+#17 {main}
+REQUEST_URI=/dev/pds/index.php/licitacoes/search?query=aa
+HTTP_REFERER=http://localhost/dev/pds/index.php/
+---
+2012/12/01 16:41:18 [error] [php] Undefined index: query (/home/endel/www/pds/protected/controllers/LicitacoesController.php:125)
+Stack trace:
+#0 /home/endel/www/pds/yii/web/filters/CFilterChain.php(134): LicitacoesController->runAction()
+#1 /home/endel/www/pds/yii/web/filters/CFilter.php(41): CFilterChain->run()
+#2 /home/endel/www/pds/yii/web/CController.php(1146): CAccessControlFilter->filter()
+#3 /home/endel/www/pds/yii/web/filters/CInlineFilter.php(59): LicitacoesController->filterAccessControl()
+#4 /home/endel/www/pds/yii/web/filters/CFilterChain.php(131): CInlineFilter->filter()
+#5 /home/endel/www/pds/yii/web/CController.php(292): CFilterChain->run()
+#6 /home/endel/www/pds/yii/web/CController.php(266): LicitacoesController->runActionWithFilters()
+#7 /home/endel/www/pds/yii/web/CWebApplication.php(283): LicitacoesController->run()
+#8 /home/endel/www/pds/yii/web/CWebApplication.php(142): CWebApplication->runController()
+#9 /home/endel/www/pds/yii/base/CApplication.php(162): CWebApplication->processRequest()
+#10 /home/endel/www/pds/index.php(13): CWebApplication->run()
+REQUEST_URI=/dev/pds/index.php/licitacoes/search
+in /home/endel/www/pds/protected/controllers/LicitacoesController.php (125)
+in /home/endel/www/pds/index.php (13)
+2012/12/01 16:41:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "advanced".' in /home/endel/www/pds/yii/web/CController.php:484
+Stack trace:
+#0 /home/endel/www/pds/yii/web/CController.php(271): CController->missingAction('advanced')
+#1 /home/endel/www/pds/yii/web/CWebApplication.php(283): CController->run('advanced')
+#2 /home/endel/www/pds/yii/web/CWebApplication.php(142): CWebApplication->runController('licitacoes/adva...')
+#3 /home/endel/www/pds/yii/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /home/endel/www/pds/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/dev/pds/index.php/licitacoes/advanced
+HTTP_REFERER=http://localhost/dev/pds/index.php/licitacoes/search?query=a
+---
+2012/12/01 16:41:53 [error] [php] Undefined index: query (/home/endel/www/pds/protected/controllers/LicitacoesController.php:125)
+Stack trace:
+#0 /home/endel/www/pds/yii/web/filters/CFilterChain.php(134): LicitacoesController->runAction()
+#1 /home/endel/www/pds/yii/web/filters/CFilter.php(41): CFilterChain->run()
+#2 /home/endel/www/pds/yii/web/CController.php(1146): CAccessControlFilter->filter()
+#3 /home/endel/www/pds/yii/web/filters/CInlineFilter.php(59): LicitacoesController->filterAccessControl()
+#4 /home/endel/www/pds/yii/web/filters/CFilterChain.php(131): CInlineFilter->filter()
+#5 /home/endel/www/pds/yii/web/CController.php(292): CFilterChain->run()
+#6 /home/endel/www/pds/yii/web/CController.php(266): LicitacoesController->runActionWithFilters()
+#7 /home/endel/www/pds/yii/web/CWebApplication.php(283): LicitacoesController->run()
+#8 /home/endel/www/pds/yii/web/CWebApplication.php(142): CWebApplication->runController()
+#9 /home/endel/www/pds/yii/base/CApplication.php(162): CWebApplication->processRequest()
+#10 /home/endel/www/pds/index.php(13): CWebApplication->run()
+REQUEST_URI=/dev/pds/index.php/licitacoes/search
+in /home/endel/www/pds/protected/controllers/LicitacoesController.php (125)
+in /home/endel/www/pds/index.php (13)
+2012/12/01 16:43:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "site".' in /home/endel/www/pds/yii/web/CController.php:484
+Stack trace:
+#0 /home/endel/www/pds/yii/web/CController.php(271): CController->missingAction('site')
+#1 /home/endel/www/pds/yii/web/CWebApplication.php(283): CController->run('site')
+#2 /home/endel/www/pds/yii/web/CWebApplication.php(142): CWebApplication->runController('licitacoes/site...')
+#3 /home/endel/www/pds/yii/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /home/endel/www/pds/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/dev/pds/index.php/licitacoes/site/index
+HTTP_REFERER=http://localhost/dev/pds/index.php/site/page?view=about
+---
+2012/12/01 16:43:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "site".' in /home/endel/www/pds/yii/web/CController.php:484
+Stack trace:
+#0 /home/endel/www/pds/yii/web/CController.php(271): CController->missingAction('site')
+#1 /home/endel/www/pds/yii/web/CWebApplication.php(283): CController->run('site')
+#2 /home/endel/www/pds/yii/web/CWebApplication.php(142): CWebApplication->runController('licitacoes/site...')
+#3 /home/endel/www/pds/yii/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /home/endel/www/pds/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/dev/pds/index.php/licitacoes/site/index
+HTTP_REFERER=http://localhost/dev/pds/index.php/site/page?view=about
+---
+2012/12/01 16:43:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "advanced".' in /home/endel/www/pds/yii/web/CController.php:484
+Stack trace:
+#0 /home/endel/www/pds/yii/web/CController.php(271): CController->missingAction('advanced')
+#1 /home/endel/www/pds/yii/web/CWebApplication.php(283): CController->run('advanced')
+#2 /home/endel/www/pds/yii/web/CWebApplication.php(142): CWebApplication->runController('licitacoes/adva...')
+#3 /home/endel/www/pds/yii/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /home/endel/www/pds/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/dev/pds/index.php/licitacoes/advanced
+HTTP_REFERER=http://localhost/dev/pds/index.php/site/page?view=about
+---
+2012/12/01 16:43:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "advanced".' in /home/endel/www/pds/yii/web/CController.php:484
+Stack trace:
+#0 /home/endel/www/pds/yii/web/CController.php(271): CController->missingAction('advanced')
+#1 /home/endel/www/pds/yii/web/CWebApplication.php(283): CController->run('advanced')
+#2 /home/endel/www/pds/yii/web/CWebApplication.php(142): CWebApplication->runController('licitacoes/adva...')
+#3 /home/endel/www/pds/yii/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /home/endel/www/pds/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/dev/pds/index.php/licitacoes/advanced
+HTTP_REFERER=http://localhost/dev/pds/index.php/site/page?view=about
+---
+2012/12/01 16:49:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "advanced".' in /home/endel/www/pds/yii/web/CController.php:484
+Stack trace:
+#0 /home/endel/www/pds/yii/web/CController.php(271): CController->missingAction('advanced')
+#1 /home/endel/www/pds/yii/web/CWebApplication.php(283): CController->run('advanced')
+#2 /home/endel/www/pds/yii/web/CWebApplication.php(142): CWebApplication->runController('licitacoes/adva...')
+#3 /home/endel/www/pds/yii/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /home/endel/www/pds/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/dev/pds/index.php/licitacoes/advanced
+HTTP_REFERER=http://localhost/dev/pds/index.php/site/page?view=about
+---
+2012/12/01 17:02:15 [error] [php] Missing argument 2 for CHtml::label(), called in /home/endel/www/pds/protected/views/layouts/main.php on line 48 and defined (/home/endel/www/pds/yii/web/helpers/CHtml.php:533)
+Stack trace:
+#0 /home/endel/www/pds/yii/web/CBaseController.php(96): SiteController->renderInternal()
+#1 /home/endel/www/pds/yii/web/widgets/CContentDecorator.php(77): SiteController->renderFile()
+#2 /home/endel/www/pds/yii/web/widgets/CContentDecorator.php(55): CContentDecorator->decorate()
+#3 /home/endel/www/pds/yii/web/widgets/COutputProcessor.php(45): CContentDecorator->processOutput()
+#4 /home/endel/www/pds/yii/web/CBaseController.php(207): CContentDecorator->run()
+#5 /home/endel/www/pds/yii/web/CBaseController.php(301): SiteController->endWidget()
+#6 /home/endel/www/pds/protected/views/layouts/column1.php(6): SiteController->endContent()
+#7 /home/endel/www/pds/yii/web/CBaseController.php(127): require()
+#8 /home/endel/www/pds/yii/web/CBaseController.php(96): SiteController->renderInternal()
+#9 /home/endel/www/pds/yii/web/CController.php(785): SiteController->renderFile()
+#10 /home/endel/www/pds/protected/controllers/SiteController.php(32): SiteController->render()
+#11 /home/endel/www/pds/yii/web/actions/CInlineAction.php(50): SiteController->actionIndex()
+#12 /home/endel/www/pds/yii/web/CController.php(309): CInlineAction->runWithParams()
+#13 /home/endel/www/pds/yii/web/CController.php(287): SiteController->runAction()
+#14 /home/endel/www/pds/yii/web/CController.php(266): SiteController->runActionWithFilters()
+#15 /home/endel/www/pds/yii/web/CWebApplication.php(283): SiteController->run()
+#16 /home/endel/www/pds/yii/web/CWebApplication.php(142): CWebApplication->runController()
+#17 /home/endel/www/pds/yii/base/CApplication.php(162): CWebApplication->processRequest()
+#18 /home/endel/www/pds/index.php(13): CWebApplication->run()
+REQUEST_URI=/dev/pds/index.php
+in /home/endel/www/pds/protected/views/layouts/main.php (48)
+in /home/endel/www/pds/protected/views/layouts/column1.php (6)
+in /home/endel/www/pds/protected/controllers/SiteController.php (32)
+2012/12/01 18:24:45 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in /home/endel/www/pds/yii/web/auth/CAccessControlFilter.php:170
+Stack trace:
+#0 /home/endel/www/pds/yii/web/auth/CAccessControlFilter.php(133): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 /home/endel/www/pds/yii/web/filters/CFilter.php(39): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 /home/endel/www/pds/yii/web/CController.php(1146): CFilter->filter(Object(CFilterChain))
+#3 /home/endel/www/pds/yii/web/filters/CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#4 /home/endel/www/pds/yii/web/filters/CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#5 /home/endel/www/pds/yii/web/CController.php(292): CFilterChain->run()
+#6 /home/endel/www/pds/yii/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 /home/endel/www/pds/yii/web/CWebApplication.php(283): CController->run('advanced')
+#8 /home/endel/www/pds/yii/web/CWebApplication.php(142): CWebApplication->runController('licitacoes/adva...')
+#9 /home/endel/www/pds/yii/base/CApplication.php(162): CWebApplication->processRequest()
+#10 /home/endel/www/pds/index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/dev/pds/index.php/licitacoes/advanced
+HTTP_REFERER=http://localhost/dev/pds/index.php/site/page?view=about
+---
+2012/12/01 18:24:50 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested view "help" was not found.' in /home/endel/www/pds/yii/web/actions/CViewAction.php:113
+Stack trace:
+#0 /home/endel/www/pds/yii/web/actions/CViewAction.php(124): CViewAction->resolveView('help')
+#1 /home/endel/www/pds/yii/web/actions/CAction.php(75): CViewAction->run()
+#2 /home/endel/www/pds/yii/web/CController.php(309): CAction->runWithParams(Array)
+#3 /home/endel/www/pds/yii/web/CController.php(287): CController->runAction(Object(CViewAction))
+#4 /home/endel/www/pds/yii/web/CController.php(266): CController->runActionWithFilters(Object(CViewAction), Array)
+#5 /home/endel/www/pds/yii/web/CWebApplication.php(283): CController->run('page')
+#6 /home/endel/www/pds/yii/web/CWebApplication.php(142): CWebApplication->runController('site/page')
+#7 /home/endel/www/pds/yii/base/CApplication.php(162): CWebApplication->processRequest()
+#8 /home/endel/www/pds/index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/dev/pds/index.php/site/page?view=help
+HTTP_REFERER=http://localhost/dev/pds/index.php
+---
+2012/12/01 20:02:44 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in /home/endel/www/pds/yii/web/auth/CAccessControlFilter.php:170
+Stack trace:
+#0 /home/endel/www/pds/yii/web/auth/CAccessControlFilter.php(133): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 /home/endel/www/pds/yii/web/filters/CFilter.php(39): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 /home/endel/www/pds/yii/web/CController.php(1146): CFilter->filter(Object(CFilterChain))
+#3 /home/endel/www/pds/yii/web/filters/CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#4 /home/endel/www/pds/yii/web/filters/CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#5 /home/endel/www/pds/yii/web/CController.php(292): CFilterChain->run()
+#6 /home/endel/www/pds/yii/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 /home/endel/www/pds/yii/web/CWebApplication.php(283): CController->run('advanced')
+#8 /home/endel/www/pds/yii/web/CWebApplication.php(142): CWebApplication->runController('licitacoes/adva...')
+#9 /home/endel/www/pds/yii/base/CApplication.php(162): CWebApplication->processRequest()
+#10 /home/endel/www/pds/index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/dev/pds/index.php/licitacoes/advanced
+HTTP_REFERER=http://192.168.1.102/dev/pds/index.php/site/login
+---
+2012/12/01 20:02:51 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in /home/endel/www/pds/yii/web/auth/CAccessControlFilter.php:170
+Stack trace:
+#0 /home/endel/www/pds/yii/web/auth/CAccessControlFilter.php(133): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 /home/endel/www/pds/yii/web/filters/CFilter.php(39): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 /home/endel/www/pds/yii/web/CController.php(1146): CFilter->filter(Object(CFilterChain))
+#3 /home/endel/www/pds/yii/web/filters/CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#4 /home/endel/www/pds/yii/web/filters/CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#5 /home/endel/www/pds/yii/web/CController.php(292): CFilterChain->run()
+#6 /home/endel/www/pds/yii/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 /home/endel/www/pds/yii/web/CWebApplication.php(283): CController->run('advanced')
+#8 /home/endel/www/pds/yii/web/CWebApplication.php(142): CWebApplication->runController('licitacoes/adva...')
+#9 /home/endel/www/pds/yii/base/CApplication.php(162): CWebApplication->processRequest()
+#10 /home/endel/www/pds/index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/dev/pds/index.php/licitacoes/advanced
+HTTP_REFERER=http://192.168.1.102/dev/pds/index.php/licitacoes/advanced
+---
+2012/12/02 09:22:42 [error] [php] unserialize() [<a href='function.unserialize'>function.unserialize</a>]: Error at offset 677 of 2482 bytes (/home/endel/www/pds/protected/views/licitacoes/view.php:10)
+Stack trace:
+#0 /home/endel/www/pds/yii/web/CBaseController.php(96): LicitacoesController->renderInternal()
+#1 /home/endel/www/pds/yii/web/CController.php(870): LicitacoesController->renderFile()
+#2 /home/endel/www/pds/yii/web/CController.php(783): LicitacoesController->renderPartial()
+#3 /home/endel/www/pds/protected/controllers/LicitacoesController.php(56): LicitacoesController->render()
+#4 unknown(0): LicitacoesController->actionView()
+#5 /home/endel/www/pds/yii/web/actions/CAction.php(107): ReflectionMethod->invokeArgs()
+#6 /home/endel/www/pds/yii/web/actions/CInlineAction.php(48): CInlineAction->runWithParamsInternal()
+#7 /home/endel/www/pds/yii/web/CController.php(309): CInlineAction->runWithParams()
+#8 /home/endel/www/pds/yii/web/filters/CFilterChain.php(134): LicitacoesController->runAction()
+#9 /home/endel/www/pds/yii/web/filters/CFilter.php(41): CFilterChain->run()
+#10 /home/endel/www/pds/yii/web/CController.php(1146): CAccessControlFilter->filter()
+#11 /home/endel/www/pds/yii/web/filters/CInlineFilter.php(59): LicitacoesController->filterAccessControl()
+#12 /home/endel/www/pds/yii/web/filters/CFilterChain.php(131): CInlineFilter->filter()
+#13 /home/endel/www/pds/yii/web/CController.php(292): CFilterChain->run()
+#14 /home/endel/www/pds/yii/web/CController.php(266): LicitacoesController->runActionWithFilters()
+#15 /home/endel/www/pds/yii/web/CWebApplication.php(283): LicitacoesController->run()
+#16 /home/endel/www/pds/yii/web/CWebApplication.php(142): CWebApplication->runController()
+#17 /home/endel/www/pds/yii/base/CApplication.php(162): CWebApplication->processRequest()
+#18 /home/endel/www/pds/index.php(13): CWebApplication->run()
+REQUEST_URI=/dev/pds/index.php/licitacoes/301
+in /home/endel/www/pds/protected/views/licitacoes/view.php (10)
+in /home/endel/www/pds/protected/controllers/LicitacoesController.php (56)
+in /home/endel/www/pds/index.php (13)
+2012/12/02 09:23:46 [error] [php] unserialize() [<a href='function.unserialize'>function.unserialize</a>]: Error at offset 677 of 2482 bytes (/home/endel/www/pds/protected/views/licitacoes/view.php:10)
+Stack trace:
+#0 /home/endel/www/pds/yii/web/CBaseController.php(96): LicitacoesController->renderInternal()
+#1 /home/endel/www/pds/yii/web/CController.php(870): LicitacoesController->renderFile()
+#2 /home/endel/www/pds/yii/web/CController.php(783): LicitacoesController->renderPartial()
+#3 /home/endel/www/pds/protected/controllers/LicitacoesController.php(56): LicitacoesController->render()
+#4 unknown(0): LicitacoesController->actionView()
+#5 /home/endel/www/pds/yii/web/actions/CAction.php(107): ReflectionMethod->invokeArgs()
+#6 /home/endel/www/pds/yii/web/actions/CInlineAction.php(48): CInlineAction->runWithParamsInternal()
+#7 /home/endel/www/pds/yii/web/CController.php(309): CInlineAction->runWithParams()
+#8 /home/endel/www/pds/yii/web/filters/CFilterChain.php(134): LicitacoesController->runAction()
+#9 /home/endel/www/pds/yii/web/filters/CFilter.php(41): CFilterChain->run()
+#10 /home/endel/www/pds/yii/web/CController.php(1146): CAccessControlFilter->filter()
+#11 /home/endel/www/pds/yii/web/filters/CInlineFilter.php(59): LicitacoesController->filterAccessControl()
+#12 /home/endel/www/pds/yii/web/filters/CFilterChain.php(131): CInlineFilter->filter()
+#13 /home/endel/www/pds/yii/web/CController.php(292): CFilterChain->run()
+#14 /home/endel/www/pds/yii/web/CController.php(266): LicitacoesController->runActionWithFilters()
+#15 /home/endel/www/pds/yii/web/CWebApplication.php(283): LicitacoesController->run()
+#16 /home/endel/www/pds/yii/web/CWebApplication.php(142): CWebApplication->runController()
+#17 /home/endel/www/pds/yii/base/CApplication.php(162): CWebApplication->processRequest()
+#18 /home/endel/www/pds/index.php(13): CWebApplication->run()
+REQUEST_URI=/dev/pds/index.php/licitacoes/301
+in /home/endel/www/pds/protected/views/licitacoes/view.php (10)
+in /home/endel/www/pds/protected/controllers/LicitacoesController.php (56)
+in /home/endel/www/pds/index.php (13)
+2012/12/02 09:31:35 [error] [exception.CException] exception 'CException' with message 'CWebUser and its behaviors do not have a method or closure named "isGuest".' in /home/endel/www/pds/yii/base/CComponent.php:266
+Stack trace:
+#0 /home/endel/www/pds/protected/views/licitacoes/view.php(18): CComponent->__call('isGuest', Array)
+#1 /home/endel/www/pds/protected/views/licitacoes/view.php(18): CWebUser->isGuest()
+#2 /home/endel/www/pds/yii/web/CBaseController.php(127): require('/home/endel/www...')
+#3 /home/endel/www/pds/yii/web/CBaseController.php(96): CBaseController->renderInternal('/home/endel/www...', Array, true)
+#4 /home/endel/www/pds/yii/web/CController.php(870): CBaseController->renderFile('/home/endel/www...', Array, true)
+#5 /home/endel/www/pds/yii/web/CController.php(783): CController->renderPartial('view', Array, true)
+#6 /home/endel/www/pds/protected/controllers/LicitacoesController.php(56): CController->render('view', Array)
+#7 [internal function]: LicitacoesController->actionView('301')
+#8 /home/endel/www/pds/yii/web/actions/CAction.php(107): ReflectionMethod->invokeArgs(Object(LicitacoesController), Array)
+#9 /home/endel/www/pds/yii/web/actions/CInlineAction.php(48): CAction->runWithParamsInternal(Object(LicitacoesController), Object(ReflectionMethod), Array)
+#10 /home/endel/www/pds/yii/web/CController.php(309): CInlineAction->runWithParams(Array)
+#11 /home/endel/www/pds/yii/web/filters/CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#12 /home/endel/www/pds/yii/web/filters/CFilter.php(41): CFilterChain->run()
+#13 /home/endel/www/pds/yii/web/CController.php(1146): CFilter->filter(Object(CFilterChain))
+#14 /home/endel/www/pds/yii/web/filters/CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#15 /home/endel/www/pds/yii/web/filters/CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#16 /home/endel/www/pds/yii/web/CController.php(292): CFilterChain->run()
+#17 /home/endel/www/pds/yii/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#18 /home/endel/www/pds/yii/web/CWebApplication.php(283): CController->run('view')
+#19 /home/endel/www/pds/yii/web/CWebApplication.php(142): CWebApplication->runController('licitacoes/view')
+#20 /home/endel/www/pds/yii/base/CApplication.php(162): CWebApplication->processRequest()
+#21 /home/endel/www/pds/index.php(13): CApplication->run()
+#22 {main}
+REQUEST_URI=/dev/pds/index.php/licitacoes/301
+HTTP_REFERER=http://localhost/dev/pds/index.php/licitacoes/search?query=da
+---
+2012/12/02 10:00:27 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in /home/endel/www/pds/yii/web/auth/CAccessControlFilter.php:170
+Stack trace:
+#0 /home/endel/www/pds/yii/web/auth/CAccessControlFilter.php(133): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 /home/endel/www/pds/yii/web/filters/CFilter.php(39): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 /home/endel/www/pds/yii/web/CController.php(1146): CFilter->filter(Object(CFilterChain))
+#3 /home/endel/www/pds/yii/web/filters/CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#4 /home/endel/www/pds/yii/web/filters/CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#5 /home/endel/www/pds/yii/web/CController.php(292): CFilterChain->run()
+#6 /home/endel/www/pds/yii/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 /home/endel/www/pds/yii/web/CWebApplication.php(283): CController->run('advanced')
+#8 /home/endel/www/pds/yii/web/CWebApplication.php(142): CWebApplication->runController('licitacoes/adva...')
+#9 /home/endel/www/pds/yii/base/CApplication.php(162): CWebApplication->processRequest()
+#10 /home/endel/www/pds/index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/dev/pds/index.php/licitacoes/advanced
+HTTP_REFERER=http://192.168.1.102/dev/pds/index.php/site/login
+---
+2012/12/02 10:08:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "index".' in /home/endel/www/pds/yii/web/CWebApplication.php:287
+Stack trace:
+#0 /home/endel/www/pds/yii/web/CWebApplication.php(142): CWebApplication->runController('index')
+#1 /home/endel/www/pds/yii/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /home/endel/www/pds/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dev/pds/index
+---
+2012/12/02 10:14:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "user/cadastro".' in /home/endel/www/pds/yii/web/CWebApplication.php:287
+Stack trace:
+#0 /home/endel/www/pds/yii/web/CWebApplication.php(142): CWebApplication->runController('user/cadastro')
+#1 /home/endel/www/pds/yii/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /home/endel/www/pds/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dev/pds/index.php/user/cadastro
+HTTP_REFERER=http://localhost/dev/pds/index.php/licitacoes/303
+---
+2012/12/02 10:21:49 [error] [php] include(CHTml.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory (/home/endel/www/pds/yii/YiiBase.php:423)
+Stack trace:
+#0 /home/endel/www/pds/protected/views/licitacoes/view.php(9): spl_autoload_call()
+#1 /home/endel/www/pds/yii/web/CBaseController.php(127): require()
+#2 /home/endel/www/pds/yii/web/CBaseController.php(96): LicitacoesController->renderInternal()
+#3 /home/endel/www/pds/yii/web/CController.php(870): LicitacoesController->renderFile()
+#4 /home/endel/www/pds/yii/web/CController.php(783): LicitacoesController->renderPartial()
+#5 /home/endel/www/pds/protected/controllers/LicitacoesController.php(56): LicitacoesController->render()
+#6 unknown(0): LicitacoesController->actionView()
+#7 /home/endel/www/pds/yii/web/actions/CAction.php(107): ReflectionMethod->invokeArgs()
+#8 /home/endel/www/pds/yii/web/actions/CInlineAction.php(48): CInlineAction->runWithParamsInternal()
+#9 /home/endel/www/pds/yii/web/CController.php(309): CInlineAction->runWithParams()
+#10 /home/endel/www/pds/yii/web/filters/CFilterChain.php(134): LicitacoesController->runAction()
+#11 /home/endel/www/pds/yii/web/filters/CFilter.php(41): CFilterChain->run()
+#12 /home/endel/www/pds/yii/web/CController.php(1146): CAccessControlFilter->filter()
+#13 /home/endel/www/pds/yii/web/filters/CInlineFilter.php(59): LicitacoesController->filterAccessControl()
+#14 /home/endel/www/pds/yii/web/filters/CFilterChain.php(131): CInlineFilter->filter()
+#15 /home/endel/www/pds/yii/web/CController.php(292): CFilterChain->run()
+#16 /home/endel/www/pds/yii/web/CController.php(266): LicitacoesController->runActionWithFilters()
+#17 /home/endel/www/pds/yii/web/CWebApplication.php(283): LicitacoesController->run()
+#18 /home/endel/www/pds/yii/web/CWebApplication.php(142): CWebApplication->runController()
+#19 /home/endel/www/pds/yii/base/CApplication.php(162): CWebApplication->processRequest()
+#20 /home/endel/www/pds/index.php(13): CWebApplication->run()
+REQUEST_URI=/dev/pds/index.php/licitacoes/303
+in /home/endel/www/pds/protected/views/licitacoes/view.php (9)
+in /home/endel/www/pds/protected/controllers/LicitacoesController.php (56)
+in /home/endel/www/pds/index.php (13)
+2012/12/02 10:22:10 [error] [php] include(CHTml.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory (/home/endel/www/pds/yii/YiiBase.php:423)
+Stack trace:
+#0 /home/endel/www/pds/protected/views/licitacoes/view.php(9): spl_autoload_call()
+#1 /home/endel/www/pds/yii/web/CBaseController.php(127): require()
+#2 /home/endel/www/pds/yii/web/CBaseController.php(96): LicitacoesController->renderInternal()
+#3 /home/endel/www/pds/yii/web/CController.php(870): LicitacoesController->renderFile()
+#4 /home/endel/www/pds/yii/web/CController.php(783): LicitacoesController->renderPartial()
+#5 /home/endel/www/pds/protected/controllers/LicitacoesController.php(56): LicitacoesController->render()
+#6 unknown(0): LicitacoesController->actionView()
+#7 /home/endel/www/pds/yii/web/actions/CAction.php(107): ReflectionMethod->invokeArgs()
+#8 /home/endel/www/pds/yii/web/actions/CInlineAction.php(48): CInlineAction->runWithParamsInternal()
+#9 /home/endel/www/pds/yii/web/CController.php(309): CInlineAction->runWithParams()
+#10 /home/endel/www/pds/yii/web/filters/CFilterChain.php(134): LicitacoesController->runAction()
+#11 /home/endel/www/pds/yii/web/filters/CFilter.php(41): CFilterChain->run()
+#12 /home/endel/www/pds/yii/web/CController.php(1146): CAccessControlFilter->filter()
+#13 /home/endel/www/pds/yii/web/filters/CInlineFilter.php(59): LicitacoesController->filterAccessControl()
+#14 /home/endel/www/pds/yii/web/filters/CFilterChain.php(131): CInlineFilter->filter()
+#15 /home/endel/www/pds/yii/web/CController.php(292): CFilterChain->run()
+#16 /home/endel/www/pds/yii/web/CController.php(266): LicitacoesController->runActionWithFilters()
+#17 /home/endel/www/pds/yii/web/CWebApplication.php(283): LicitacoesController->run()
+#18 /home/endel/www/pds/yii/web/CWebApplication.php(142): CWebApplication->runController()
+#19 /home/endel/www/pds/yii/base/CApplication.php(162): CWebApplication->processRequest()
+#20 /home/endel/www/pds/index.php(13): CWebApplication->run()
+REQUEST_URI=/dev/pds/index.php/licitacoes/303
+in /home/endel/www/pds/protected/views/licitacoes/view.php (9)
+in /home/endel/www/pds/protected/controllers/LicitacoesController.php (56)
+in /home/endel/www/pds/index.php (13)
+2012/12/02 10:22:23 [error] [php] include(CHTml.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory (/home/endel/www/pds/yii/YiiBase.php:423)
+Stack trace:
+#0 /home/endel/www/pds/protected/views/licitacoes/view.php(9): spl_autoload_call()
+#1 /home/endel/www/pds/yii/web/CBaseController.php(127): require()
+#2 /home/endel/www/pds/yii/web/CBaseController.php(96): LicitacoesController->renderInternal()
+#3 /home/endel/www/pds/yii/web/CController.php(870): LicitacoesController->renderFile()
+#4 /home/endel/www/pds/yii/web/CController.php(783): LicitacoesController->renderPartial()
+#5 /home/endel/www/pds/protected/controllers/LicitacoesController.php(56): LicitacoesController->render()
+#6 unknown(0): LicitacoesController->actionView()
+#7 /home/endel/www/pds/yii/web/actions/CAction.php(107): ReflectionMethod->invokeArgs()
+#8 /home/endel/www/pds/yii/web/actions/CInlineAction.php(48): CInlineAction->runWithParamsInternal()
+#9 /home/endel/www/pds/yii/web/CController.php(309): CInlineAction->runWithParams()
+#10 /home/endel/www/pds/yii/web/filters/CFilterChain.php(134): LicitacoesController->runAction()
+#11 /home/endel/www/pds/yii/web/filters/CFilter.php(41): CFilterChain->run()
+#12 /home/endel/www/pds/yii/web/CController.php(1146): CAccessControlFilter->filter()
+#13 /home/endel/www/pds/yii/web/filters/CInlineFilter.php(59): LicitacoesController->filterAccessControl()
+#14 /home/endel/www/pds/yii/web/filters/CFilterChain.php(131): CInlineFilter->filter()
+#15 /home/endel/www/pds/yii/web/CController.php(292): CFilterChain->run()
+#16 /home/endel/www/pds/yii/web/CController.php(266): LicitacoesController->runActionWithFilters()
+#17 /home/endel/www/pds/yii/web/CWebApplication.php(283): LicitacoesController->run()
+#18 /home/endel/www/pds/yii/web/CWebApplication.php(142): CWebApplication->runController()
+#19 /home/endel/www/pds/yii/base/CApplication.php(162): CWebApplication->processRequest()
+#20 /home/endel/www/pds/index.php(13): CWebApplication->run()
+REQUEST_URI=/dev/pds/index.php/licitacoes/303
+in /home/endel/www/pds/protected/views/licitacoes/view.php (9)
+in /home/endel/www/pds/protected/controllers/LicitacoesController.php (56)
+in /home/endel/www/pds/index.php (13)
+2012/12/02 10:22:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "view".' in /home/endel/www/pds/yii/web/CController.php:484
+Stack trace:
+#0 /home/endel/www/pds/yii/web/CController.php(271): CController->missingAction('view')
+#1 /home/endel/www/pds/yii/web/CWebApplication.php(283): CController->run('view')
+#2 /home/endel/www/pds/yii/web/CWebApplication.php(142): CWebApplication->runController('site/view')
+#3 /home/endel/www/pds/yii/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /home/endel/www/pds/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/dev/pds/index.php/site/view?page=help
+HTTP_REFERER=http://localhost/dev/pds/index.php/licitacoes/303
+---
+2012/12/02 10:28:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "user/cadastro".' in /home/endel/www/pds/yii/web/CWebApplication.php:287
+Stack trace:
+#0 /home/endel/www/pds/yii/web/CWebApplication.php(142): CWebApplication->runController('user/cadastro')
+#1 /home/endel/www/pds/yii/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /home/endel/www/pds/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dev/pds/index.php/user/cadastro
+HTTP_REFERER=http://localhost/dev/pds/index.php/licitacoes/301
+---
+2012/12/02 10:29:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "user/cadastro".' in /home/endel/www/pds/yii/web/CWebApplication.php:287
+Stack trace:
+#0 /home/endel/www/pds/yii/web/CWebApplication.php(142): CWebApplication->runController('user/cadastro')
+#1 /home/endel/www/pds/yii/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /home/endel/www/pds/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dev/pds/index.php/user/cadastro
+HTTP_REFERER=http://localhost/dev/pds/index.php/licitacoes/301
+---
+2012/12/02 10:50:47 [error] [php] include(required email.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory (/home/endel/www/pds/yii/YiiBase.php:423)
+Stack trace:
+#0 /home/endel/www/pds/yii/validators/CValidator.php(187): import()
+#1 /home/endel/www/pds/yii/base/CModel.php(285): createValidator()
+#2 /home/endel/www/pds/yii/base/CModel.php(259): Usuarios->createValidators()
+#3 /home/endel/www/pds/yii/base/CModel.php(302): Usuarios->getValidators()
+#4 /home/endel/www/pds/yii/web/helpers/CHtml.php(1197): Usuarios->isAttributeRequired()
+#5 /home/endel/www/pds/yii/web/widgets/CActiveForm.php(563): activeLabelEx()
+#6 /home/endel/www/pds/protected/views/usuarios/_form.php(17): CActiveForm->labelEx()
+#7 /home/endel/www/pds/yii/web/CBaseController.php(127): require()
+#8 /home/endel/www/pds/yii/web/CBaseController.php(96): UsuariosController->renderInternal()
+#9 /home/endel/www/pds/yii/web/CController.php(870): UsuariosController->renderFile()
+#10 /home/endel/www/pds/protected/views/usuarios/create.php(4): UsuariosController->renderPartial()
+#11 /home/endel/www/pds/yii/web/CBaseController.php(127): require()
+#12 /home/endel/www/pds/yii/web/CBaseController.php(96): UsuariosController->renderInternal()
+#13 /home/endel/www/pds/yii/web/CController.php(870): UsuariosController->renderFile()
+#14 /home/endel/www/pds/yii/web/CController.php(783): UsuariosController->renderPartial()
+#15 /home/endel/www/pds/protected/controllers/UsuariosController.php(75): UsuariosController->render()
+#16 /home/endel/www/pds/yii/web/actions/CInlineAction.php(50): UsuariosController->actionCreate()
+#17 /home/endel/www/pds/yii/web/CController.php(309): CInlineAction->runWithParams()
+#18 /home/endel/www/pds/yii/web/filters/CFilterChain.php(134): UsuariosController->runAction()
+#19 /home/endel/www/pds/yii/web/filters/CFilter.php(41): CFilterChain->run()
+#20 /home/endel/www/pds/yii/web/CController.php(1146): CAccessControlFilter->filter()
+#21 /home/endel/www/pds/yii/web/filters/CInlineFilter.php(59): UsuariosController->filterAccessControl()
+#22 /home/endel/www/pds/yii/web/filters/CFilterChain.php(131): CInlineFilter->filter()
+#23 /home/endel/www/pds/yii/web/CController.php(292): CFilterChain->run()
+#24 /home/endel/www/pds/yii/web/CController.php(266): UsuariosController->runActionWithFilters()
+#25 /home/endel/www/pds/yii/web/CWebApplication.php(283): UsuariosController->run()
+#26 /home/endel/www/pds/yii/web/CWebApplication.php(142): CWebApplication->runController()
+#27 /home/endel/www/pds/yii/base/CApplication.php(162): CWebApplication->processRequest()
+#28 /home/endel/www/pds/index.php(13): CWebApplication->run()
+REQUEST_URI=/dev/pds/index.php/usuarios/create
+in /home/endel/www/pds/protected/views/usuarios/_form.php (17)
+in /home/endel/www/pds/protected/views/usuarios/create.php (4)
+in /home/endel/www/pds/protected/controllers/UsuariosController.php (75)
+2012/12/02 10:50:54 [error] [php] include(required,email.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory (/home/endel/www/pds/yii/YiiBase.php:423)
+Stack trace:
+#0 /home/endel/www/pds/yii/validators/CValidator.php(187): import()
+#1 /home/endel/www/pds/yii/base/CModel.php(285): createValidator()
+#2 /home/endel/www/pds/yii/base/CModel.php(259): Usuarios->createValidators()
+#3 /home/endel/www/pds/yii/base/CModel.php(302): Usuarios->getValidators()
+#4 /home/endel/www/pds/yii/web/helpers/CHtml.php(1197): Usuarios->isAttributeRequired()
+#5 /home/endel/www/pds/yii/web/widgets/CActiveForm.php(563): activeLabelEx()
+#6 /home/endel/www/pds/protected/views/usuarios/_form.php(17): CActiveForm->labelEx()
+#7 /home/endel/www/pds/yii/web/CBaseController.php(127): require()
+#8 /home/endel/www/pds/yii/web/CBaseController.php(96): UsuariosController->renderInternal()
+#9 /home/endel/www/pds/yii/web/CController.php(870): UsuariosController->renderFile()
+#10 /home/endel/www/pds/protected/views/usuarios/create.php(4): UsuariosController->renderPartial()
+#11 /home/endel/www/pds/yii/web/CBaseController.php(127): require()
+#12 /home/endel/www/pds/yii/web/CBaseController.php(96): UsuariosController->renderInternal()
+#13 /home/endel/www/pds/yii/web/CController.php(870): UsuariosController->renderFile()
+#14 /home/endel/www/pds/yii/web/CController.php(783): UsuariosController->renderPartial()
+#15 /home/endel/www/pds/protected/controllers/UsuariosController.php(75): UsuariosController->render()
+#16 /home/endel/www/pds/yii/web/actions/CInlineAction.php(50): UsuariosController->actionCreate()
+#17 /home/endel/www/pds/yii/web/CController.php(309): CInlineAction->runWithParams()
+#18 /home/endel/www/pds/yii/web/filters/CFilterChain.php(134): UsuariosController->runAction()
+#19 /home/endel/www/pds/yii/web/filters/CFilter.php(41): CFilterChain->run()
+#20 /home/endel/www/pds/yii/web/CController.php(1146): CAccessControlFilter->filter()
+#21 /home/endel/www/pds/yii/web/filters/CInlineFilter.php(59): UsuariosController->filterAccessControl()
+#22 /home/endel/www/pds/yii/web/filters/CFilterChain.php(131): CInlineFilter->filter()
+#23 /home/endel/www/pds/yii/web/CController.php(292): CFilterChain->run()
+#24 /home/endel/www/pds/yii/web/CController.php(266): UsuariosController->runActionWithFilters()
+#25 /home/endel/www/pds/yii/web/CWebApplication.php(283): UsuariosController->run()
+#26 /home/endel/www/pds/yii/web/CWebApplication.php(142): CWebApplication->runController()
+#27 /home/endel/www/pds/yii/base/CApplication.php(162): CWebApplication->processRequest()
+#28 /home/endel/www/pds/index.php(13): CWebApplication->run()
+REQUEST_URI=/dev/pds/index.php/usuarios/create
+in /home/endel/www/pds/protected/views/usuarios/_form.php (17)
+in /home/endel/www/pds/protected/views/usuarios/create.php (4)
+in /home/endel/www/pds/protected/controllers/UsuariosController.php (75)
+2012/12/02 10:51:03 [error] [exception.CException] exception 'CException' with message 'Property "CRequiredValidator.0" is not defined.' in /home/endel/www/pds/yii/base/CComponent.php:174
+Stack trace:
+#0 /home/endel/www/pds/yii/validators/CValidator.php(190): CComponent->__set('0', 'email')
+#1 /home/endel/www/pds/yii/base/CModel.php(285): CValidator::createValidator('required', Object(Usuarios), 'email', Array)
+#2 /home/endel/www/pds/yii/base/CModel.php(259): CModel->createValidators()
+#3 /home/endel/www/pds/yii/base/CModel.php(302): CModel->getValidators('nome_usuario')
+#4 /home/endel/www/pds/yii/web/helpers/CHtml.php(1197): CModel->isAttributeRequired('nome_usuario')
+#5 /home/endel/www/pds/yii/web/widgets/CActiveForm.php(563): CHtml::activeLabelEx(Object(Usuarios), 'nome_usuario', Array)
+#6 /home/endel/www/pds/protected/views/usuarios/_form.php(17): CActiveForm->labelEx(Object(Usuarios), 'nome_usuario', Array)
+#7 /home/endel/www/pds/yii/web/CBaseController.php(127): require('/home/endel/www...')
+#8 /home/endel/www/pds/yii/web/CBaseController.php(96): CBaseController->renderInternal('/home/endel/www...', Array, true)
+#9 /home/endel/www/pds/yii/web/CController.php(870): CBaseController->renderFile('/home/endel/www...', Array, true)
+#10 /home/endel/www/pds/protected/views/usuarios/create.php(4): CController->renderPartial('_form', Array)
+#11 /home/endel/www/pds/yii/web/CBaseController.php(127): require('/home/endel/www...')
+#12 /home/endel/www/pds/yii/web/CBaseController.php(96): CBaseController->renderInternal('/home/endel/www...', Array, true)
+#13 /home/endel/www/pds/yii/web/CController.php(870): CBaseController->renderFile('/home/endel/www...', Array, true)
+#14 /home/endel/www/pds/yii/web/CController.php(783): CController->renderPartial('create', Array, true)
+#15 /home/endel/www/pds/protected/controllers/UsuariosController.php(75): CController->render('create', Array)
+#16 /home/endel/www/pds/yii/web/actions/CInlineAction.php(50): UsuariosController->actionCreate()
+#17 /home/endel/www/pds/yii/web/CController.php(309): CInlineAction->runWithParams(Array)
+#18 /home/endel/www/pds/yii/web/filters/CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#19 /home/endel/www/pds/yii/web/filters/CFilter.php(41): CFilterChain->run()
+#20 /home/endel/www/pds/yii/web/CController.php(1146): CFilter->filter(Object(CFilterChain))
+#21 /home/endel/www/pds/yii/web/filters/CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#22 /home/endel/www/pds/yii/web/filters/CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#23 /home/endel/www/pds/yii/web/CController.php(292): CFilterChain->run()
+#24 /home/endel/www/pds/yii/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#25 /home/endel/www/pds/yii/web/CWebApplication.php(283): CController->run('create')
+#26 /home/endel/www/pds/yii/web/CWebApplication.php(142): CWebApplication->runController('usuarios/create')
+#27 /home/endel/www/pds/yii/base/CApplication.php(162): CWebApplication->processRequest()
+#28 /home/endel/www/pds/index.php(13): CApplication->run()
+#29 {main}
+REQUEST_URI=/dev/pds/index.php/usuarios/create
+HTTP_REFERER=http://localhost/dev/pds/index.php/site/login
+---
+2012/12/02 10:51:10 [error] [exception.CException] exception 'CException' with message 'Property "CRequiredValidator.0" is not defined.' in /home/endel/www/pds/yii/base/CComponent.php:174
+Stack trace:
+#0 /home/endel/www/pds/yii/validators/CValidator.php(190): CComponent->__set('0', 'mail')
+#1 /home/endel/www/pds/yii/base/CModel.php(285): CValidator::createValidator('required', Object(Usuarios), 'email', Array)
+#2 /home/endel/www/pds/yii/base/CModel.php(259): CModel->createValidators()
+#3 /home/endel/www/pds/yii/base/CModel.php(302): CModel->getValidators('nome_usuario')
+#4 /home/endel/www/pds/yii/web/helpers/CHtml.php(1197): CModel->isAttributeRequired('nome_usuario')
+#5 /home/endel/www/pds/yii/web/widgets/CActiveForm.php(563): CHtml::activeLabelEx(Object(Usuarios), 'nome_usuario', Array)
+#6 /home/endel/www/pds/protected/views/usuarios/_form.php(17): CActiveForm->labelEx(Object(Usuarios), 'nome_usuario', Array)
+#7 /home/endel/www/pds/yii/web/CBaseController.php(127): require('/home/endel/www...')
+#8 /home/endel/www/pds/yii/web/CBaseController.php(96): CBaseController->renderInternal('/home/endel/www...', Array, true)
+#9 /home/endel/www/pds/yii/web/CController.php(870): CBaseController->renderFile('/home/endel/www...', Array, true)
+#10 /home/endel/www/pds/protected/views/usuarios/create.php(4): CController->renderPartial('_form', Array)
+#11 /home/endel/www/pds/yii/web/CBaseController.php(127): require('/home/endel/www...')
+#12 /home/endel/www/pds/yii/web/CBaseController.php(96): CBaseController->renderInternal('/home/endel/www...', Array, true)
+#13 /home/endel/www/pds/yii/web/CController.php(870): CBaseController->renderFile('/home/endel/www...', Array, true)
+#14 /home/endel/www/pds/yii/web/CController.php(783): CController->renderPartial('create', Array, true)
+#15 /home/endel/www/pds/protected/controllers/UsuariosController.php(75): CController->render('create', Array)
+#16 /home/endel/www/pds/yii/web/actions/CInlineAction.php(50): UsuariosController->actionCreate()
+#17 /home/endel/www/pds/yii/web/CController.php(309): CInlineAction->runWithParams(Array)
+#18 /home/endel/www/pds/yii/web/filters/CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#19 /home/endel/www/pds/yii/web/filters/CFilter.php(41): CFilterChain->run()
+#20 /home/endel/www/pds/yii/web/CController.php(1146): CFilter->filter(Object(CFilterChain))
+#21 /home/endel/www/pds/yii/web/filters/CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#22 /home/endel/www/pds/yii/web/filters/CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#23 /home/endel/www/pds/yii/web/CController.php(292): CFilterChain->run()
+#24 /home/endel/www/pds/yii/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#25 /home/endel/www/pds/yii/web/CWebApplication.php(283): CController->run('create')
+#26 /home/endel/www/pds/yii/web/CWebApplication.php(142): CWebApplication->runController('usuarios/create')
+#27 /home/endel/www/pds/yii/base/CApplication.php(162): CWebApplication->processRequest()
+#28 /home/endel/www/pds/index.php(13): CApplication->run()
+#29 {main}
+REQUEST_URI=/dev/pds/index.php/usuarios/create
+HTTP_REFERER=http://localhost/dev/pds/index.php/site/login
+---
+2012/12/02 10:51:14 [error] [php] include(required mail.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory (/home/endel/www/pds/yii/YiiBase.php:423)
+Stack trace:
+#0 /home/endel/www/pds/yii/validators/CValidator.php(187): import()
+#1 /home/endel/www/pds/yii/base/CModel.php(285): createValidator()
+#2 /home/endel/www/pds/yii/base/CModel.php(259): Usuarios->createValidators()
+#3 /home/endel/www/pds/yii/base/CModel.php(302): Usuarios->getValidators()
+#4 /home/endel/www/pds/yii/web/helpers/CHtml.php(1197): Usuarios->isAttributeRequired()
+#5 /home/endel/www/pds/yii/web/widgets/CActiveForm.php(563): activeLabelEx()
+#6 /home/endel/www/pds/protected/views/usuarios/_form.php(17): CActiveForm->labelEx()
+#7 /home/endel/www/pds/yii/web/CBaseController.php(127): require()
+#8 /home/endel/www/pds/yii/web/CBaseController.php(96): UsuariosController->renderInternal()
+#9 /home/endel/www/pds/yii/web/CController.php(870): UsuariosController->renderFile()
+#10 /home/endel/www/pds/protected/views/usuarios/create.php(4): UsuariosController->renderPartial()
+#11 /home/endel/www/pds/yii/web/CBaseController.php(127): require()
+#12 /home/endel/www/pds/yii/web/CBaseController.php(96): UsuariosController->renderInternal()
+#13 /home/endel/www/pds/yii/web/CController.php(870): UsuariosController->renderFile()
+#14 /home/endel/www/pds/yii/web/CController.php(783): UsuariosController->renderPartial()
+#15 /home/endel/www/pds/protected/controllers/UsuariosController.php(75): UsuariosController->render()
+#16 /home/endel/www/pds/yii/web/actions/CInlineAction.php(50): UsuariosController->actionCreate()
+#17 /home/endel/www/pds/yii/web/CController.php(309): CInlineAction->runWithParams()
+#18 /home/endel/www/pds/yii/web/filters/CFilterChain.php(134): UsuariosController->runAction()
+#19 /home/endel/www/pds/yii/web/filters/CFilter.php(41): CFilterChain->run()
+#20 /home/endel/www/pds/yii/web/CController.php(1146): CAccessControlFilter->filter()
+#21 /home/endel/www/pds/yii/web/filters/CInlineFilter.php(59): UsuariosController->filterAccessControl()
+#22 /home/endel/www/pds/yii/web/filters/CFilterChain.php(131): CInlineFilter->filter()
+#23 /home/endel/www/pds/yii/web/CController.php(292): CFilterChain->run()
+#24 /home/endel/www/pds/yii/web/CController.php(266): UsuariosController->runActionWithFilters()
+#25 /home/endel/www/pds/yii/web/CWebApplication.php(283): UsuariosController->run()
+#26 /home/endel/www/pds/yii/web/CWebApplication.php(142): CWebApplication->runController()
+#27 /home/endel/www/pds/yii/base/CApplication.php(162): CWebApplication->processRequest()
+#28 /home/endel/www/pds/index.php(13): CWebApplication->run()
+REQUEST_URI=/dev/pds/index.php/usuarios/create
+in /home/endel/www/pds/protected/views/usuarios/_form.php (17)
+in /home/endel/www/pds/protected/views/usuarios/create.php (4)
+in /home/endel/www/pds/protected/controllers/UsuariosController.php (75)
+2012/12/02 10:56:44 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'Você não está autorizado a realizar essa operação.' in /home/endel/www/pds/yii/web/auth/CAccessControlFilter.php:170
+Stack trace:
+#0 /home/endel/www/pds/yii/web/auth/CAccessControlFilter.php(133): CAccessControlFilter->accessDenied(Object(CWebUser), 'Voc?? n??o est?...')
+#1 /home/endel/www/pds/yii/web/filters/CFilter.php(39): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 /home/endel/www/pds/yii/web/CController.php(1146): CFilter->filter(Object(CFilterChain))
+#3 /home/endel/www/pds/yii/web/filters/CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#4 /home/endel/www/pds/yii/web/filters/CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#5 /home/endel/www/pds/yii/web/CController.php(292): CFilterChain->run()
+#6 /home/endel/www/pds/yii/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 /home/endel/www/pds/yii/web/CWebApplication.php(283): CController->run('view')
+#8 /home/endel/www/pds/yii/web/CWebApplication.php(142): CWebApplication->runController('usuarios/view')
+#9 /home/endel/www/pds/yii/base/CApplication.php(162): CWebApplication->processRequest()
+#10 /home/endel/www/pds/index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/dev/pds/index.php/usuarios/1
+HTTP_REFERER=http://localhost/dev/pds/index.php/site/login
+---
+2012/12/02 10:57:36 [error] [exception.CException] exception 'CException' with message 'A propriedade "CUniqueValidator.0" não está definida.' in /home/endel/www/pds/yii/base/CComponent.php:174
+Stack trace:
+#0 /home/endel/www/pds/yii/validators/CValidator.php(190): CComponent->__set('0', 'Este nome de us...')
+#1 /home/endel/www/pds/yii/base/CModel.php(285): CValidator::createValidator('unique', Object(Usuarios), 'nome_usuario', Array)
+#2 /home/endel/www/pds/yii/base/CModel.php(259): CModel->createValidators()
+#3 /home/endel/www/pds/yii/base/CModel.php(544): CModel->getValidators()
+#4 /home/endel/www/pds/yii/base/CModel.php(466): CModel->getSafeAttributeNames()
+#5 /home/endel/www/pds/yii/base/CComponent.php(153): CModel->setAttributes(Array)
+#6 /home/endel/www/pds/yii/db/ar/CActiveRecord.php(160): CComponent->__set('attributes', Array)
+#7 /home/endel/www/pds/protected/controllers/UsuariosController.php(68): CActiveRecord->__set('attributes', Array)
+#8 /home/endel/www/pds/yii/web/actions/CInlineAction.php(50): UsuariosController->actionCreate()
+#9 /home/endel/www/pds/yii/web/CController.php(309): CInlineAction->runWithParams(Array)
+#10 /home/endel/www/pds/yii/web/filters/CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#11 /home/endel/www/pds/yii/web/filters/CFilter.php(41): CFilterChain->run()
+#12 /home/endel/www/pds/yii/web/CController.php(1146): CFilter->filter(Object(CFilterChain))
+#13 /home/endel/www/pds/yii/web/filters/CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#14 /home/endel/www/pds/yii/web/filters/CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#15 /home/endel/www/pds/yii/web/CController.php(292): CFilterChain->run()
+#16 /home/endel/www/pds/yii/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#17 /home/endel/www/pds/yii/web/CWebApplication.php(283): CController->run('create')
+#18 /home/endel/www/pds/yii/web/CWebApplication.php(142): CWebApplication->runController('usuarios/create')
+#19 /home/endel/www/pds/yii/base/CApplication.php(162): CWebApplication->processRequest()
+#20 /home/endel/www/pds/index.php(13): CApplication->run()
+#21 {main}
+REQUEST_URI=/dev/pds/index.php/usuarios/create
+HTTP_REFERER=http://localhost/dev/pds/index.php/usuarios/create
+---
+2012/12/02 11:10:35 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'Você não está autorizado a realizar essa operação.' in /home/endel/www/pds/yii/web/auth/CAccessControlFilter.php:170
+Stack trace:
+#0 /home/endel/www/pds/yii/web/auth/CAccessControlFilter.php(133): CAccessControlFilter->accessDenied(Object(CWebUser), 'Voc?? n??o est?...')
+#1 /home/endel/www/pds/yii/web/filters/CFilter.php(39): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 /home/endel/www/pds/yii/web/CController.php(1146): CFilter->filter(Object(CFilterChain))
+#3 /home/endel/www/pds/yii/web/filters/CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#4 /home/endel/www/pds/yii/web/filters/CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#5 /home/endel/www/pds/yii/web/CController.php(292): CFilterChain->run()
+#6 /home/endel/www/pds/yii/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 /home/endel/www/pds/yii/web/CWebApplication.php(283): CController->run('view')
+#8 /home/endel/www/pds/yii/web/CWebApplication.php(142): CWebApplication->runController('usuarios/view')
+#9 /home/endel/www/pds/yii/base/CApplication.php(162): CWebApplication->processRequest()
+#10 /home/endel/www/pds/index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/dev/pds/index.php/usuarios/2
+HTTP_REFERER=http://localhost/dev/pds/index.php/site/login
+---
+2012/12/02 11:11:20 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'Você não está autorizado a realizar essa operação.' in /home/endel/www/pds/yii/web/auth/CAccessControlFilter.php:170
+Stack trace:
+#0 /home/endel/www/pds/yii/web/auth/CAccessControlFilter.php(133): CAccessControlFilter->accessDenied(Object(CWebUser), 'Voc?? n??o est?...')
+#1 /home/endel/www/pds/yii/web/filters/CFilter.php(39): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 /home/endel/www/pds/yii/web/CController.php(1146): CFilter->filter(Object(CFilterChain))
+#3 /home/endel/www/pds/yii/web/filters/CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#4 /home/endel/www/pds/yii/web/filters/CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#5 /home/endel/www/pds/yii/web/CController.php(292): CFilterChain->run()
+#6 /home/endel/www/pds/yii/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 /home/endel/www/pds/yii/web/CWebApplication.php(283): CController->run('update')
+#8 /home/endel/www/pds/yii/web/CWebApplication.php(142): CWebApplication->runController('usuarios/update')
+#9 /home/endel/www/pds/yii/base/CApplication.php(162): CWebApplication->processRequest()
+#10 /home/endel/www/pds/index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/dev/pds/index.php/usuarios/update
+HTTP_REFERER=http://localhost/dev/pds/index.php/site/login
+---
+2012/12/02 11:12:51 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'Você não está autorizado a realizar essa operação.' in /home/endel/www/pds/yii/web/auth/CAccessControlFilter.php:170
+Stack trace:
+#0 /home/endel/www/pds/yii/web/auth/CAccessControlFilter.php(133): CAccessControlFilter->accessDenied(Object(CWebUser), 'Voc?? n??o est?...')
+#1 /home/endel/www/pds/yii/web/filters/CFilter.php(39): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 /home/endel/www/pds/yii/web/CController.php(1146): CFilter->filter(Object(CFilterChain))
+#3 /home/endel/www/pds/yii/web/filters/CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#4 /home/endel/www/pds/yii/web/filters/CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#5 /home/endel/www/pds/yii/web/CController.php(292): CFilterChain->run()
+#6 /home/endel/www/pds/yii/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 /home/endel/www/pds/yii/web/CWebApplication.php(283): CController->run('update')
+#8 /home/endel/www/pds/yii/web/CWebApplication.php(142): CWebApplication->runController('usuarios/update')
+#9 /home/endel/www/pds/yii/base/CApplication.php(162): CWebApplication->processRequest()
+#10 /home/endel/www/pds/index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/dev/pds/index.php/usuarios/update
+HTTP_REFERER=http://localhost/dev/pds/index.php/site/login
+---
+2012/12/02 11:16:57 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'Você não está autorizado a realizar essa operação.' in /home/endel/www/pds/yii/web/auth/CAccessControlFilter.php:170
+Stack trace:
+#0 /home/endel/www/pds/yii/web/auth/CAccessControlFilter.php(133): CAccessControlFilter->accessDenied(Object(CWebUser), 'Voc?? n??o est?...')
+#1 /home/endel/www/pds/yii/web/filters/CFilter.php(39): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 /home/endel/www/pds/yii/web/CController.php(1146): CFilter->filter(Object(CFilterChain))
+#3 /home/endel/www/pds/yii/web/filters/CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#4 /home/endel/www/pds/yii/web/filters/CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#5 /home/endel/www/pds/yii/web/CController.php(292): CFilterChain->run()
+#6 /home/endel/www/pds/yii/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 /home/endel/www/pds/yii/web/CWebApplication.php(283): CController->run('update')
+#8 /home/endel/www/pds/yii/web/CWebApplication.php(142): CWebApplication->runController('usuarios/update')
+#9 /home/endel/www/pds/yii/base/CApplication.php(162): CWebApplication->processRequest()
+#10 /home/endel/www/pds/index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/dev/pds/index.php/usuarios/update
+HTTP_REFERER=http://localhost/dev/pds/index.php/site/login
+---
+2012/12/02 11:17:30 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Sua requisição é inválida.' in /home/endel/www/pds/yii/web/CController.php:337
+Stack trace:
+#0 /home/endel/www/pds/yii/web/CController.php(310): CController->invalidActionParams(Object(CInlineAction))
+#1 /home/endel/www/pds/yii/web/filters/CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#2 /home/endel/www/pds/yii/web/filters/CFilter.php(41): CFilterChain->run()
+#3 /home/endel/www/pds/yii/web/CController.php(1146): CFilter->filter(Object(CFilterChain))
+#4 /home/endel/www/pds/yii/web/filters/CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#5 /home/endel/www/pds/yii/web/filters/CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#6 /home/endel/www/pds/yii/web/CController.php(292): CFilterChain->run()
+#7 /home/endel/www/pds/yii/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /home/endel/www/pds/yii/web/CWebApplication.php(283): CController->run('update')
+#9 /home/endel/www/pds/yii/web/CWebApplication.php(142): CWebApplication->runController('usuarios/update')
+#10 /home/endel/www/pds/yii/base/CApplication.php(162): CWebApplication->processRequest()
+#11 /home/endel/www/pds/index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/dev/pds/index.php/usuarios/update
+HTTP_REFERER=http://localhost/dev/pds/index.php/site/login
+---
+2012/12/02 11:18:12 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Sua requisição é inválida.' in /home/endel/www/pds/yii/web/CController.php:337
+Stack trace:
+#0 /home/endel/www/pds/yii/web/CController.php(310): CController->invalidActionParams(Object(CInlineAction))
+#1 /home/endel/www/pds/yii/web/filters/CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#2 /home/endel/www/pds/yii/web/filters/CFilter.php(41): CFilterChain->run()
+#3 /home/endel/www/pds/yii/web/CController.php(1146): CFilter->filter(Object(CFilterChain))
+#4 /home/endel/www/pds/yii/web/filters/CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#5 /home/endel/www/pds/yii/web/filters/CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#6 /home/endel/www/pds/yii/web/CController.php(292): CFilterChain->run()
+#7 /home/endel/www/pds/yii/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /home/endel/www/pds/yii/web/CWebApplication.php(283): CController->run('update')
+#9 /home/endel/www/pds/yii/web/CWebApplication.php(142): CWebApplication->runController('usuarios/update')
+#10 /home/endel/www/pds/yii/base/CApplication.php(162): CWebApplication->processRequest()
+#11 /home/endel/www/pds/index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/dev/pds/index.php/usuarios/update
+HTTP_REFERER=http://localhost/dev/pds/index.php/site/login
+---
+2012/12/02 11:18:43 [error] [php] Undefined variable: model (/home/endel/www/pds/protected/controllers/UsuariosController.php:95)
+Stack trace:
+#0 /home/endel/www/pds/yii/web/filters/CFilterChain.php(134): UsuariosController->runAction()
+#1 /home/endel/www/pds/yii/web/filters/CFilter.php(41): CFilterChain->run()
+#2 /home/endel/www/pds/yii/web/CController.php(1146): CAccessControlFilter->filter()
+#3 /home/endel/www/pds/yii/web/filters/CInlineFilter.php(59): UsuariosController->filterAccessControl()
+#4 /home/endel/www/pds/yii/web/filters/CFilterChain.php(131): CInlineFilter->filter()
+#5 /home/endel/www/pds/yii/web/CController.php(292): CFilterChain->run()
+#6 /home/endel/www/pds/yii/web/CController.php(266): UsuariosController->runActionWithFilters()
+#7 /home/endel/www/pds/yii/web/CWebApplication.php(283): UsuariosController->run()
+#8 /home/endel/www/pds/yii/web/CWebApplication.php(142): CWebApplication->runController()
+#9 /home/endel/www/pds/yii/base/CApplication.php(162): CWebApplication->processRequest()
+#10 /home/endel/www/pds/index.php(13): CWebApplication->run()
+REQUEST_URI=/dev/pds/index.php/usuarios/update
+in /home/endel/www/pds/protected/controllers/UsuariosController.php (95)
+in /home/endel/www/pds/index.php (13)
+2012/12/02 11:18:50 [error] [php] Undefined variable: model (/home/endel/www/pds/protected/views/usuarios/update.php:7)
+Stack trace:
+#0 /home/endel/www/pds/yii/web/CController.php(870): UsuariosController->renderFile()
+#1 /home/endel/www/pds/yii/web/CController.php(783): UsuariosController->renderPartial()
+#2 /home/endel/www/pds/protected/controllers/UsuariosController.php(96): UsuariosController->render()
+#3 /home/endel/www/pds/yii/web/actions/CInlineAction.php(50): UsuariosController->actionUpdate()
+#4 /home/endel/www/pds/yii/web/CController.php(309): CInlineAction->runWithParams()
+#5 /home/endel/www/pds/yii/web/filters/CFilterChain.php(134): UsuariosController->runAction()
+#6 /home/endel/www/pds/yii/web/filters/CFilter.php(41): CFilterChain->run()
+#7 /home/endel/www/pds/yii/web/CController.php(1146): CAccessControlFilter->filter()
+#8 /home/endel/www/pds/yii/web/filters/CInlineFilter.php(59): UsuariosController->filterAccessControl()
+#9 /home/endel/www/pds/yii/web/filters/CFilterChain.php(131): CInlineFilter->filter()
+#10 /home/endel/www/pds/yii/web/CController.php(292): CFilterChain->run()
+#11 /home/endel/www/pds/yii/web/CController.php(266): UsuariosController->runActionWithFilters()
+#12 /home/endel/www/pds/yii/web/CWebApplication.php(283): UsuariosController->run()
+#13 /home/endel/www/pds/yii/web/CWebApplication.php(142): CWebApplication->runController()
+#14 /home/endel/www/pds/yii/base/CApplication.php(162): CWebApplication->processRequest()
+#15 /home/endel/www/pds/index.php(13): CWebApplication->run()
+REQUEST_URI=/dev/pds/index.php/usuarios/update
+in /home/endel/www/pds/protected/views/usuarios/update.php (7)
+in /home/endel/www/pds/protected/controllers/UsuariosController.php (96)
+in /home/endel/www/pds/index.php (13)
+2012/12/02 11:19:29 [error] [exception.CException] exception 'CException' with message 'A propriedade "CWebUser.id_usuario" não está definida.' in /home/endel/www/pds/yii/base/CComponent.php:131
+Stack trace:
+#0 /home/endel/www/pds/yii/web/auth/CWebUser.php(141): CComponent->__get('id_usuario')
+#1 /home/endel/www/pds/protected/controllers/UsuariosController.php(83): CWebUser->__get('id_usuario')
+#2 /home/endel/www/pds/yii/web/actions/CInlineAction.php(50): UsuariosController->actionUpdate()
+#3 /home/endel/www/pds/yii/web/CController.php(309): CInlineAction->runWithParams(Array)
+#4 /home/endel/www/pds/yii/web/filters/CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#5 /home/endel/www/pds/yii/web/filters/CFilter.php(41): CFilterChain->run()
+#6 /home/endel/www/pds/yii/web/CController.php(1146): CFilter->filter(Object(CFilterChain))
+#7 /home/endel/www/pds/yii/web/filters/CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#8 /home/endel/www/pds/yii/web/filters/CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#9 /home/endel/www/pds/yii/web/CController.php(292): CFilterChain->run()
+#10 /home/endel/www/pds/yii/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 /home/endel/www/pds/yii/web/CWebApplication.php(283): CController->run('update')
+#12 /home/endel/www/pds/yii/web/CWebApplication.php(142): CWebApplication->runController('usuarios/update')
+#13 /home/endel/www/pds/yii/base/CApplication.php(162): CWebApplication->processRequest()
+#14 /home/endel/www/pds/index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/dev/pds/index.php/usuarios/update
+HTTP_REFERER=http://localhost/dev/pds/index.php/site/login
+---
+2012/12/02 11:27:29 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'Você não está autorizado a realizar essa operação.' in /home/endel/www/pds/yii/web/auth/CAccessControlFilter.php:170
+Stack trace:
+#0 /home/endel/www/pds/yii/web/auth/CAccessControlFilter.php(133): CAccessControlFilter->accessDenied(Object(CWebUser), 'Voc?? n??o est?...')
+#1 /home/endel/www/pds/yii/web/filters/CFilter.php(39): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 /home/endel/www/pds/yii/web/CController.php(1146): CFilter->filter(Object(CFilterChain))
+#3 /home/endel/www/pds/yii/web/filters/CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#4 /home/endel/www/pds/yii/web/filters/CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#5 /home/endel/www/pds/yii/web/CController.php(292): CFilterChain->run()
+#6 /home/endel/www/pds/yii/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 /home/endel/www/pds/yii/web/CWebApplication.php(283): CController->run('view')
+#8 /home/endel/www/pds/yii/web/CWebApplication.php(142): CWebApplication->runController('usuarios/view')
+#9 /home/endel/www/pds/yii/base/CApplication.php(162): CWebApplication->processRequest()
+#10 /home/endel/www/pds/index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/dev/pds/index.php/usuarios/1
+HTTP_REFERER=http://localhost/dev/pds/index.php/usuarios/update
+---
+2012/12/02 11:31:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'O sistema não foi capaz de encontrar a ação "images" solicitada.' in /home/endel/www/pds/yii/web/CController.php:484
+Stack trace:
+#0 /home/endel/www/pds/yii/web/CController.php(271): CController->missingAction('images')
+#1 /home/endel/www/pds/yii/web/CWebApplication.php(283): CController->run('images')
+#2 /home/endel/www/pds/yii/web/CWebApplication.php(142): CWebApplication->runController('usuarios/images...')
+#3 /home/endel/www/pds/yii/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /home/endel/www/pds/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/dev/pds/index.php/usuarios/images/logo.png
+HTTP_REFERER=http://localhost/dev/pds/index.php/usuarios/update
+---
+2012/12/02 11:32:03 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'Você não está autorizado a realizar essa operação.' in /home/endel/www/pds/yii/web/auth/CAccessControlFilter.php:170
+Stack trace:
+#0 /home/endel/www/pds/yii/web/auth/CAccessControlFilter.php(133): CAccessControlFilter->accessDenied(Object(CWebUser), 'Voc?? n??o est?...')
+#1 /home/endel/www/pds/yii/web/filters/CFilter.php(39): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 /home/endel/www/pds/yii/web/CController.php(1146): CFilter->filter(Object(CFilterChain))
+#3 /home/endel/www/pds/yii/web/filters/CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#4 /home/endel/www/pds/yii/web/filters/CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#5 /home/endel/www/pds/yii/web/CController.php(292): CFilterChain->run()
+#6 /home/endel/www/pds/yii/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 /home/endel/www/pds/yii/web/CWebApplication.php(283): CController->run('advanced')
+#8 /home/endel/www/pds/yii/web/CWebApplication.php(142): CWebApplication->runController('licitacoes/adva...')
+#9 /home/endel/www/pds/yii/base/CApplication.php(162): CWebApplication->processRequest()
+#10 /home/endel/www/pds/index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/dev/pds/index.php/licitacoes/advanced
+HTTP_REFERER=http://localhost/dev/pds/index.php/site/index
+---
+2012/12/02 12:23:16 [error] [exception.CException] exception 'CException' with message 'A propriedade "Usuarios.id" não está definida.' in /home/endel/www/pds/yii/base/CComponent.php:131
+Stack trace:
+#0 /home/endel/www/pds/yii/db/ar/CActiveRecord.php(144): CComponent->__get('id')
+#1 /home/endel/www/pds/protected/components/UserIdentity.php(26): CActiveRecord->__get('id')
+#2 /home/endel/www/pds/protected/models/LoginForm.php(49): UserIdentity->authenticate()
+#3 /home/endel/www/pds/yii/validators/CInlineValidator.php(43): LoginForm->authenticate('password', Array)
+#4 /home/endel/www/pds/yii/validators/CValidator.php(214): CInlineValidator->validateAttribute(Object(LoginForm), 'password')
+#5 /home/endel/www/pds/yii/base/CModel.php(158): CValidator->validate(Object(LoginForm), NULL)
+#6 /home/endel/www/pds/protected/controllers/SiteController.php(94): CModel->validate()
+#7 /home/endel/www/pds/yii/web/actions/CInlineAction.php(50): SiteController->actionLogin()
+#8 /home/endel/www/pds/yii/web/CController.php(309): CInlineAction->runWithParams(Array)
+#9 /home/endel/www/pds/yii/web/CController.php(287): CController->runAction(Object(CInlineAction))
+#10 /home/endel/www/pds/yii/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 /home/endel/www/pds/yii/web/CWebApplication.php(283): CController->run('login')
+#12 /home/endel/www/pds/yii/web/CWebApplication.php(142): CWebApplication->runController('site/login')
+#13 /home/endel/www/pds/yii/base/CApplication.php(162): CWebApplication->processRequest()
+#14 /home/endel/www/pds/index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/dev/pds/index.php/site/login
+HTTP_REFERER=http://localhost/dev/pds/index.php/site/login
+---
+2012/12/02 12:24:13 [error] [exception.CException] exception 'CException' with message 'A propriedade "UserIdentity._id" não está definida.' in /home/endel/www/pds/yii/base/CComponent.php:174
+Stack trace:
+#0 /home/endel/www/pds/protected/components/UserIdentity.php(26): CComponent->__set('_id', '5')
+#1 /home/endel/www/pds/protected/models/LoginForm.php(49): UserIdentity->authenticate()
+#2 /home/endel/www/pds/yii/validators/CInlineValidator.php(43): LoginForm->authenticate('password', Array)
+#3 /home/endel/www/pds/yii/validators/CValidator.php(214): CInlineValidator->validateAttribute(Object(LoginForm), 'password')
+#4 /home/endel/www/pds/yii/base/CModel.php(158): CValidator->validate(Object(LoginForm), NULL)
+#5 /home/endel/www/pds/protected/controllers/SiteController.php(94): CModel->validate()
+#6 /home/endel/www/pds/yii/web/actions/CInlineAction.php(50): SiteController->actionLogin()
+#7 /home/endel/www/pds/yii/web/CController.php(309): CInlineAction->runWithParams(Array)
+#8 /home/endel/www/pds/yii/web/CController.php(287): CController->runAction(Object(CInlineAction))
+#9 /home/endel/www/pds/yii/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 /home/endel/www/pds/yii/web/CWebApplication.php(283): CController->run('login')
+#11 /home/endel/www/pds/yii/web/CWebApplication.php(142): CWebApplication->runController('site/login')
+#12 /home/endel/www/pds/yii/base/CApplication.php(162): CWebApplication->processRequest()
+#13 /home/endel/www/pds/index.php(13): CApplication->run()
+#14 {main}
+REQUEST_URI=/dev/pds/index.php/site/login
+HTTP_REFERER=http://localhost/dev/pds/index.php/site/login
+---
+2012/12/02 12:29:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested page does not exist.' in /home/endel/www/pds/protected/controllers/UsuariosController.php:144
+Stack trace:
+#0 /home/endel/www/pds/protected/controllers/UsuariosController.php(83): UsuariosController->loadModel('endel')
+#1 /home/endel/www/pds/yii/web/actions/CInlineAction.php(50): UsuariosController->actionUpdate()
+#2 /home/endel/www/pds/yii/web/CController.php(309): CInlineAction->runWithParams(Array)
+#3 /home/endel/www/pds/yii/web/filters/CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#4 /home/endel/www/pds/yii/web/filters/CFilter.php(41): CFilterChain->run()
+#5 /home/endel/www/pds/yii/web/CController.php(1146): CFilter->filter(Object(CFilterChain))
+#6 /home/endel/www/pds/yii/web/filters/CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#7 /home/endel/www/pds/yii/web/filters/CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#8 /home/endel/www/pds/yii/web/CController.php(292): CFilterChain->run()
+#9 /home/endel/www/pds/yii/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 /home/endel/www/pds/yii/web/CWebApplication.php(283): CController->run('update')
+#11 /home/endel/www/pds/yii/web/CWebApplication.php(142): CWebApplication->runController('usuarios/update')
+#12 /home/endel/www/pds/yii/base/CApplication.php(162): CWebApplication->processRequest()
+#13 /home/endel/www/pds/index.php(13): CApplication->run()
+#14 {main}
+REQUEST_URI=/dev/pds/index.php/usuarios/update
+HTTP_REFERER=http://localhost/dev/pds/index.php
+---
+2012/12/02 12:29:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested page does not exist.' in /home/endel/www/pds/protected/controllers/UsuariosController.php:145
+Stack trace:
+#0 /home/endel/www/pds/protected/controllers/UsuariosController.php(84): UsuariosController->loadModel('endel')
+#1 /home/endel/www/pds/yii/web/actions/CInlineAction.php(50): UsuariosController->actionUpdate()
+#2 /home/endel/www/pds/yii/web/CController.php(309): CInlineAction->runWithParams(Array)
+#3 /home/endel/www/pds/yii/web/filters/CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#4 /home/endel/www/pds/yii/web/filters/CFilter.php(41): CFilterChain->run()
+#5 /home/endel/www/pds/yii/web/CController.php(1146): CFilter->filter(Object(CFilterChain))
+#6 /home/endel/www/pds/yii/web/filters/CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#7 /home/endel/www/pds/yii/web/filters/CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#8 /home/endel/www/pds/yii/web/CController.php(292): CFilterChain->run()
+#9 /home/endel/www/pds/yii/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 /home/endel/www/pds/yii/web/CWebApplication.php(283): CController->run('update')
+#11 /home/endel/www/pds/yii/web/CWebApplication.php(142): CWebApplication->runController('usuarios/update')
+#12 /home/endel/www/pds/yii/base/CApplication.php(162): CWebApplication->processRequest()
+#13 /home/endel/www/pds/index.php(13): CApplication->run()
+#14 {main}
+REQUEST_URI=/dev/pds/index.php/usuarios/update
+HTTP_REFERER=http://localhost/dev/pds/index.php
+---
+2012/12/02 12:30:50 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested page does not exist.' in /home/endel/www/pds/protected/controllers/UsuariosController.php:145
+Stack trace:
+#0 /home/endel/www/pds/protected/controllers/UsuariosController.php(84): UsuariosController->loadModel('endel')
+#1 /home/endel/www/pds/yii/web/actions/CInlineAction.php(50): UsuariosController->actionUpdate()
+#2 /home/endel/www/pds/yii/web/CController.php(309): CInlineAction->runWithParams(Array)
+#3 /home/endel/www/pds/yii/web/filters/CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#4 /home/endel/www/pds/yii/web/filters/CFilter.php(41): CFilterChain->run()
+#5 /home/endel/www/pds/yii/web/CController.php(1146): CFilter->filter(Object(CFilterChain))
+#6 /home/endel/www/pds/yii/web/filters/CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#7 /home/endel/www/pds/yii/web/filters/CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#8 /home/endel/www/pds/yii/web/CController.php(292): CFilterChain->run()
+#9 /home/endel/www/pds/yii/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 /home/endel/www/pds/yii/web/CWebApplication.php(283): CController->run('update')
+#11 /home/endel/www/pds/yii/web/CWebApplication.php(142): CWebApplication->runController('usuarios/update')
+#12 /home/endel/www/pds/yii/base/CApplication.php(162): CWebApplication->processRequest()
+#13 /home/endel/www/pds/index.php(13): CApplication->run()
+#14 {main}
+REQUEST_URI=/dev/pds/index.php/usuarios/update
+HTTP_REFERER=http://localhost/dev/pds/index.php
+---
+2012/12/02 12:38:14 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'Você não está autorizado a realizar essa operação.' in /home/endel/www/pds/yii/web/auth/CAccessControlFilter.php:170
+Stack trace:
+#0 /home/endel/www/pds/yii/web/auth/CAccessControlFilter.php(133): CAccessControlFilter->accessDenied(Object(CWebUser), 'Voc?? n??o est?...')
+#1 /home/endel/www/pds/yii/web/filters/CFilter.php(39): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 /home/endel/www/pds/yii/web/CController.php(1146): CFilter->filter(Object(CFilterChain))
+#3 /home/endel/www/pds/yii/web/filters/CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#4 /home/endel/www/pds/yii/web/filters/CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#5 /home/endel/www/pds/yii/web/CController.php(292): CFilterChain->run()
+#6 /home/endel/www/pds/yii/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 /home/endel/www/pds/yii/web/CWebApplication.php(283): CController->run('view')
+#8 /home/endel/www/pds/yii/web/CWebApplication.php(142): CWebApplication->runController('usuarios/view')
+#9 /home/endel/www/pds/yii/base/CApplication.php(162): CWebApplication->processRequest()
+#10 /home/endel/www/pds/index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/dev/pds/index.php/usuarios/5
+HTTP_REFERER=http://localhost/dev/pds/index.php/usuarios/update
+---
+2012/12/02 12:38:27 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'Você não está autorizado a realizar essa operação.' in /home/endel/www/pds/yii/web/auth/CAccessControlFilter.php:170
+Stack trace:
+#0 /home/endel/www/pds/yii/web/auth/CAccessControlFilter.php(133): CAccessControlFilter->accessDenied(Object(CWebUser), 'Voc?? n??o est?...')
+#1 /home/endel/www/pds/yii/web/filters/CFilter.php(39): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 /home/endel/www/pds/yii/web/CController.php(1146): CFilter->filter(Object(CFilterChain))
+#3 /home/endel/www/pds/yii/web/filters/CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#4 /home/endel/www/pds/yii/web/filters/CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#5 /home/endel/www/pds/yii/web/CController.php(292): CFilterChain->run()
+#6 /home/endel/www/pds/yii/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 /home/endel/www/pds/yii/web/CWebApplication.php(283): CController->run('view')
+#8 /home/endel/www/pds/yii/web/CWebApplication.php(142): CWebApplication->runController('usuarios/view')
+#9 /home/endel/www/pds/yii/base/CApplication.php(162): CWebApplication->processRequest()
+#10 /home/endel/www/pds/index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/dev/pds/index.php/usuarios/5
+HTTP_REFERER=http://localhost/dev/pds/index.php/usuarios/update
+---
+2012/12/02 12:42:58 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'Você não está autorizado a realizar essa operação.' in /home/endel/www/pds/yii/web/auth/CAccessControlFilter.php:170
+Stack trace:
+#0 /home/endel/www/pds/yii/web/auth/CAccessControlFilter.php(133): CAccessControlFilter->accessDenied(Object(CWebUser), 'Voc?? n??o est?...')
+#1 /home/endel/www/pds/yii/web/filters/CFilter.php(39): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 /home/endel/www/pds/yii/web/CController.php(1146): CFilter->filter(Object(CFilterChain))
+#3 /home/endel/www/pds/yii/web/filters/CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#4 /home/endel/www/pds/yii/web/filters/CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#5 /home/endel/www/pds/yii/web/CController.php(292): CFilterChain->run()
+#6 /home/endel/www/pds/yii/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 /home/endel/www/pds/yii/web/CWebApplication.php(283): CController->run('view')
+#8 /home/endel/www/pds/yii/web/CWebApplication.php(142): CWebApplication->runController('usuarios/view')
+#9 /home/endel/www/pds/yii/base/CApplication.php(162): CWebApplication->processRequest()
+#10 /home/endel/www/pds/index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/dev/pds/index.php/usuarios/5
+HTTP_REFERER=http://localhost/dev/pds/index.php/usuarios/update
+---
+2012/12/02 12:48:52 [error] [php] Undefined variable: model (/home/endel/www/pds/protected/views/usuarios/update.php:9)
+Stack trace:
+#0 /home/endel/www/pds/yii/web/CController.php(870): UsuariosController->renderFile()
+#1 /home/endel/www/pds/yii/web/CController.php(783): UsuariosController->renderPartial()
+#2 /home/endel/www/pds/protected/controllers/UsuariosController.php(91): UsuariosController->render()
+#3 /home/endel/www/pds/yii/web/actions/CInlineAction.php(50): UsuariosController->actionUpdate()
+#4 /home/endel/www/pds/yii/web/CController.php(309): CInlineAction->runWithParams()
+#5 /home/endel/www/pds/yii/web/filters/CFilterChain.php(134): UsuariosController->runAction()
+#6 /home/endel/www/pds/yii/web/filters/CFilter.php(41): CFilterChain->run()
+#7 /home/endel/www/pds/yii/web/CController.php(1146): CAccessControlFilter->filter()
+#8 /home/endel/www/pds/yii/web/filters/CInlineFilter.php(59): UsuariosController->filterAccessControl()
+#9 /home/endel/www/pds/yii/web/filters/CFilterChain.php(131): CInlineFilter->filter()
+#10 /home/endel/www/pds/yii/web/CController.php(292): CFilterChain->run()
+#11 /home/endel/www/pds/yii/web/CController.php(266): UsuariosController->runActionWithFilters()
+#12 /home/endel/www/pds/yii/web/CWebApplication.php(283): UsuariosController->run()
+#13 /home/endel/www/pds/yii/web/CWebApplication.php(142): CWebApplication->runController()
+#14 /home/endel/www/pds/yii/base/CApplication.php(162): CWebApplication->processRequest()
+#15 /home/endel/www/pds/index.php(13): CWebApplication->run()
+REQUEST_URI=/dev/pds/index.php/usuarios/update?msg=Dados+atualizados%21
+in /home/endel/www/pds/protected/views/usuarios/update.php (9)
+in /home/endel/www/pds/protected/controllers/UsuariosController.php (91)
+in /home/endel/www/pds/index.php (13)
+2012/12/02 13:54:09 [error] [system.db.CDbCommand] Falha ao executar CDbCommand::fetchAll(): SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'MATCHES(all_data) AGAINST('mat')' at line 1. A declaração SQL executada foi: SELECT * FROM `licitacoes` `t` WHERE all_data MATCHES(all_data) AGAINST(:value).
+in /home/endel/www/pds/protected/controllers/LicitacoesController.php (126)
+in /home/endel/www/pds/index.php (13)
+2012/12/02 13:54:09 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand falhou ao executar o comando SQL: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'MATCHES(all_data) AGAINST('mat')' at line 1. The SQL statement executed was: SELECT * FROM `licitacoes` `t` WHERE all_data MATCHES(all_data) AGAINST(:value)' in /home/endel/www/pds/yii/db/CDbCommand.php:528
+Stack trace:
+#0 /home/endel/www/pds/yii/db/CDbCommand.php(390): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 /home/endel/www/pds/yii/db/ar/CActiveRecord.php(1291): CDbCommand->queryAll()
+#2 /home/endel/www/pds/yii/db/ar/CActiveRecord.php(1410): CActiveRecord->query(Object(CDbCriteria), true)
+#3 /home/endel/www/pds/protected/controllers/LicitacoesController.php(126): CActiveRecord->findAll('all_data MATCHE...', Array)
+#4 /home/endel/www/pds/yii/web/actions/CInlineAction.php(50): LicitacoesController->actionSearch()
+#5 /home/endel/www/pds/yii/web/CController.php(309): CInlineAction->runWithParams(Array)
+#6 /home/endel/www/pds/yii/web/filters/CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#7 /home/endel/www/pds/yii/web/filters/CFilter.php(41): CFilterChain->run()
+#8 /home/endel/www/pds/yii/web/CController.php(1146): CFilter->filter(Object(CFilterChain))
+#9 /home/endel/www/pds/yii/web/filters/CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#10 /home/endel/www/pds/yii/web/filters/CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#11 /home/endel/www/pds/yii/web/CController.php(292): CFilterChain->run()
+#12 /home/endel/www/pds/yii/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 /home/endel/www/pds/yii/web/CWebApplication.php(283): CController->run('search')
+#14 /home/endel/www/pds/yii/web/CWebApplication.php(142): CWebApplication->runController('licitacoes/sear...')
+#15 /home/endel/www/pds/yii/base/CApplication.php(162): CWebApplication->processRequest()
+#16 /home/endel/www/pds/index.php(13): CApplication->run()
+#17 {main}
+REQUEST_URI=/dev/pds/index.php/licitacoes/search?query=mat
+HTTP_REFERER=http://localhost/dev/pds/index.php/site/index
+---
+2012/12/02 13:54:29 [error] [system.db.CDbCommand] Falha ao executar CDbCommand::fetchAll(): SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AGAINST('mat')' at line 1. A declaração SQL executada foi: SELECT * FROM `licitacoes` `t` WHERE MATCHES(all_data) AGAINST(:value).
+in /home/endel/www/pds/protected/controllers/LicitacoesController.php (126)
+in /home/endel/www/pds/index.php (13)
+2012/12/02 13:54:29 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand falhou ao executar o comando SQL: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AGAINST('mat')' at line 1. The SQL statement executed was: SELECT * FROM `licitacoes` `t` WHERE MATCHES(all_data) AGAINST(:value)' in /home/endel/www/pds/yii/db/CDbCommand.php:528
+Stack trace:
+#0 /home/endel/www/pds/yii/db/CDbCommand.php(390): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 /home/endel/www/pds/yii/db/ar/CActiveRecord.php(1291): CDbCommand->queryAll()
+#2 /home/endel/www/pds/yii/db/ar/CActiveRecord.php(1410): CActiveRecord->query(Object(CDbCriteria), true)
+#3 /home/endel/www/pds/protected/controllers/LicitacoesController.php(126): CActiveRecord->findAll('MATCHES(all_dat...', Array)
+#4 /home/endel/www/pds/yii/web/actions/CInlineAction.php(50): LicitacoesController->actionSearch()
+#5 /home/endel/www/pds/yii/web/CController.php(309): CInlineAction->runWithParams(Array)
+#6 /home/endel/www/pds/yii/web/filters/CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#7 /home/endel/www/pds/yii/web/filters/CFilter.php(41): CFilterChain->run()
+#8 /home/endel/www/pds/yii/web/CController.php(1146): CFilter->filter(Object(CFilterChain))
+#9 /home/endel/www/pds/yii/web/filters/CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#10 /home/endel/www/pds/yii/web/filters/CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#11 /home/endel/www/pds/yii/web/CController.php(292): CFilterChain->run()
+#12 /home/endel/www/pds/yii/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 /home/endel/www/pds/yii/web/CWebApplication.php(283): CController->run('search')
+#14 /home/endel/www/pds/yii/web/CWebApplication.php(142): CWebApplication->runController('licitacoes/sear...')
+#15 /home/endel/www/pds/yii/base/CApplication.php(162): CWebApplication->processRequest()
+#16 /home/endel/www/pds/index.php(13): CApplication->run()
+#17 {main}
+REQUEST_URI=/dev/pds/index.php/licitacoes/search?query=mat
+HTTP_REFERER=http://localhost/dev/pds/index.php/site/index
+---
+2012/12/02 13:55:54 [error] [system.db.CDbCommand] Falha ao executar CDbCommand::fetchAll(): SQLSTATE[HY000]: General error: 1191 Can't find FULLTEXT index matching the column list. A declaração SQL executada foi: SELECT * FROM `licitacoes` `t` WHERE MATCH(all_data) AGAINST(:value).
+in /home/endel/www/pds/protected/controllers/LicitacoesController.php (126)
+in /home/endel/www/pds/index.php (13)
+2012/12/02 13:55:54 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand falhou ao executar o comando SQL: SQLSTATE[HY000]: General error: 1191 Can't find FULLTEXT index matching the column list. The SQL statement executed was: SELECT * FROM `licitacoes` `t` WHERE MATCH(all_data) AGAINST(:value)' in /home/endel/www/pds/yii/db/CDbCommand.php:528
+Stack trace:
+#0 /home/endel/www/pds/yii/db/CDbCommand.php(390): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 /home/endel/www/pds/yii/db/ar/CActiveRecord.php(1291): CDbCommand->queryAll()
+#2 /home/endel/www/pds/yii/db/ar/CActiveRecord.php(1410): CActiveRecord->query(Object(CDbCriteria), true)
+#3 /home/endel/www/pds/protected/controllers/LicitacoesController.php(126): CActiveRecord->findAll('MATCH(all_data)...', Array)
+#4 /home/endel/www/pds/yii/web/actions/CInlineAction.php(50): LicitacoesController->actionSearch()
+#5 /home/endel/www/pds/yii/web/CController.php(309): CInlineAction->runWithParams(Array)
+#6 /home/endel/www/pds/yii/web/filters/CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#7 /home/endel/www/pds/yii/web/filters/CFilter.php(41): CFilterChain->run()
+#8 /home/endel/www/pds/yii/web/CController.php(1146): CFilter->filter(Object(CFilterChain))
+#9 /home/endel/www/pds/yii/web/filters/CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#10 /home/endel/www/pds/yii/web/filters/CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#11 /home/endel/www/pds/yii/web/CController.php(292): CFilterChain->run()
+#12 /home/endel/www/pds/yii/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 /home/endel/www/pds/yii/web/CWebApplication.php(283): CController->run('search')
+#14 /home/endel/www/pds/yii/web/CWebApplication.php(142): CWebApplication->runController('licitacoes/sear...')
+#15 /home/endel/www/pds/yii/base/CApplication.php(162): CWebApplication->processRequest()
+#16 /home/endel/www/pds/index.php(13): CApplication->run()
+#17 {main}
+REQUEST_URI=/dev/pds/index.php/licitacoes/search?query=material
+HTTP_REFERER=http://localhost/dev/pds/index.php/licitacoes/search?query=material
+---
+2012/12/02 13:56:23 [error] [system.db.CDbCommand] Falha ao executar CDbCommand::fetchAll(): SQLSTATE[HY000]: General error: 1191 Can't find FULLTEXT index matching the column list. A declaração SQL executada foi: SELECT * FROM `licitacoes` `t` WHERE MATCH(objeto_free) AGAINST(:value).
+in /home/endel/www/pds/protected/controllers/LicitacoesController.php (126)
+in /home/endel/www/pds/index.php (13)
+2012/12/02 13:56:23 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand falhou ao executar o comando SQL: SQLSTATE[HY000]: General error: 1191 Can't find FULLTEXT index matching the column list. The SQL statement executed was: SELECT * FROM `licitacoes` `t` WHERE MATCH(objeto_free) AGAINST(:value)' in /home/endel/www/pds/yii/db/CDbCommand.php:528
+Stack trace:
+#0 /home/endel/www/pds/yii/db/CDbCommand.php(390): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 /home/endel/www/pds/yii/db/ar/CActiveRecord.php(1291): CDbCommand->queryAll()
+#2 /home/endel/www/pds/yii/db/ar/CActiveRecord.php(1410): CActiveRecord->query(Object(CDbCriteria), true)
+#3 /home/endel/www/pds/protected/controllers/LicitacoesController.php(126): CActiveRecord->findAll('MATCH(objeto_fr...', Array)
+#4 /home/endel/www/pds/yii/web/actions/CInlineAction.php(50): LicitacoesController->actionSearch()
+#5 /home/endel/www/pds/yii/web/CController.php(309): CInlineAction->runWithParams(Array)
+#6 /home/endel/www/pds/yii/web/filters/CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#7 /home/endel/www/pds/yii/web/filters/CFilter.php(41): CFilterChain->run()
+#8 /home/endel/www/pds/yii/web/CController.php(1146): CFilter->filter(Object(CFilterChain))
+#9 /home/endel/www/pds/yii/web/filters/CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#10 /home/endel/www/pds/yii/web/filters/CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#11 /home/endel/www/pds/yii/web/CController.php(292): CFilterChain->run()
+#12 /home/endel/www/pds/yii/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 /home/endel/www/pds/yii/web/CWebApplication.php(283): CController->run('search')
+#14 /home/endel/www/pds/yii/web/CWebApplication.php(142): CWebApplication->runController('licitacoes/sear...')
+#15 /home/endel/www/pds/yii/base/CApplication.php(162): CWebApplication->processRequest()
+#16 /home/endel/www/pds/index.php(13): CApplication->run()
+#17 {main}
+REQUEST_URI=/dev/pds/index.php/licitacoes/search?query=material
+HTTP_REFERER=http://localhost/dev/pds/index.php/licitacoes/search?query=material
+---
+2012/12/02 14:02:34 [error] [system.db.CDbCommand] Falha ao executar CDbCommand::fetchAll(): SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'NATURAL LANGUAGE MODE' at line 1. A declaração SQL executada foi: SELECT * FROM `licitacoes` `t` WHERE MATCH(objeto_free,aviso_free) AGAINST(:value) IN NATURAL LANGUAGE MODE.
+in /home/endel/www/pds/protected/controllers/LicitacoesController.php (126)
+in /home/endel/www/pds/index.php (13)
+2012/12/02 14:02:34 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand falhou ao executar o comando SQL: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'NATURAL LANGUAGE MODE' at line 1. The SQL statement executed was: SELECT * FROM `licitacoes` `t` WHERE MATCH(objeto_free,aviso_free) AGAINST(:value) IN NATURAL LANGUAGE MODE' in /home/endel/www/pds/yii/db/CDbCommand.php:528
+Stack trace:
+#0 /home/endel/www/pds/yii/db/CDbCommand.php(390): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 /home/endel/www/pds/yii/db/ar/CActiveRecord.php(1291): CDbCommand->queryAll()
+#2 /home/endel/www/pds/yii/db/ar/CActiveRecord.php(1410): CActiveRecord->query(Object(CDbCriteria), true)
+#3 /home/endel/www/pds/protected/controllers/LicitacoesController.php(126): CActiveRecord->findAll('MATCH(objeto_fr...', Array)
+#4 /home/endel/www/pds/yii/web/actions/CInlineAction.php(50): LicitacoesController->actionSearch()
+#5 /home/endel/www/pds/yii/web/CController.php(309): CInlineAction->runWithParams(Array)
+#6 /home/endel/www/pds/yii/web/filters/CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#7 /home/endel/www/pds/yii/web/filters/CFilter.php(41): CFilterChain->run()
+#8 /home/endel/www/pds/yii/web/CController.php(1146): CFilter->filter(Object(CFilterChain))
+#9 /home/endel/www/pds/yii/web/filters/CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#10 /home/endel/www/pds/yii/web/filters/CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#11 /home/endel/www/pds/yii/web/CController.php(292): CFilterChain->run()
+#12 /home/endel/www/pds/yii/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 /home/endel/www/pds/yii/web/CWebApplication.php(283): CController->run('search')
+#14 /home/endel/www/pds/yii/web/CWebApplication.php(142): CWebApplication->runController('licitacoes/sear...')
+#15 /home/endel/www/pds/yii/base/CApplication.php(162): CWebApplication->processRequest()
+#16 /home/endel/www/pds/index.php(13): CApplication->run()
+#17 {main}
+REQUEST_URI=/dev/pds/index.php/licitacoes/search?query=presta%C3%A7%C3%A3o+de+servi%C3%A7os+res%C3%ADduos
+HTTP_REFERER=http://localhost/dev/pds/index.php/licitacoes/search?query=presta%C3%A7%C3%A3o+de+servi%C3%A7os+res%C3%ADduos
+---
+2012/12/02 14:03:20 [error] [system.db.CDbCommand] Falha ao executar CDbCommand::fetchAll(): SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ' IN NATURAL LANGUAGE MODE)' at line 1. A declaração SQL executada foi: SELECT * FROM `licitacoes` `t` WHERE MATCH(objeto_free,aviso_free) AGAINST(:value, IN NATURAL LANGUAGE MODE).
+in /home/endel/www/pds/protected/controllers/LicitacoesController.php (126)
+in /home/endel/www/pds/index.php (13)
+2012/12/02 14:03:20 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand falhou ao executar o comando SQL: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ' IN NATURAL LANGUAGE MODE)' at line 1. The SQL statement executed was: SELECT * FROM `licitacoes` `t` WHERE MATCH(objeto_free,aviso_free) AGAINST(:value, IN NATURAL LANGUAGE MODE)' in /home/endel/www/pds/yii/db/CDbCommand.php:528
+Stack trace:
+#0 /home/endel/www/pds/yii/db/CDbCommand.php(390): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 /home/endel/www/pds/yii/db/ar/CActiveRecord.php(1291): CDbCommand->queryAll()
+#2 /home/endel/www/pds/yii/db/ar/CActiveRecord.php(1410): CActiveRecord->query(Object(CDbCriteria), true)
+#3 /home/endel/www/pds/protected/controllers/LicitacoesController.php(126): CActiveRecord->findAll('MATCH(objeto_fr...', Array)
+#4 /home/endel/www/pds/yii/web/actions/CInlineAction.php(50): LicitacoesController->actionSearch()
+#5 /home/endel/www/pds/yii/web/CController.php(309): CInlineAction->runWithParams(Array)
+#6 /home/endel/www/pds/yii/web/filters/CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#7 /home/endel/www/pds/yii/web/filters/CFilter.php(41): CFilterChain->run()
+#8 /home/endel/www/pds/yii/web/CController.php(1146): CFilter->filter(Object(CFilterChain))
+#9 /home/endel/www/pds/yii/web/filters/CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#10 /home/endel/www/pds/yii/web/filters/CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#11 /home/endel/www/pds/yii/web/CController.php(292): CFilterChain->run()
+#12 /home/endel/www/pds/yii/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 /home/endel/www/pds/yii/web/CWebApplication.php(283): CController->run('search')
+#14 /home/endel/www/pds/yii/web/CWebApplication.php(142): CWebApplication->runController('licitacoes/sear...')
+#15 /home/endel/www/pds/yii/base/CApplication.php(162): CWebApplication->processRequest()
+#16 /home/endel/www/pds/index.php(13): CApplication->run()
+#17 {main}
+REQUEST_URI=/dev/pds/index.php/licitacoes/search?query=presta%C3%A7%C3%A3o+de+servi%C3%A7os+res%C3%ADduos
+HTTP_REFERER=http://localhost/dev/pds/index.php/licitacoes/search?query=presta%C3%A7%C3%A3o+de+servi%C3%A7os+res%C3%ADduos
+---
+2012/12/02 14:12:10 [error] [php] Undefined variable: criteria (/home/endel/www/pds/protected/controllers/LicitacoesController.php:134)
+Stack trace:
+#0 /home/endel/www/pds/yii/web/filters/CFilterChain.php(134): LicitacoesController->runAction()
+#1 /home/endel/www/pds/yii/web/filters/CFilter.php(41): CFilterChain->run()
+#2 /home/endel/www/pds/yii/web/CController.php(1146): CAccessControlFilter->filter()
+#3 /home/endel/www/pds/yii/web/filters/CInlineFilter.php(59): LicitacoesController->filterAccessControl()
+#4 /home/endel/www/pds/yii/web/filters/CFilterChain.php(131): CInlineFilter->filter()
+#5 /home/endel/www/pds/yii/web/CController.php(292): CFilterChain->run()
+#6 /home/endel/www/pds/yii/web/CController.php(266): LicitacoesController->runActionWithFilters()
+#7 /home/endel/www/pds/yii/web/CWebApplication.php(283): LicitacoesController->run()
+#8 /home/endel/www/pds/yii/web/CWebApplication.php(142): CWebApplication->runController()
+#9 /home/endel/www/pds/yii/base/CApplication.php(162): CWebApplication->processRequest()
+#10 /home/endel/www/pds/index.php(13): CWebApplication->run()
+REQUEST_URI=/dev/pds/index.php/licitacoes/search?query=material+lenhoso
+in /home/endel/www/pds/protected/controllers/LicitacoesController.php (134)
+in /home/endel/www/pds/index.php (13)
+2012/12/02 14:12:59 [error] [php] Invalid argument supplied for foreach() (/home/endel/www/pds/yii/db/schema/CDbCriteria.php:160)
+Stack trace:
+#0 /home/endel/www/pds/yii/web/CController.php(309): CInlineAction->runWithParams()
+#1 /home/endel/www/pds/yii/web/filters/CFilterChain.php(134): LicitacoesController->runAction()
+#2 /home/endel/www/pds/yii/web/filters/CFilter.php(41): CFilterChain->run()
+#3 /home/endel/www/pds/yii/web/CController.php(1146): CAccessControlFilter->filter()
+#4 /home/endel/www/pds/yii/web/filters/CInlineFilter.php(59): LicitacoesController->filterAccessControl()
+#5 /home/endel/www/pds/yii/web/filters/CFilterChain.php(131): CInlineFilter->filter()
+#6 /home/endel/www/pds/yii/web/CController.php(292): CFilterChain->run()
+#7 /home/endel/www/pds/yii/web/CController.php(266): LicitacoesController->runActionWithFilters()
+#8 /home/endel/www/pds/yii/web/CWebApplication.php(283): LicitacoesController->run()
+#9 /home/endel/www/pds/yii/web/CWebApplication.php(142): CWebApplication->runController()
+#10 /home/endel/www/pds/yii/base/CApplication.php(162): CWebApplication->processRequest()
+#11 /home/endel/www/pds/index.php(13): CWebApplication->run()
+REQUEST_URI=/dev/pds/index.php/licitacoes/search?query=material+lenhoso
+in /home/endel/www/pds/protected/controllers/LicitacoesController.php (128)
+in /home/endel/www/pds/index.php (13)
+2012/12/02 14:14:53 [error] [php] Attempt to assign property of non-object (/home/endel/www/pds/yii/web/CPagination.php:217)
+Stack trace:
+#0 /home/endel/www/pds/yii/web/CController.php(309): CInlineAction->runWithParams()
+#1 /home/endel/www/pds/yii/web/filters/CFilterChain.php(134): LicitacoesController->runAction()
+#2 /home/endel/www/pds/yii/web/filters/CFilter.php(41): CFilterChain->run()
+#3 /home/endel/www/pds/yii/web/CController.php(1146): CAccessControlFilter->filter()
+#4 /home/endel/www/pds/yii/web/filters/CInlineFilter.php(59): LicitacoesController->filterAccessControl()
+#5 /home/endel/www/pds/yii/web/filters/CFilterChain.php(131): CInlineFilter->filter()
+#6 /home/endel/www/pds/yii/web/CController.php(292): CFilterChain->run()
+#7 /home/endel/www/pds/yii/web/CController.php(266): LicitacoesController->runActionWithFilters()
+#8 /home/endel/www/pds/yii/web/CWebApplication.php(283): LicitacoesController->run()
+#9 /home/endel/www/pds/yii/web/CWebApplication.php(142): CWebApplication->runController()
+#10 /home/endel/www/pds/yii/base/CApplication.php(162): CWebApplication->processRequest()
+#11 /home/endel/www/pds/index.php(13): CWebApplication->run()
+REQUEST_URI=/dev/pds/index.php/licitacoes/search?query=material+lenhoso
+in /home/endel/www/pds/protected/controllers/LicitacoesController.php (134)
+in /home/endel/www/pds/index.php (13)
+2012/12/02 14:15:21 [error] [php] Attempt to assign property of non-object (/home/endel/www/pds/yii/web/CPagination.php:217)
+Stack trace:
+#0 /home/endel/www/pds/yii/web/CController.php(309): CInlineAction->runWithParams()
+#1 /home/endel/www/pds/yii/web/filters/CFilterChain.php(134): LicitacoesController->runAction()
+#2 /home/endel/www/pds/yii/web/filters/CFilter.php(41): CFilterChain->run()
+#3 /home/endel/www/pds/yii/web/CController.php(1146): CAccessControlFilter->filter()
+#4 /home/endel/www/pds/yii/web/filters/CInlineFilter.php(59): LicitacoesController->filterAccessControl()
+#5 /home/endel/www/pds/yii/web/filters/CFilterChain.php(131): CInlineFilter->filter()
+#6 /home/endel/www/pds/yii/web/CController.php(292): CFilterChain->run()
+#7 /home/endel/www/pds/yii/web/CController.php(266): LicitacoesController->runActionWithFilters()
+#8 /home/endel/www/pds/yii/web/CWebApplication.php(283): LicitacoesController->run()
+#9 /home/endel/www/pds/yii/web/CWebApplication.php(142): CWebApplication->runController()
+#10 /home/endel/www/pds/yii/base/CApplication.php(162): CWebApplication->processRequest()
+#11 /home/endel/www/pds/index.php(13): CWebApplication->run()
+REQUEST_URI=/dev/pds/index.php/licitacoes/search?query=material+lenhoso
+in /home/endel/www/pds/protected/controllers/LicitacoesController.php (133)
+in /home/endel/www/pds/index.php (13)
+2012/12/02 14:15:58 [error] [php] Attempt to assign property of non-object (/home/endel/www/pds/yii/web/CPagination.php:217)
+Stack trace:
+#0 /home/endel/www/pds/yii/web/CController.php(309): CInlineAction->runWithParams()
+#1 /home/endel/www/pds/yii/web/filters/CFilterChain.php(134): LicitacoesController->runAction()
+#2 /home/endel/www/pds/yii/web/filters/CFilter.php(41): CFilterChain->run()
+#3 /home/endel/www/pds/yii/web/CController.php(1146): CAccessControlFilter->filter()
+#4 /home/endel/www/pds/yii/web/filters/CInlineFilter.php(59): LicitacoesController->filterAccessControl()
+#5 /home/endel/www/pds/yii/web/filters/CFilterChain.php(131): CInlineFilter->filter()
+#6 /home/endel/www/pds/yii/web/CController.php(292): CFilterChain->run()
+#7 /home/endel/www/pds/yii/web/CController.php(266): LicitacoesController->runActionWithFilters()
+#8 /home/endel/www/pds/yii/web/CWebApplication.php(283): LicitacoesController->run()
+#9 /home/endel/www/pds/yii/web/CWebApplication.php(142): CWebApplication->runController()
+#10 /home/endel/www/pds/yii/base/CApplication.php(162): CWebApplication->processRequest()
+#11 /home/endel/www/pds/index.php(13): CWebApplication->run()
+REQUEST_URI=/dev/pds/index.php/licitacoes/search?query=material+lenhoso
+in /home/endel/www/pds/protected/controllers/LicitacoesController.php (133)
+in /home/endel/www/pds/index.php (13)
+2012/12/02 14:33:53 [error] [php] Attempt to assign property of non-object (/home/endel/www/pds/yii/web/CPagination.php:217)
+Stack trace:
+#0 /home/endel/www/pds/yii/web/CController.php(309): CInlineAction->runWithParams()
+#1 /home/endel/www/pds/yii/web/filters/CFilterChain.php(134): LicitacoesController->runAction()
+#2 /home/endel/www/pds/yii/web/filters/CFilter.php(41): CFilterChain->run()
+#3 /home/endel/www/pds/yii/web/CController.php(1146): CAccessControlFilter->filter()
+#4 /home/endel/www/pds/yii/web/filters/CInlineFilter.php(59): LicitacoesController->filterAccessControl()
+#5 /home/endel/www/pds/yii/web/filters/CFilterChain.php(131): CInlineFilter->filter()
+#6 /home/endel/www/pds/yii/web/CController.php(292): CFilterChain->run()
+#7 /home/endel/www/pds/yii/web/CController.php(266): LicitacoesController->runActionWithFilters()
+#8 /home/endel/www/pds/yii/web/CWebApplication.php(283): LicitacoesController->run()
+#9 /home/endel/www/pds/yii/web/CWebApplication.php(142): CWebApplication->runController()
+#10 /home/endel/www/pds/yii/base/CApplication.php(162): CWebApplication->processRequest()
+#11 /home/endel/www/pds/index.php(13): CWebApplication->run()
+REQUEST_URI=/dev/pds/index.php/licitacoes/search?query=material
+in /home/endel/www/pds/protected/controllers/LicitacoesController.php (133)
+in /home/endel/www/pds/index.php (13)
+2012/12/02 23:10:09 [error] [php] Undefined offset: 1 (/home/endel/www/pds/protected/models/Licitacoes.php:71)
+Stack trace:
+#0 /home/endel/www/pds/yii/db/ar/CActiveRecord.php(1291): Licitacoes->populateRecords()
+#1 /home/endel/www/pds/yii/db/ar/CActiveRecord.php(1410): Licitacoes->query()
+#2 /home/endel/www/pds/protected/controllers/LicitacoesController.php(139): Licitacoes->findAll()
+#3 /home/endel/www/pds/yii/web/actions/CInlineAction.php(50): LicitacoesController->actionSearch()
+#4 /home/endel/www/pds/yii/web/CController.php(309): CInlineAction->runWithParams()
+#5 /home/endel/www/pds/yii/web/filters/CFilterChain.php(134): LicitacoesController->runAction()
+#6 /home/endel/www/pds/yii/web/filters/CFilter.php(41): CFilterChain->run()
+#7 /home/endel/www/pds/yii/web/CController.php(1146): CAccessControlFilter->filter()
+#8 /home/endel/www/pds/yii/web/filters/CInlineFilter.php(59): LicitacoesController->filterAccessControl()
+#9 /home/endel/www/pds/yii/web/filters/CFilterChain.php(131): CInlineFilter->filter()
+#10 /home/endel/www/pds/yii/web/CController.php(292): CFilterChain->run()
+#11 /home/endel/www/pds/yii/web/CController.php(266): LicitacoesController->runActionWithFilters()
+#12 /home/endel/www/pds/yii/web/CWebApplication.php(283): LicitacoesController->run()
+#13 /home/endel/www/pds/yii/web/CWebApplication.php(142): CWebApplication->runController()
+#14 /home/endel/www/pds/yii/base/CApplication.php(162): CWebApplication->processRequest()
+#15 /home/endel/www/pds/index.php(13): CWebApplication->run()
+REQUEST_URI=/dev/pds/index.php/licitacoes/search?query=aviso
+in /home/endel/www/pds/protected/models/Licitacoes.php (71)
+in /home/endel/www/pds/protected/controllers/LicitacoesController.php (139)
+in /home/endel/www/pds/index.php (13)
