@@ -40,10 +40,6 @@
 		<?php echo $form->label($model,'relCidade'); ?>
 		<?php echo $form->dropDownList($model,'id_cidade',CHtml::listData(Cidades::model()->findAll(), 'id_cidade', 'nome')); ?>
 	</div>
-        <div class="row">
-		<?php echo $form->label($model,'relModalidade'); ?>
-		<?php echo $form->dropDownList($model,'modalidade',CHtml::listData(Modalidades::model()->findAll(), 'modalidade', 'nome')); ?>
-	</div>
 
 	<div class="row buttons">
 		<?php echo CHtml::submitButton('Pesquisar'); ?>
