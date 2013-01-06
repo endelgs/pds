@@ -1,0 +1,712 @@
+<link href="./css/conteudo.css" rel="stylesheet" type="text/css" />
+<script src="./js/functions.js" type="text/javascript"></script>		
+<script src="./js/jquery-1.5.1.min.js" type="text/javascript"></script>
+<script type="text/javascript" src="./js/jquery-ui-1.8.12.custom.min.js"></script> 
+<link type="text/css" href="./css/redmond/jquery-ui-1.8.12.custom.css" rel="stylesheet" />	
+<link rel="stylesheet" href="./css/layout_widget.css">
+<script src="./js/SpryTabbedPanels.js" type="text/javascript"></script>
+<link href="./css/SpryTabbedPanels.css" rel="stylesheet" type="text/css" />
+
+
+<!-- AeroWindow -->
+<link href="./css/AeroWindow.css?r=123" rel="stylesheet" type="text/css"/>	
+<script type="text/javascript" src="./js/jquery-ui-1.8.12.custom.min.js"></script> 
+<script type="text/javascript" src="./js/jquery.easing.1.3.js"></script>    
+<script type="text/javascript" src="./js/jquery-AeroWindow.js"></script>
+
+<style>
+a:hover{
+		text-decoration:underline;
+		color:#004B7D;
+}
+</style>
+
+
+
+<body topmargin="0" marginwidth="0" leftmargin="0" marginwidth="0">
+
+
+
+
+<div id="show_cabecalho"></div>
+<script>
+				
+				document.getElementById("show_cabecalho").innerHTML = "";
+				
+			  </script>
+		<center>
+<table cellpadding="0" width="99%" cellspacing="0" style="margin:5px 1px 0px 1px;">
+  <tr>   
+    <td style="text-align:center;font-weight:bold;font-size:16px;vertical-align:top;padding-top:3px; ">
+Licitações    </td>  
+  </tr>
+  
+  
+  
+  
+  <tr>
+  
+
+      
+  <td >
+  
+  <table bgcolor="#ffffff" style="border-collapse:collapse;width:100%; " cellpadding="0" cellspacing="0" >
+    <tr>
+    <td>
+    
+    <table cellspacing="5" bgcolor=""  style="width:100%; ">
+      <tr>
+        <td>          <div style="padding-top:3px;"></div></td>
+      </tr>
+      <tr>
+      <td>
+      
+      <table width="100%"  cellpadding="0" cellspacing="0" >
+        <tr>
+          <td class="topo" style="text-align:left;font-weight:bold;font-size:12px;color:#15428b;text-indent:5px;border-bottom:#8cb2e5 solid 1px;border-left:#8cb2e5 solid 1px;border-right:#8cb2e5 solid 1px; " > Refine sua busca :
+          
+          
+  
+   
+		<div style="position:absolute"><form></div><input type="checkbox" name="e_fechado"  checked onclick="change_event_state(this,'2');"><span style="text-transform:none;" > Licitações	Encerradas</span><span>&nbsp;|&nbsp;</span> Ano <select onchange="combo_ano('/listar.php',this.value,'&titulo=Licitações&order=licitacao_nome,nro_licitacao desc&table=t_licitacoes&id_tipo=2')"><option value="2013"      >2013</option><option value="2012"    selected    >2012</option><option value="2011"      >2011</option><option value="2010"      >2010</option><option value="2009"      >2009</option><option value="2008"      >2008</option><option value="2007"      >2007</option><option value="2006"      >2006</option><option value="2005"      >2005</option><option value="2004"      >2004</option><option value="Todos" >Todos</option></select>
+ <div style="position:absolute"></form></div>              
+             
+            
+            
+            
+            </td>
+                    <td style="text-align:center;width:70px;vertical-align:top;"><div style="position:absolute">
+            <form name="">
+              </div>
+              <select name="" onChange="combo_resultados(this.value,'Licitações&table=t_licitacoes&order=licitacao_nome,nro_licitacao desc&id_tipo=2','/listar.php');">
+                <option value="3"  >3</option>
+                <option value="5"  > 5</option>
+                <option value="7"  >7</option>
+                <option value="10" selected >10</option>
+                <option value="15"  >15</option>
+                <option value="20"  >20</option>
+                <option value="30"  >30</option>
+                <option value="50"  >50</option>
+                <option value="100"  >100</option>
+              </select>
+              <div style="position:absolute">
+            </form>
+            </div></td>
+          <td style="width:21px;height:21px;vertical-align:top;"><img src="./images/print.gif" onClick="imprimir();"  title="imprimir" style="cursor:pointer;"></td>
+          <td style="text-align:center;width:170px;">
+          <div style="position:absolute">
+          <form name="frmLocalizar" method="post" action="/listar.php?titulo=Licitações&order=licitacao_nome,nro_licitacao desc&table=t_licitacoes&id_tipo=2">
+            </div>
+            	  
+            <input onKeyDown="if(event.keyCode=='13'){pesquisar_txt(0);}"  name="txtLocalizar"  class="input" id="txtLocalizar"  
+	  value=""
+	  		
+		  size=15 style="text-align:left;width:154px;text-indent:0px;margin-right:5px;margin-left:4px;" />
+            </td>
+            <td style="width:21px;height:21px;vertical-align:top;">              <a style="border:0px;" href="javascript:pesquisar_txt(0);"><img  alt="Localizar" src="./images/localizar.gif" style="height:21px;width:21px;border:0;text-indent:0px;" /></a>
+              </td>
+            <td >
+            <div style="position:absolute">
+              <input type="hidden" name="localizar" value="">
+              <input type="hidden" name="fields_value" value="">
+              <input type="hidden" name="state_gif" value="">
+              <input type="hidden" name="valor_antigo" value="" id="valor_antigo">
+          </form>
+          </div>
+        </td>
+        </tr>
+      </table>
+      </td>
+      </tr>
+      
+      <tr>
+        <td style="text-align:center;background-color:#cccccc;" ><div style="height:14px;font-size:12px;background-color:#ffffff;" id="label_resultados">Resultados:</div></td>
+      </tr>
+      <tr>
+      <td>
+      
+      <div style="position:absolute;">
+      
+      <form name="frmlistar" method="post" >
+      
+      </div>
+      
+      </td>
+      </tr>
+      
+      <tr>
+        <td><TABLE  id='tabela'  CELLPADDING="2" CELLSPACING="0"  STYLE=";width:100%;overflow:scroll;">
+<tr>
+<th  style="background-image:none;" nowrap>Ordenar: </th><th style=" width:1px;height:16px;  " nowrap><img    width="1px" height="16px" src="./images/blank.gif"  nowrap> </th><th id=col1 title="ordenar por ASC" style="" nowrap onclick="javascript:location.href='?shop_id=&table=t_licitacoes&order=licitacao_nome,nro_licitacao desc&tabelle=t_licitacoes&order_tbl=nro_licitacao&type=ASC&titulo=Licitações&id_tipo=2';">licitação&nbsp;<img style='text-decoration:none;border:0px;' src='./images/arup.gif'></th></a><th id=col2 title="ordenar por ASC" style="" nowrap onclick="javascript:location.href='?shop_id=&table=t_licitacoes&order=licitacao_nome,nro_licitacao desc&tabelle=t_licitacoes&order_tbl=interessado&type=ASC&titulo=Licitações&id_tipo=2';">interessado&nbsp;<img style='text-decoration:none;border:0px;' src='./images/arup.gif'></th></a><th id=col3 title="ordenar por ASC" style="" nowrap onclick="javascript:location.href='?shop_id=&table=t_licitacoes&order=licitacao_nome,nro_licitacao desc&tabelle=t_licitacoes&order_tbl=publish&type=ASC&titulo=Licitações&id_tipo=2';">publicado em&nbsp;<img style='text-decoration:none;border:0px;' src='./images/arup.gif'></th></a><th id=col4 title="ordenar por ASC" style="" nowrap onclick="javascript:location.href='?shop_id=&table=t_licitacoes&order=licitacao_nome,nro_licitacao desc&tabelle=t_licitacoes&order_tbl=expire&type=ASC&titulo=Licitações&id_tipo=2';">Encerra em&nbsp;<img style='text-decoration:none;border:0px;' src='./images/arup.gif'></th></a><th id=col5 title="ordenar por ASC" style="" nowrap onclick="javascript:location.href='?shop_id=&table=t_licitacoes&order=licitacao_nome,nro_licitacao desc&tabelle=t_licitacoes&order_tbl=abertura_envelopes&type=ASC&titulo=Licitações&id_tipo=2';">abertura envelopes&nbsp;<img style='text-decoration:none;border:0px;' src='./images/arup.gif'></th></a><th id=col6 title="ordenar por ASC" style="" nowrap onclick="javascript:location.href='?shop_id=&table=t_licitacoes&order=licitacao_nome,nro_licitacao desc&tabelle=t_licitacoes&order_tbl=entrega_envelopes&type=ASC&titulo=Licitações&id_tipo=2';">Sessão Pública&nbsp;<img style='text-decoration:none;border:0px;' src='./images/arup.gif'></th></a><th id=col7 title="ordenar por ASC" style="" nowrap onclick="javascript:location.href='?shop_id=&table=t_licitacoes&order=licitacao_nome,nro_licitacao desc&tabelle=t_licitacoes&order_tbl=objeto&type=ASC&titulo=Licitações&id_tipo=2';">Objeto&nbsp;<img style='text-decoration:none;border:0px;' src='./images/arup.gif'></th></a></tr><tr id='linha232'  ><td colspan="17"><br><div id="tabs232" class="tabs" style="width:97%">
+          <ul><li><a href="#tabs1-232"         >Concorrência 011/2012 </a></li> <li><a href="#tabs4-232">Aviso de Licitação</a></li> <li><a href="#tabs2-232">Edital</a></li>  <li><a href="#tabs3-232">Publicações</a></li> </ul><div id="tabs1-232" style="width:97%;margin:2px;padding:2px;" tabindex="1"><table cellpadding="0" cellspacing="0"><tr><td valign="top" style="width:100%;"><b>Protocolo: </b><kbd class="simple-text">12/10/40.605</kbd>&nbsp;&nbsp; <b>Ano: </b><kbd class="simple-text">2012</kbd><br> <b>Interessado: </b><kbd class="simple-text">secretaria municipal de infraestrutura</kbd><br>  <b>Objeto: </b><kbd class="simple-text" style="color:#1D5987;">Prestação de serviços de implantação, operação e manutenção de sistema de tratamento de resíduos de serviço de saúde dos grupos A, E e carcaças de animais de pequeno porte, incluindo disposição final, coleta mecanizada de resíduos de serviço de saúde em grandes geradores com fornecimento e manutenção de contêineres e coleta de resíduos de serviço de saúde em pequenos geradores</kbd><br> <b>Encerramento e abertura dos envelopes: </b><kbd class="simple-text">27/11/2012 10:30 - <b style='color:#ff0000;'>encerrado há 40 dias</b></kbd><br> <b>Entrega dos envelopes e sessão pública: </b><kbd class="simple-text">27/11/2012 10:30 - <b style='color:#ff0000;'>encerrado há 40 dias</b></kbd><br> </td><td valign="top" ><div style="width:200px;text-align:right;"><b>Publicado em </b><kbd class="simple-text">25/10/2012 08:00<br>publicado há 73 dias</kbd><br> </div></td></tr></table></div><div id="tabs2-232" style="width:97%;margin:2px;padding:2px;" tabindex="2" ><table cellpadding="4" cellspacing="0"><tr><td valign="top" style="width:100%;"><tr><td > <a href="#" onclick="download_anexo(this);" id="anex_295"  title="Clique para iniciar o download"><b>Edital</b>:<img src="./images/doc.png" border="0"  align="absmiddle" ></a><kbd class="simple-text"> &nbsp;( publicado em 25/10/2012 10:35 )</kbd></td></tr><tr><td > <a href="#" onclick="download_anexo(this);" id="anex_296"  title="Clique para iniciar o download"><b>Anexo I - Projeto Básico</b>:<img src="./images/doc.png" border="0"  align="absmiddle" ></a><kbd class="simple-text"> &nbsp;( publicado em 25/10/2012 10:36 )</kbd></td></tr><tr><td > <a href="#" onclick="download_anexo(this);" id="anex_297"  title="Clique para iniciar o download"><b>1. Apêndice I</b>:<img src="./images/pdf.png" border="0"  align="absmiddle" ></a><kbd class="simple-text"> &nbsp;( publicado em 25/10/2012 10:36 )</kbd></td></tr><tr><td > <a href="#" onclick="download_anexo(this);" id="anex_298"  title="Clique para iniciar o download"><b>2. Apêndice I</b>:<img src="./images/pdf.png" border="0"  align="absmiddle" ></a><kbd class="simple-text"> &nbsp;( publicado em 25/10/2012 10:38 )</kbd></td></tr><tr><td > <a href="#" onclick="download_anexo(this);" id="anex_299"  title="Clique para iniciar o download"><b>3.Apêndice I</b>:<img src="./images/pdf.png" border="0"  align="absmiddle" ></a><kbd class="simple-text"> &nbsp;( publicado em 25/10/2012 10:38 )</kbd></td></tr><tr><td > <a href="#" onclick="download_anexo(this);" id="anex_300"  title="Clique para iniciar o download"><b>4. Apêndice I</b>:<img src="./images/pdf.png" border="0"  align="absmiddle" ></a><kbd class="simple-text"> &nbsp;( publicado em 25/10/2012 10:39 )</kbd></td></tr><tr><td > <a href="#" onclick="download_anexo(this);" id="anex_301"  title="Clique para iniciar o download"><b>5.Apêndice I</b>:<img src="./images/pdf.png" border="0"  align="absmiddle" ></a><kbd class="simple-text"> &nbsp;( publicado em 25/10/2012 10:39 )</kbd></td></tr><tr><td > <a href="#" onclick="download_anexo(this);" id="anex_302"  title="Clique para iniciar o download"><b>6.Apêndice I</b>:<img src="./images/pdf.png" border="0"  align="absmiddle" ></a><kbd class="simple-text"> &nbsp;( publicado em 25/10/2012 10:40 )</kbd></td></tr><tr><td > <a href="#" onclick="download_anexo(this);" id="anex_303"  title="Clique para iniciar o download"><b>7.Apêndice I</b>:<img src="./images/pdf.png" border="0"  align="absmiddle" ></a><kbd class="simple-text"> &nbsp;( publicado em 25/10/2012 10:40 )</kbd></td></tr><tr><td > <a href="#" onclick="download_anexo(this);" id="anex_304"  title="Clique para iniciar o download"><b>Apêndice II</b>:<img src="./images/pdf.png" border="0"  align="absmiddle" ></a><kbd class="simple-text"> &nbsp;( publicado em 25/10/2012 10:41 )</kbd></td></tr><tr><td > <a href="#" onclick="download_anexo(this);" id="anex_305"  title="Clique para iniciar o download"><b>Apêndice III</b>:<img src="./images/xls.png" border="0"  align="absmiddle" ></a><kbd class="simple-text"> &nbsp;( publicado em 25/10/2012 10:42 )</kbd></td></tr></table></div><div id="tabs3-232" style="width:97%;margin:0px;padding:0px;" tabindex="3" ><table cellpadding="4" cellspacing="0"><tr><td valign="top" style="width:100%;"><tr><td ><a href="#" onclick="download_anexo(this);" id="anex_418" title="Clique para iniciar o download"><b>SUSPENSÃO DA CONCORRÊNCIA N°011/2012</b>: <img src="./images/doc.png" border="0"  align="absmiddle" ></a><kbd class="simple-text"> &nbsp; ( publicado em 27/11/2012 08:00 )</kbd></td></tr><tr><td ><a href="#" onclick="download_anexo(this);" id="anex_526" title="Clique para iniciar o download"><b>SUSPENSÃO DA CONCORRÊNCIA Nº 011/2012</b>: <img src="./images/doc.png" border="0"  align="absmiddle" ></a><kbd class="simple-text"> &nbsp; ( publicado em 18/12/2012 18:00 )</kbd></td></tr><tr><td ><a href="#" onclick="download_anexo(this);" id="anex_558" title="Clique para iniciar o download"><b>REVOGAÇÃO</b>: <img src="./images/doc.png" border="0"  align="absmiddle" ></a><kbd class="simple-text"> &nbsp; ( publicado em 04/01/2013 12:32 )</kbd></td></tr></table></div><div id="tabs4-232" style="width:97%;margin:0px;padding:0px;" tabindex="4"  ><kbd class="simple-text"><!--[if gte mso 9]><xml>
+ <w:WordDocument>
+  <w:View>Normal</w:View>
+  <w:Zoom>0</w:Zoom>
+  <w:HyphenationZone>21</w:HyphenationZone>
+  <w:PunctuationKerning/>
+  <w:ValidateAgainstSchemas/>
+  <w:SaveIfXMLInvalid>false</w:SaveIfXMLInvalid>
+  <w:IgnoreMixedContent>false</w:IgnoreMixedContent>
+  <w:AlwaysShowPlaceholderText>false</w:AlwaysShowPlaceholderText>
+  <w:Compatibility>
+   <w:BreakWrappedTables/>
+   <w:SnapToGridInCell/>
+   <w:WrapTextWithPunct/>
+   <w:UseAsianBreakRules/>
+   <w:DontGrowAutofit/>
+  </w:Compatibility>
+  <w:BrowserLevel>MicrosoftInternetExplorer4</w:BrowserLevel>
+ </w:WordDocument>
+</xml><![endif]--> 
+  <h5 align="center" style="margin-left: -7.1pt; text-align: center; line-height: 18pt;"><span style="font-size: 11pt; font-family: Tahoma; font-style: normal;"><span> </span></span><span style="font-size: 11pt; font-family: Tahoma; font-style: normal;">AVISO DE LICITAÇÃO</span><span style="font-size: 11pt; font-family: Tahoma;"></span></h5> 
+  <p style="margin-left: -7.1pt; line-height: 18pt;" class="MsoNormal"><span style="font-size: 11pt; font-family: Tahoma;"> </span></p> 
+  <p style="line-height: 18pt;" class="MsoNormal"><span style="font-size: 11pt; font-family: Tahoma;">Acha-se aberta na Prefeitura
+Municipal de Campinas a <strong>Concorrência<span> nº 011/2012 </span></strong>-<strong> </strong><strong>Processo Administrativo <span>nº </span></strong><span style="color: black;">12/10/40.605
+-</span> <strong>Interessado:</strong> Secretaria
+Municipal de Infraestrutura<span style="color: black;"> - </span><strong>Objeto:</strong><span style="color: black;"> </span><span>P</span></span><span style="font-size: 11pt; font-family: Tahoma; color: black;">restação de serviços de implantação, operação e manutenção de
+sistema de tratamento de resíduos de serviço de saúde dos grupos A, E e
+carcaças de animais de pequeno porte, incluindo disposição final, coleta
+mecanizada de resíduos de serviço de saúde em grandes geradores com
+fornecimento e manutenção de contêineres e coleta de resíduos de serviço de
+saúde em pequenos geradores</span><span style="font-size: 11pt; font-family: Tahoma; color: black;">.</span><span style="font-size: 11pt; font-family: Tahoma;"> </span><strong><span style="font-size: 11pt; font-family: Tahoma; color: black;">En</span></strong><strong><span style="font-size: 11pt; font-family: Tahoma;">trega dos envelopes:</span></strong><span style="font-size: 11pt; font-family: Tahoma;"> até 27</span><span style="font-size: 11pt; font-family: Tahoma;">/11/2012 <span>à</span>s 10h30min<span>. <strong>Sessão de
+abertura:</strong> 27</span>/11/2012 às 10h30min<span>. <strong>Disponibilidade do edital</strong></span>: a partir de<span> 25/10/2012, no portal eletrônico </span></span><a href="http://www.campinas.sp.gov.br/"><span style="font-family: Tahoma;">www.campinas.sp.gov.br</span></a><span style="font-size: 11pt; font-family: Tahoma;">.</span></p> 
+  <p style="margin-left: -7.1pt; line-height: 18pt;" class="MsoNormal"><span style="font-size: 11pt; font-family: Tahoma;"> </span></p> 
+  <p align="center" style="margin-left: -7.1pt; text-align: center; line-height: 18pt;" class="MsoNormal"><span style="font-size: 11pt; font-family: Tahoma;">Campinas, 24 de outubro de 2012.</span></p> 
+  <p align="center" style="margin-left: -7.1pt; text-align: center; line-height: 18pt;" class="MsoNormal"><span style="font-size: 11pt; font-family: Tahoma;"> </span></p> 
+  <h3 style="margin-left: -7.1pt; text-indent: 0cm; line-height: 18pt;"><span style="font-size: 11pt; font-family: Tahoma;">Comissão Permanente de Licitações</span><span style="font-size: 11pt; font-family: Tahoma;"></span></h3> 
+  <p style="margin-left: -7.1pt; line-height: 18pt;" class="MsoNormal"><span style="font-size: 11pt; font-family: Tahoma;"> </span></p> <!--[if gte mso 9]><xml>
+ <w:LatentStyles DefLockedState="false" LatentStyleCount="156">
+ </w:LatentStyles>
+</xml><![endif]--><!--[if gte mso 10]>
+<style>
+ /* Style Definitions */
+ table.MsoNormalTable
+	{mso-style-name:"Tabela normal";
+	mso-tstyle-rowband-size:0;
+	mso-tstyle-colband-size:0;
+	mso-style-noshow:yes;
+	mso-style-parent:"";
+	mso-padding-alt:0cm 5.4pt 0cm 5.4pt;
+	mso-para-margin:0cm;
+	mso-para-margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:10.0pt;
+	font-family:"Times New Roman";
+	mso-ansi-language:#0400;
+	mso-fareast-language:#0400;
+	mso-bidi-language:#0400;}
+</style>
+<![endif]--></kbd></div> </div>   </td></tr>
+<tr id='linha180'  ><td colspan="17"><br><div id="tabs180" class="tabs" style="width:97%">
+          <ul><li><a href="#tabs1-180"         >Concorrência 010/2012 </a></li> <li><a href="#tabs4-180">Aviso de Licitação</a></li> <li><a href="#tabs2-180">Edital</a></li>  <li><a href="#tabs3-180">Publicações</a></li> </ul><div id="tabs1-180" style="width:97%;margin:2px;padding:2px;" tabindex="1"><table cellpadding="0" cellspacing="0"><tr><td valign="top" style="width:100%;"><b>Protocolo: </b><kbd class="simple-text">12/10/41.540</kbd>&nbsp;&nbsp; <b>Ano: </b><kbd class="simple-text">2012</kbd><br> <b>Interessado: </b><kbd class="simple-text">secretaria municipal de infraestrutura</kbd><br>  <b>Objeto: </b><kbd class="simple-text" style="color:#1D5987;">Prestação de serviços de limpeza urbana do Sistema Integrado de Limpeza Pública do Município de Campinas, compreendendo a coleta de resíduos sólidos urbanos, os sistemas complementares de limpeza urbana, implantação e operação de unidade de segregação, beneficiamento e trituração, operação e monitoramento de aterros sanitários municipais.</kbd><br> <b>Encerramento e abertura dos envelopes: </b><kbd class="simple-text">08/11/2012 10:30 - <b style='color:#ff0000;'>encerrado há 59 dias</b></kbd><br> <b>Entrega dos envelopes e sessão pública: </b><kbd class="simple-text">08/11/2012 10:30 - <b style='color:#ff0000;'>encerrado há 59 dias</b></kbd><br> </td><td valign="top" ><div style="width:200px;text-align:right;"><b>Publicado em </b><kbd class="simple-text">08/10/2012 08:00<br>publicado há 90 dias</kbd><br> </div></td></tr></table></div><div id="tabs2-180" style="width:97%;margin:2px;padding:2px;" tabindex="2" ><table cellpadding="4" cellspacing="0"><tr><td valign="top" style="width:100%;"><tr><td > <a href="#" onclick="download_anexo(this);" id="anex_241"  title="Clique para iniciar o download"><b>Edital</b>:<img src="./images/doc.png" border="0"  align="absmiddle" ></a><kbd class="simple-text"> &nbsp;( publicado em 09/10/2012 11:46 )</kbd></td></tr><tr><td > <a href="#" onclick="download_anexo(this);" id="anex_164"  title="Clique para iniciar o download"><b>1. Base Cartográfica</b>:<img src="./images/xxx.png" border="0"  align="absmiddle" ></a><kbd class="simple-text"> &nbsp;( publicado em 09/10/2012 08:00 )</kbd></td></tr><tr><td > <a href="#" onclick="download_anexo(this);" id="anex_208"  title="Clique para iniciar o download"><b>1. Coleta e Correlatos</b>:<img src="./images/pdf.png" border="0"  align="absmiddle" ></a><kbd class="simple-text"> &nbsp;( publicado em 09/10/2012 08:00 )</kbd></td></tr><tr><td > <a href="#" onclick="download_anexo(this);" id="anex_209"  title="Clique para iniciar o download"><b>2. Coleta e Correlatos</b>:<img src="./images/pdf.png" border="0"  align="absmiddle" ></a><kbd class="simple-text"> &nbsp;( publicado em 09/10/2012 08:00 )</kbd></td></tr><tr><td > <a href="#" onclick="download_anexo(this);" id="anex_210"  title="Clique para iniciar o download"><b>3. Coleta e Correlatos</b>:<img src="./images/pdf.png" border="0"  align="absmiddle" ></a><kbd class="simple-text"> &nbsp;( publicado em 09/10/2012 08:00 )</kbd></td></tr><tr><td > <a href="#" onclick="download_anexo(this);" id="anex_212"  title="Clique para iniciar o download"><b>4. Coleta e Correlatos</b>:<img src="./images/pdf.png" border="0"  align="absmiddle" ></a><kbd class="simple-text"> &nbsp;( publicado em 09/10/2012 08:00 )</kbd></td></tr><tr><td > <a href="#" onclick="download_anexo(this);" id="anex_273"  title="Clique para iniciar o download"><b>4. Coleta e Correlatos</b>:<img src="./images/pdf.png" border="0"  align="absmiddle" ></a><kbd class="simple-text"> &nbsp;( publicado em 19/10/2012 11:55 )</kbd></td></tr><tr><td > <a href="#" onclick="download_anexo(this);" id="anex_213"  title="Clique para iniciar o download"><b>1. Delta A</b>:<img src="./images/pdf.png" border="0"  align="absmiddle" ></a><kbd class="simple-text"> &nbsp;( publicado em 09/10/2012 08:00 )</kbd></td></tr><tr><td > <a href="#" onclick="download_anexo(this);" id="anex_214"  title="Clique para iniciar o download"><b>2. Delta A</b>:<img src="./images/pdf.png" border="0"  align="absmiddle" ></a><kbd class="simple-text"> &nbsp;( publicado em 09/10/2012 08:00 )</kbd></td></tr><tr><td > <a href="#" onclick="download_anexo(this);" id="anex_215"  title="Clique para iniciar o download"><b>3. Delta A</b>:<img src="./images/pdf.png" border="0"  align="absmiddle" ></a><kbd class="simple-text"> &nbsp;( publicado em 09/10/2012 08:00 )</kbd></td></tr><tr><td > <a href="#" onclick="download_anexo(this);" id="anex_216"  title="Clique para iniciar o download"><b>4. Delta A</b>:<img src="./images/pdf.png" border="0"  align="absmiddle" ></a><kbd class="simple-text"> &nbsp;( publicado em 09/10/2012 08:00 )</kbd></td></tr><tr><td > <a href="#" onclick="download_anexo(this);" id="anex_217"  title="Clique para iniciar o download"><b>5. Delta A</b>:<img src="./images/pdf.png" border="0"  align="absmiddle" ></a><kbd class="simple-text"> &nbsp;( publicado em 09/10/2012 08:00 )</kbd></td></tr><tr><td > <a href="#" onclick="download_anexo(this);" id="anex_218"  title="Clique para iniciar o download"><b>6. Delta A</b>:<img src="./images/pdf.png" border="0"  align="absmiddle" ></a><kbd class="simple-text"> &nbsp;( publicado em 09/10/2012 08:00 )</kbd></td></tr><tr><td > <a href="#" onclick="download_anexo(this);" id="anex_219"  title="Clique para iniciar o download"><b>1. Sub Lev</b>:<img src="./images/pdf.png" border="0"  align="absmiddle" ></a><kbd class="simple-text"> &nbsp;( publicado em 09/10/2012 08:00 )</kbd></td></tr><tr><td > <a href="#" onclick="download_anexo(this);" id="anex_220"  title="Clique para iniciar o download"><b>2. Sub Lev</b>:<img src="./images/pdf.png" border="0"  align="absmiddle" ></a><kbd class="simple-text"> &nbsp;( publicado em 09/10/2012 08:00 )</kbd></td></tr><tr><td > <a href="#" onclick="download_anexo(this);" id="anex_221"  title="Clique para iniciar o download"><b>1. USBE</b>:<img src="./images/pdf.png" border="0"  align="absmiddle" ></a><kbd class="simple-text"> &nbsp;( publicado em 09/10/2012 08:00 )</kbd></td></tr><tr><td > <a href="#" onclick="download_anexo(this);" id="anex_222"  title="Clique para iniciar o download"><b>2. USBE</b>:<img src="./images/pdf.png" border="0"  align="absmiddle" ></a><kbd class="simple-text"> &nbsp;( publicado em 09/10/2012 08:00 )</kbd></td></tr><tr><td > <a href="#" onclick="download_anexo(this);" id="anex_223"  title="Clique para iniciar o download"><b>3. USBE</b>:<img src="./images/pdf.png" border="0"  align="absmiddle" ></a><kbd class="simple-text"> &nbsp;( publicado em 09/10/2012 08:00 )</kbd></td></tr><tr><td > <a href="#" onclick="download_anexo(this);" id="anex_224"  title="Clique para iniciar o download"><b>4. USBE</b>:<img src="./images/pdf.png" border="0"  align="absmiddle" ></a><kbd class="simple-text"> &nbsp;( publicado em 09/10/2012 08:00 )</kbd></td></tr><tr><td > <a href="#" onclick="download_anexo(this);" id="anex_225"  title="Clique para iniciar o download"><b>5. USBE</b>:<img src="./images/pdf.png" border="0"  align="absmiddle" ></a><kbd class="simple-text"> &nbsp;( publicado em 09/10/2012 08:00 )</kbd></td></tr><tr><td > <a href="#" onclick="download_anexo(this);" id="anex_226"  title="Clique para iniciar o download"><b>6. USBE</b>:<img src="./images/pdf.png" border="0"  align="absmiddle" ></a><kbd class="simple-text"> &nbsp;( publicado em 09/10/2012 08:00 )</kbd></td></tr><tr><td > <a href="#" onclick="download_anexo(this);" id="anex_227"  title="Clique para iniciar o download"><b>7. USBE</b>:<img src="./images/pdf.png" border="0"  align="absmiddle" ></a><kbd class="simple-text"> &nbsp;( publicado em 09/10/2012 08:00 )</kbd></td></tr><tr><td > <a href="#" onclick="download_anexo(this);" id="anex_228"  title="Clique para iniciar o download"><b>8. USBE</b>:<img src="./images/pdf.png" border="0"  align="absmiddle" ></a><kbd class="simple-text"> &nbsp;( publicado em 09/10/2012 08:00 )</kbd></td></tr><tr><td > <a href="#" onclick="download_anexo(this);" id="anex_229"  title="Clique para iniciar o download"><b>9. USBE</b>:<img src="./images/pdf.png" border="0"  align="absmiddle" ></a><kbd class="simple-text"> &nbsp;( publicado em 09/10/2012 08:00 )</kbd></td></tr><tr><td > <a href="#" onclick="download_anexo(this);" id="anex_230"  title="Clique para iniciar o download"><b>10. USBE</b>:<img src="./images/pdf.png" border="0"  align="absmiddle" ></a><kbd class="simple-text"> &nbsp;( publicado em 09/10/2012 08:00 )</kbd></td></tr><tr><td > <a href="#" onclick="download_anexo(this);" id="anex_231"  title="Clique para iniciar o download"><b>11. USBE</b>:<img src="./images/pdf.png" border="0"  align="absmiddle" ></a><kbd class="simple-text"> &nbsp;( publicado em 09/10/2012 08:00 )</kbd></td></tr><tr><td > <a href="#" onclick="download_anexo(this);" id="anex_232"  title="Clique para iniciar o download"><b>12. USBE</b>:<img src="./images/pdf.png" border="0"  align="absmiddle" ></a><kbd class="simple-text"> &nbsp;( publicado em 09/10/2012 08:00 )</kbd></td></tr><tr><td > <a href="#" onclick="download_anexo(this);" id="anex_233"  title="Clique para iniciar o download"><b>13. USBE</b>:<img src="./images/pdf.png" border="0"  align="absmiddle" ></a><kbd class="simple-text"> &nbsp;( publicado em 09/10/2012 08:00 )</kbd></td></tr><tr><td > <a href="#" onclick="download_anexo(this);" id="anex_234"  title="Clique para iniciar o download"><b>14. USBE</b>:<img src="./images/pdf.png" border="0"  align="absmiddle" ></a><kbd class="simple-text"> &nbsp;( publicado em 09/10/2012 08:00 )</kbd></td></tr><tr><td > <a href="#" onclick="download_anexo(this);" id="anex_235"  title="Clique para iniciar o download"><b>15. USBE</b>:<img src="./images/pdf.png" border="0"  align="absmiddle" ></a><kbd class="simple-text"> &nbsp;( publicado em 09/10/2012 08:00 )</kbd></td></tr><tr><td > <a href="#" onclick="download_anexo(this);" id="anex_336"  title="Clique para iniciar o download"><b>Anexo I - Projeto Básico</b>:<img src="./images/doc.png" border="0"  align="absmiddle" ></a><kbd class="simple-text"> &nbsp;( publicado em 25/10/2012 16:56 )</kbd></td></tr></table></div><div id="tabs3-180" style="width:97%;margin:0px;padding:0px;" tabindex="3" ><table cellpadding="4" cellspacing="0"><tr><td valign="top" style="width:100%;"><tr><td ><a href="#" onclick="download_anexo(this);" id="anex_195" title="Clique para iniciar o download"><b>1. Endereços</b>: <img src="./images/pdf.png" border="0"  align="absmiddle" ></a><kbd class="simple-text"> &nbsp; ( publicado em 09/10/2012 08:00 )</kbd></td></tr><tr><td ><a href="#" onclick="download_anexo(this);" id="anex_196" title="Clique para iniciar o download"><b>2. Endereços</b>: <img src="./images/pdf.png" border="0"  align="absmiddle" ></a><kbd class="simple-text"> &nbsp; ( publicado em 09/10/2012 08:00 )</kbd></td></tr><tr><td ><a href="#" onclick="download_anexo(this);" id="anex_197" title="Clique para iniciar o download"><b>3. Endereços</b>: <img src="./images/pdf.png" border="0"  align="absmiddle" ></a><kbd class="simple-text"> &nbsp; ( publicado em 09/10/2012 08:00 )</kbd></td></tr><tr><td ><a href="#" onclick="download_anexo(this);" id="anex_198" title="Clique para iniciar o download"><b>4. Endereços</b>: <img src="./images/pdf.png" border="0"  align="absmiddle" ></a><kbd class="simple-text"> &nbsp; ( publicado em 09/10/2012 08:00 )</kbd></td></tr><tr><td ><a href="#" onclick="download_anexo(this);" id="anex_199" title="Clique para iniciar o download"><b>5. Endereços</b>: <img src="./images/pdf.png" border="0"  align="absmiddle" ></a><kbd class="simple-text"> &nbsp; ( publicado em 09/10/2012 08:00 )</kbd></td></tr><tr><td ><a href="#" onclick="download_anexo(this);" id="anex_200" title="Clique para iniciar o download"><b>1. Escopo Técnico e Preços de Referência</b>: <img src="./images/pdf.png" border="0"  align="absmiddle" ></a><kbd class="simple-text"> &nbsp; ( publicado em 09/10/2012 08:00 )</kbd></td></tr><tr><td ><a href="#" onclick="download_anexo(this);" id="anex_201" title="Clique para iniciar o download"><b>2. Escopo técnico e Preços de Referência/Planilha</b>: <img src="./images/xls.png" border="0"  align="absmiddle" ></a><kbd class="simple-text"> &nbsp; ( publicado em 09/10/2012 08:00 )</kbd></td></tr><tr><td ><a href="#" onclick="download_anexo(this);" id="anex_265" title="Clique para iniciar o download"><b>COMUNICADO DE ALTERAÇÃO DO EDITAL DA CONCORRÊNCIA 010/2012</b>: <img src="./images/doc.png" border="0"  align="absmiddle" ></a><kbd class="simple-text"> &nbsp; ( publicado em 17/10/2012 08:00 )</kbd></td></tr><tr><td ><a href="#" onclick="download_anexo(this);" id="anex_368" title="Clique para iniciar o download"><b>suspensão da concorrência nº 010/2012</b>: <img src="./images/doc.png" border="0"  align="absmiddle" ></a><kbd class="simple-text"> &nbsp; ( publicado em 06/11/2012 08:00 )</kbd></td></tr></table></div><div id="tabs4-180" style="width:97%;margin:0px;padding:0px;" tabindex="4"  ><kbd class="simple-text">&nbsp; 
+  <h5 align="center" style="text-align: center; line-height: 18pt; margin-left: -7.1pt"><span style="font-style: normal; font-family: Tahoma; font-size: 11pt"><span></span></span><span style="font-style: normal; font-family: Tahoma; font-size: 11pt">AVISO DE LICITAÇÃO</span><span style="font-family: Tahoma; font-size: 11pt"></span></h5>
+  <p class="MsoNormal" style="line-height: 18pt; margin-left: -7.1pt"><span style="font-family: Tahoma; font-size: 11pt"></span></p>
+  <p class="MsoNormal" style="line-height: 18pt"><span style="font-family: Tahoma; font-size: 11pt">Acha-se aberta na Prefeitura Municipal de Campinas a <strong>Concorrência<span> nº 010/2012 </span></strong>-<strong> </strong><strong>Processo Administrativo <span>nº </span></strong><span style="color: black">12/10/</span>41.540<span style="color: black"> -</span> <strong>Interessado:</strong> Secretaria Municipal de Infraestrutura<span style="color: black"> - </span><strong>Objeto:</strong><span style="color: black"> </span><span>P</span></span><span style="font-family: Tahoma; color: black; font-size: 11pt">restação de serviços de limpeza urbana do </span><span style="font-family: Tahoma; font-size: 11pt">Sistema Integrado de Limpeza Pública do Município de Campinas, compreendendo a coleta de resíduos sólidos urbanos, os sistemas complementares de limpeza urbana, implantação e operação de unidade de segregação, beneficiamento e trituração, operação e monitoramento de aterros sanitários municipais<span style="color: black">.</span><span> </span><strong><span style="color: black">En</span><span>trega dos envelopes:</span></strong><span> até 08</span>/11/2012 <span>à</span>s 10h30min<span>. <strong>Sessão de abertura:</strong> 08</span>/11/2012 às 10h30min<span>. <strong>Disponibilidade do edital</strong></span>: a partir de<span> 09/10/2012,</span> para consulta, ou para aquisição, ao preço de R$ 10,00 (dez reais), <span>na Secretaria Municipal de Administração, localizada na Avenida Anchieta nº 200, 6º andar - Campinas (SP), das 08h30min às 12h e das 13h30min às 16h30min. O edital poderá ser disponibilizado, a critério da Prefeitura Municipal de Campinas, sem ônus, no portal eletrônico </span></span><a href="http://www.campinas.sp.gov.br/"><span style="font-family: Tahoma">www.campinas.sp.gov.br</span></a><span style="font-family: Tahoma; font-size: 11pt">.</span></p>
+  <p class="MsoNormal" style="line-height: 18pt; margin-left: -7.1pt"><span style="font-family: Tahoma; font-size: 11pt"></span></p>
+  <p class="MsoNormal" align="center" style="text-align: center; line-height: 18pt; margin-left: -7.1pt"><span style="font-family: Tahoma; font-size: 11pt">Campinas, 05 de outubro de 2012.</span></p>
+  <p class="MsoNormal" align="center" style="text-align: center; line-height: 18pt; margin-left: -7.1pt"><span style="font-family: Tahoma; font-size: 11pt"></span></p>
+  <h3 style="line-height: 18pt; text-indent: 0cm; margin-left: -7.1pt"><span style="font-family: Tahoma; font-size: 11pt">Comissão Permanente de Licitações</span><span style="font-family: Tahoma; font-size: 11pt"></span></h3>
+  <p class="MsoNormal" style="line-height: 18pt; margin-left: -7.1pt"><span style="font-family: Tahoma; font-size: 11pt"></span></p></kbd></div> </div>   </td></tr>
+<tr id='linha81'  ><td colspan="17"><br><div id="tabs81" class="tabs" style="width:97%">
+          <ul><li><a href="#tabs1-81"         >Concorrência 009/2012 </a></li> <li><a href="#tabs4-81">Aviso de Licitação</a></li> <li><a href="#tabs2-81">Edital</a></li>  <li><a href="#tabs3-81">Publicações</a></li> </ul><div id="tabs1-81" style="width:97%;margin:2px;padding:2px;" tabindex="1"><table cellpadding="0" cellspacing="0"><tr><td valign="top" style="width:100%;"><b>Protocolo: </b><kbd class="simple-text">11/10/40.475</kbd>&nbsp;&nbsp; <b>Ano: </b><kbd class="simple-text">2012</kbd><br> <b>Interessado: </b><kbd class="simple-text">Secretaria Municipal de Serviços Públicos</kbd><br>  <b>Objeto: </b><kbd class="simple-text" style="color:#1D5987;">Registro de Preços para alienação de material lenhoso.</kbd><br> <b>Encerramento e abertura dos envelopes: </b><kbd class="simple-text">31/07/2012 10:30 - <b style='color:#ff0000;'>encerrado há 158 dias</b></kbd><br> <b>Entrega dos envelopes e sessão pública: </b><kbd class="simple-text">31/07/2012 10:30 - <b style='color:#ff0000;'>encerrado há 158 dias</b></kbd><br> <h3 style="color:#f00"> LICITAÇÃO ENCERRADA</h3> </td><td valign="top" ><div style="width:200px;text-align:right;"><b>Publicado em </b><kbd class="simple-text">31/07/2012 10:30<br>publicado há 159 dias</kbd><br> </div></td></tr></table></div><div id="tabs2-81" style="width:97%;margin:2px;padding:2px;" tabindex="2" ><table cellpadding="4" cellspacing="0"><tr><td valign="top" style="width:100%;"><tr><td > <a href="#" onclick="download_anexo(this);" id="anex_79"  title="Clique para iniciar o download"><b>Edital</b>:<img src="./images/doc.png" border="0"  align="absmiddle" ></a><kbd class="simple-text"> &nbsp;( publicado em 06/09/2012 16:22 )</kbd></td></tr><tr><td ><h3 style="color:#f00"> LICITAÇÃO ENCERRADA</h3> </td></tr></table></div><div id="tabs3-81" style="width:97%;margin:0px;padding:0px;" tabindex="3" ><table cellpadding="4" cellspacing="0"><tr><td valign="top" style="width:100%;"><tr><td ><a href="#" onclick="download_anexo(this);" id="anex_62" title="Clique para iniciar o download"><b>Resultado de Julgamento de Habilitação</b>: <img src="./images/doc.png" border="0"  align="absmiddle" ></a><kbd class="simple-text"> &nbsp; ( publicado em 05/09/2012 16:30 )</kbd></td></tr><tr><td ><a href="#" onclick="download_anexo(this);" id="anex_141" title="Clique para iniciar o download"><b>Homologação</b>: <img src="./images/doc.png" border="0"  align="absmiddle" ></a><kbd class="simple-text"> &nbsp; ( publicado em 27/09/2012 10:28 )</kbd></td></tr><tr><td ><h3 style="color:#f00"> LICITAÇÃO ENCERRADA</h3> </td></tr></table></div><div id="tabs4-81" style="width:97%;margin:0px;padding:0px;" tabindex="4"  ><kbd class="simple-text"><!--[if gte mso 9]><xml>
+ <w:WordDocument>
+  <w:View>Normal</w:View>
+  <w:Zoom>0</w:Zoom>
+  <w:TrackMoves/>
+  <w:TrackFormatting/>
+  <w:HyphenationZone>21</w:HyphenationZone>
+  <w:PunctuationKerning/>
+  <w:ValidateAgainstSchemas/>
+  <w:SaveIfXMLInvalid>false</w:SaveIfXMLInvalid>
+  <w:IgnoreMixedContent>false</w:IgnoreMixedContent>
+  <w:AlwaysShowPlaceholderText>false</w:AlwaysShowPlaceholderText>
+  <w:DoNotPromoteQF/>
+  <w:LidThemeOther>PT-BR</w:LidThemeOther>
+  <w:LidThemeAsian>X-NONE</w:LidThemeAsian>
+  <w:LidThemeComplexScript>X-NONE</w:LidThemeComplexScript>
+  <w:Compatibility>
+   <w:BreakWrappedTables/>
+   <w:SnapToGridInCell/>
+   <w:WrapTextWithPunct/>
+   <w:UseAsianBreakRules/>
+   <w:DontGrowAutofit/>
+   <w:SplitPgBreakAndParaMark/>
+   <w:DontVertAlignCellWithSp/>
+   <w:DontBreakConstrainedForcedTables/>
+   <w:DontVertAlignInTxbx/>
+   <w:Word11KerningPairs/>
+   <w:CachedColBalance/>
+  </w:Compatibility>
+  <w:BrowserLevel>MicrosoftInternetExplorer4</w:BrowserLevel>
+  <m:mathPr>
+   <m:mathFont m:val="Cambria Math"/>
+   <m:brkBin m:val="before"/>
+   <m:brkBinSub m:val="--"/>
+   <m:smallFrac m:val="off"/>
+   <m:dispDef/>
+   <m:lMargin m:val="0"/>
+   <m:rMargin m:val="0"/>
+   <m:defJc m:val="centerGroup"/>
+   <m:wrapIndent m:val="1440"/>
+   <m:intLim m:val="subSup"/>
+   <m:naryLim m:val="undOvr"/>
+  </m:mathPr></w:WordDocument>
+</xml><![endif][if gte mso 9]><xml>
+ <w:LatentStyles DefLockedState="false" DefUnhideWhenUsed="true"
+  DefSemiHidden="true" DefQFormat="false" DefPriority="99"
+  LatentStyleCount="267">
+  <w:LsdException Locked="false" Priority="0" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Normal"/>
+  <w:LsdException Locked="false" Priority="9" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="heading 1"/>
+  <w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 2"/>
+  <w:LsdException Locked="false" Priority="0" QFormat="true" Name="heading 3"/>
+  <w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 4"/>
+  <w:LsdException Locked="false" Priority="0" QFormat="true" Name="heading 5"/>
+  <w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 6"/>
+  <w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 7"/>
+  <w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 8"/>
+  <w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 9"/>
+  <w:LsdException Locked="false" Priority="39" Name="toc 1"/>
+  <w:LsdException Locked="false" Priority="39" Name="toc 2"/>
+  <w:LsdException Locked="false" Priority="39" Name="toc 3"/>
+  <w:LsdException Locked="false" Priority="39" Name="toc 4"/>
+  <w:LsdException Locked="false" Priority="39" Name="toc 5"/>
+  <w:LsdException Locked="false" Priority="39" Name="toc 6"/>
+  <w:LsdException Locked="false" Priority="39" Name="toc 7"/>
+  <w:LsdException Locked="false" Priority="39" Name="toc 8"/>
+  <w:LsdException Locked="false" Priority="39" Name="toc 9"/>
+  <w:LsdException Locked="false" Priority="35" QFormat="true" Name="caption"/>
+  <w:LsdException Locked="false" Priority="10" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Title"/>
+  <w:LsdException Locked="false" Priority="1" Name="Default Paragraph Font"/>
+  <w:LsdException Locked="false" Priority="11" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Subtitle"/>
+  <w:LsdException Locked="false" Priority="0" Name="Hyperlink"/>
+  <w:LsdException Locked="false" Priority="22" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Strong"/>
+  <w:LsdException Locked="false" Priority="20" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Emphasis"/>
+  <w:LsdException Locked="false" Priority="59" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Table Grid"/>
+  <w:LsdException Locked="false" UnhideWhenUsed="false" Name="Placeholder Text"/>
+  <w:LsdException Locked="false" Priority="1" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="No Spacing"/>
+  <w:LsdException Locked="false" Priority="60" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Shading"/>
+  <w:LsdException Locked="false" Priority="61" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light List"/>
+  <w:LsdException Locked="false" Priority="62" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Grid"/>
+  <w:LsdException Locked="false" Priority="63" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 1"/>
+  <w:LsdException Locked="false" Priority="64" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 2"/>
+  <w:LsdException Locked="false" Priority="65" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 1"/>
+  <w:LsdException Locked="false" Priority="66" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 2"/>
+  <w:LsdException Locked="false" Priority="67" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 1"/>
+  <w:LsdException Locked="false" Priority="68" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 2"/>
+  <w:LsdException Locked="false" Priority="69" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 3"/>
+  <w:LsdException Locked="false" Priority="70" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Dark List"/>
+  <w:LsdException Locked="false" Priority="71" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Shading"/>
+  <w:LsdException Locked="false" Priority="72" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful List"/>
+  <w:LsdException Locked="false" Priority="73" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Grid"/>
+  <w:LsdException Locked="false" Priority="60" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Shading Accent 1"/>
+  <w:LsdException Locked="false" Priority="61" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light List Accent 1"/>
+  <w:LsdException Locked="false" Priority="62" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Grid Accent 1"/>
+  <w:LsdException Locked="false" Priority="63" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 1 Accent 1"/>
+  <w:LsdException Locked="false" Priority="64" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 2 Accent 1"/>
+  <w:LsdException Locked="false" Priority="65" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 1 Accent 1"/>
+  <w:LsdException Locked="false" UnhideWhenUsed="false" Name="Revision"/>
+  <w:LsdException Locked="false" Priority="34" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="List Paragraph"/>
+  <w:LsdException Locked="false" Priority="29" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Quote"/>
+  <w:LsdException Locked="false" Priority="30" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Intense Quote"/>
+  <w:LsdException Locked="false" Priority="66" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 2 Accent 1"/>
+  <w:LsdException Locked="false" Priority="67" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 1 Accent 1"/>
+  <w:LsdException Locked="false" Priority="68" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 2 Accent 1"/>
+  <w:LsdException Locked="false" Priority="69" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 3 Accent 1"/>
+  <w:LsdException Locked="false" Priority="70" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Dark List Accent 1"/>
+  <w:LsdException Locked="false" Priority="71" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Shading Accent 1"/>
+  <w:LsdException Locked="false" Priority="72" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful List Accent 1"/>
+  <w:LsdException Locked="false" Priority="73" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Grid Accent 1"/>
+  <w:LsdException Locked="false" Priority="60" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Shading Accent 2"/>
+  <w:LsdException Locked="false" Priority="61" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light List Accent 2"/>
+  <w:LsdException Locked="false" Priority="62" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Grid Accent 2"/>
+  <w:LsdException Locked="false" Priority="63" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 1 Accent 2"/>
+  <w:LsdException Locked="false" Priority="64" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 2 Accent 2"/>
+  <w:LsdException Locked="false" Priority="65" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 1 Accent 2"/>
+  <w:LsdException Locked="false" Priority="66" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 2 Accent 2"/>
+  <w:LsdException Locked="false" Priority="67" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 1 Accent 2"/>
+  <w:LsdException Locked="false" Priority="68" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 2 Accent 2"/>
+  <w:LsdException Locked="false" Priority="69" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 3 Accent 2"/>
+  <w:LsdException Locked="false" Priority="70" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Dark List Accent 2"/>
+  <w:LsdException Locked="false" Priority="71" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Shading Accent 2"/>
+  <w:LsdException Locked="false" Priority="72" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful List Accent 2"/>
+  <w:LsdException Locked="false" Priority="73" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Grid Accent 2"/>
+  <w:LsdException Locked="false" Priority="60" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Shading Accent 3"/>
+  <w:LsdException Locked="false" Priority="61" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light List Accent 3"/>
+  <w:LsdException Locked="false" Priority="62" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Grid Accent 3"/>
+  <w:LsdException Locked="false" Priority="63" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 1 Accent 3"/>
+  <w:LsdException Locked="false" Priority="64" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 2 Accent 3"/>
+  <w:LsdException Locked="false" Priority="65" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 1 Accent 3"/>
+  <w:LsdException Locked="false" Priority="66" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 2 Accent 3"/>
+  <w:LsdException Locked="false" Priority="67" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 1 Accent 3"/>
+  <w:LsdException Locked="false" Priority="68" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 2 Accent 3"/>
+  <w:LsdException Locked="false" Priority="69" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 3 Accent 3"/>
+  <w:LsdException Locked="false" Priority="70" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Dark List Accent 3"/>
+  <w:LsdException Locked="false" Priority="71" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Shading Accent 3"/>
+  <w:LsdException Locked="false" Priority="72" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful List Accent 3"/>
+  <w:LsdException Locked="false" Priority="73" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Grid Accent 3"/>
+  <w:LsdException Locked="false" Priority="60" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Shading Accent 4"/>
+  <w:LsdException Locked="false" Priority="61" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light List Accent 4"/>
+  <w:LsdException Locked="false" Priority="62" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Grid Accent 4"/>
+  <w:LsdException Locked="false" Priority="63" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 1 Accent 4"/>
+  <w:LsdException Locked="false" Priority="64" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 2 Accent 4"/>
+  <w:LsdException Locked="false" Priority="65" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 1 Accent 4"/>
+  <w:LsdException Locked="false" Priority="66" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 2 Accent 4"/>
+  <w:LsdException Locked="false" Priority="67" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 1 Accent 4"/>
+  <w:LsdException Locked="false" Priority="68" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 2 Accent 4"/>
+  <w:LsdException Locked="false" Priority="69" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 3 Accent 4"/>
+  <w:LsdException Locked="false" Priority="70" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Dark List Accent 4"/>
+  <w:LsdException Locked="false" Priority="71" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Shading Accent 4"/>
+  <w:LsdException Locked="false" Priority="72" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful List Accent 4"/>
+  <w:LsdException Locked="false" Priority="73" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Grid Accent 4"/>
+  <w:LsdException Locked="false" Priority="60" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Shading Accent 5"/>
+  <w:LsdException Locked="false" Priority="61" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light List Accent 5"/>
+  <w:LsdException Locked="false" Priority="62" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Grid Accent 5"/>
+  <w:LsdException Locked="false" Priority="63" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 1 Accent 5"/>
+  <w:LsdException Locked="false" Priority="64" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 2 Accent 5"/>
+  <w:LsdException Locked="false" Priority="65" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 1 Accent 5"/>
+  <w:LsdException Locked="false" Priority="66" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 2 Accent 5"/>
+  <w:LsdException Locked="false" Priority="67" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 1 Accent 5"/>
+  <w:LsdException Locked="false" Priority="68" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 2 Accent 5"/>
+  <w:LsdException Locked="false" Priority="69" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 3 Accent 5"/>
+  <w:LsdException Locked="false" Priority="70" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Dark List Accent 5"/>
+  <w:LsdException Locked="false" Priority="71" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Shading Accent 5"/>
+  <w:LsdException Locked="false" Priority="72" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful List Accent 5"/>
+  <w:LsdException Locked="false" Priority="73" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Grid Accent 5"/>
+  <w:LsdException Locked="false" Priority="60" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Shading Accent 6"/>
+  <w:LsdException Locked="false" Priority="61" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light List Accent 6"/>
+  <w:LsdException Locked="false" Priority="62" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Grid Accent 6"/>
+  <w:LsdException Locked="false" Priority="63" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 1 Accent 6"/>
+  <w:LsdException Locked="false" Priority="64" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 2 Accent 6"/>
+  <w:LsdException Locked="false" Priority="65" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 1 Accent 6"/>
+  <w:LsdException Locked="false" Priority="66" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 2 Accent 6"/>
+  <w:LsdException Locked="false" Priority="67" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 1 Accent 6"/>
+  <w:LsdException Locked="false" Priority="68" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 2 Accent 6"/>
+  <w:LsdException Locked="false" Priority="69" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 3 Accent 6"/>
+  <w:LsdException Locked="false" Priority="70" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Dark List Accent 6"/>
+  <w:LsdException Locked="false" Priority="71" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Shading Accent 6"/>
+  <w:LsdException Locked="false" Priority="72" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful List Accent 6"/>
+  <w:LsdException Locked="false" Priority="73" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Grid Accent 6"/>
+  <w:LsdException Locked="false" Priority="19" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Subtle Emphasis"/>
+  <w:LsdException Locked="false" Priority="21" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Intense Emphasis"/>
+  <w:LsdException Locked="false" Priority="31" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Subtle Reference"/>
+  <w:LsdException Locked="false" Priority="32" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Intense Reference"/>
+  <w:LsdException Locked="false" Priority="33" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Book Title"/>
+  <w:LsdException Locked="false" Priority="37" Name="Bibliography"/>
+  <w:LsdException Locked="false" Priority="39" QFormat="true" Name="TOC Heading"/>
+ </w:LatentStyles>
+</xml><![endif][if gte mso 10]>
+<style>
+ /* Style Definitions */
+ table.MsoNormalTable
+	{mso-style-name:"Tabela normal";
+	mso-tstyle-rowband-size:0;
+	mso-tstyle-colband-size:0;
+	mso-style-noshow:yes;
+	mso-style-priority:99;
+	mso-style-qformat:yes;
+	mso-style-parent:"";
+	mso-padding-alt:0cm 5.4pt 0cm 5.4pt;
+	mso-para-margin:0cm;
+	mso-para-margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:10.0pt;
+	font-family:"Times New Roman","serif";}
+</style>
+<![endif][if gte mso 9]><xml>
+ <o:shapedefaults v:ext="edit" spidmax="1026"/>
+</xml><![endif][if gte mso 9]><xml>
+ <o:shapelayout v:ext="edit">
+  <o:idmap v:ext="edit" data="1"/>
+ </o:shapelayout></xml><![endif]--> 
+  <h5 align="center" style="margin-left: -7.1pt; text-align: center; line-height: 18pt; "><span style="font-size: 11pt; ">AVISO
+DE LICITAÇÃO</span></h5> 
+  <p style="margin-left: -7.1pt; line-height: 18pt; " class="MsoNormal"><span style="font-size: 11pt; ">&nbsp;Acha-se
+aberta na Prefeitura Municipal de Campinas a <strong>Concorrência<span> nº 009/2012 </span></strong>-<strong> </strong><strong>Processo Administrativo <span>nº </span></strong><span>11/10/40.475 </span>- <strong>Interessado:</strong>
+Secretaria Municipal de Serviços Públicos - <span> </span><strong>Objeto:</strong> Registro de Preços para
+alienação de material lenhoso<span style="color: black; ">.</span><span> </span><strong><span style="color: black; ">En</span><span>trega dos
+envelopes:</span></strong><span> até 31</span>/08/2012
+<span>à</span>s 10h30min<span>. <strong>Sessão de abertura:</strong> 31</span>/08/2012
+às 10h30min<span>. <strong>Disponibilidade do
+edital</strong></span>: a partir de<span> 01/08/2012,</span>
+para consulta, ou para aquisição, ao preço de R$ 10,00 (dez reais), <span>na Secretaria Municipal de Administração,
+localizada na Avenida Anchieta nº 200, 6º andar - Campinas (SP), das 08h30min
+às 12h e das 13h30min às 16h30min. O edital poderá ser disponibilizado, a
+critério da Prefeitura Municipal de Campinas, sem ônus, no portal eletrônico <a href="http://www.campinas.sp.gov.br">www.campinas.sp.gov.br</a>.</span></span></p> 
+  <p align="center" style="margin-left: -7.1pt; text-align: center; line-height: 18pt; " class="MsoNormal"><span style="font-size: 11pt; ">&nbsp;Campinas, 26 de julho
+de 2012.</span></p> 
+  <h3 style="margin-left: -7.1pt; text-indent: 0cm; line-height: 18pt; "><span style="font-size: 11pt; ">Comissão Permanente de Licitações</span></h3></kbd><h3 style="color:#f00"> LICITAÇÃO ENCERRADA</h3></div> </div>   </td></tr>
+<tr id='linha25'  ><td colspan="17"><br><div id="tabs25" class="tabs" style="width:97%">
+          <ul><li><a href="#tabs1-25"         >Concorrência 008/2012 </a></li><li><a href="#tabs3-25">Publicações</a></li> </ul><div id="tabs1-25" style="width:97%;margin:2px;padding:2px;" tabindex="1"><table cellpadding="0" cellspacing="0"><tr><td valign="top" style="width:100%;"><b>Protocolo: </b><kbd class="simple-text">12/10/13.189</kbd>&nbsp;&nbsp; <b>Ano: </b><kbd class="simple-text">2012</kbd><br> <b>Interessado: </b><kbd class="simple-text">Secretaria Municipal de Saúde</kbd><br>  <b>Objeto: </b><kbd class="simple-text" style="color:#1D5987;">Registro de Preços de insumos para atendimentos odontológicos básicos, do serviço de saúde bucal da SMS.</kbd><br> </td><td valign="top" ><div style="width:200px;text-align:right;"><b>Publicado em </b><kbd class="simple-text">29/08/2012 09:17<br>publicado há 130 dias</kbd><br> </div></td></tr></table></div><div id="tabs3-25" style="width:97%;margin:0px;padding:0px;" tabindex="3" ><table cellpadding="4" cellspacing="0"><tr><td valign="top" style="width:100%;"><tr><td ><a href="#" onclick="download_anexo(this);" id="anex_19" title="Clique para iniciar o download"><b>Suspensão</b>: <img src="./images/pdf.png" border="0"  align="absmiddle" ></a><kbd class="simple-text"> &nbsp; ( publicado em 29/08/2012 09:17 )</kbd></td></tr></table></div> </div>   </td></tr>
+<tr id='linha271'  ><td colspan="17"><br><div id="tabs271" class="tabs" style="width:97%">
+          <ul><li><a href="#tabs1-271"         >Concorrência 006/2012 </a></li> <li><a href="#tabs4-271">Aviso de Licitação</a></li> <li><a href="#tabs3-271">Publicações</a></li> </ul><div id="tabs1-271" style="width:97%;margin:2px;padding:2px;" tabindex="1"><table cellpadding="0" cellspacing="0"><tr><td valign="top" style="width:100%;"><b>Protocolo: </b><kbd class="simple-text">11/10/48.540</kbd>&nbsp;&nbsp; <b>Ano: </b><kbd class="simple-text">2012</kbd><br> <b>Interessado: </b><kbd class="simple-text">Secretaria Municipal de Saúde</kbd><br>  <b>Objeto: </b><kbd class="simple-text" style="color:#1D5987;">Aquisição de materiais e ferramentas para manutenção predial, a serem utilizados no serviço de manutenção da Secretaria Municipal de Saúde.</kbd><br> <b>Encerramento e abertura dos envelopes: </b><kbd class="simple-text">30/07/2012 10:30 - <b style='color:#ff0000;'>encerrado há 159 dias</b></kbd><br> <b>Entrega dos envelopes e sessão pública: </b><kbd class="simple-text">30/07/2012 10:30 - <b style='color:#ff0000;'>encerrado há 159 dias</b></kbd><br> </td><td valign="top" ><div style="width:200px;text-align:right;"><b>Publicado em </b><kbd class="simple-text">28/11/2012 17:07<br>publicado há 39 dias</kbd><br> </div></td></tr></table></div><div id="tabs3-271" style="width:97%;margin:0px;padding:0px;" tabindex="3" ><table cellpadding="4" cellspacing="0"><tr><td valign="top" style="width:100%;"><tr><td ><a href="#" onclick="download_anexo(this);" id="anex_437" title="Clique para iniciar o download"><b>Resultado de Julgamento e Classificação de Propostas</b>: <img src="./images/doc.png" border="0"  align="absmiddle" ></a><kbd class="simple-text"> &nbsp; ( publicado em 28/11/2012 17:07 )</kbd></td></tr></table></div><div id="tabs4-271" style="width:97%;margin:0px;padding:0px;" tabindex="4"  ><kbd class="simple-text">Observar o Resultado de Julgamento e Classificação de Propostas na Aba PUBLICAÇÕES.</kbd></div> </div>   </td></tr>
+<tr id='linha275'  ><td colspan="17"><br><div id="tabs275" class="tabs" style="width:97%">
+          <ul><li><a href="#tabs1-275"         >Concorrência 005/2012 </a></li> <li><a href="#tabs4-275">Aviso de Licitação</a></li> <li><a href="#tabs3-275">Publicações</a></li> </ul><div id="tabs1-275" style="width:97%;margin:2px;padding:2px;" tabindex="1"><table cellpadding="0" cellspacing="0"><tr><td valign="top" style="width:100%;"><b>Protocolo: </b><kbd class="simple-text">12/10/18.710</kbd>&nbsp;&nbsp; <b>Ano: </b><kbd class="simple-text">2012</kbd><br> <b>Interessado: </b><kbd class="simple-text">secretaria municipal de comunicação</kbd><br>  <b>Objeto: </b><kbd class="simple-text" style="color:#1D5987;">Contratação, sob demanda, de serviços de publicidade e atividades complementares, a serem prestados por intermédio de agência de propaganda.</kbd><br> <b>Encerramento e abertura dos envelopes: </b><kbd class="simple-text">06/08/2012 10:30 - <b style='color:#ff0000;'>encerrado há 152 dias</b></kbd><br> <b>Entrega dos envelopes e sessão pública: </b><kbd class="simple-text">06/08/2012 10:30 - <b style='color:#ff0000;'>encerrado há 152 dias</b></kbd><br> </td><td valign="top" ><div style="width:200px;text-align:right;"><b>Publicado em </b><kbd class="simple-text">30/11/2012 16:07<br>publicado há 37 dias</kbd><br> </div></td></tr></table></div><div id="tabs3-275" style="width:97%;margin:0px;padding:0px;" tabindex="3" ><table cellpadding="4" cellspacing="0"><tr><td valign="top" style="width:100%;"><tr><td ><a href="#" onclick="download_anexo(this);" id="anex_439" title="Clique para iniciar o download"><b>comunicado de sessão pública</b>: <img src="./images/doc.png" border="0"  align="absmiddle" ></a><kbd class="simple-text"> &nbsp; ( publicado em 03/12/2012 08:00 )</kbd></td></tr></table></div><div id="tabs4-275" style="width:97%;margin:0px;padding:0px;" tabindex="4"  ><kbd class="simple-text"><!--[if gte mso 9]><xml>
+ <w:WordDocument>
+  <w:View>Normal</w:View>
+  <w:Zoom>0</w:Zoom>
+  <w:HyphenationZone>21</w:HyphenationZone>
+  <w:PunctuationKerning/>
+  <w:ValidateAgainstSchemas/>
+  <w:SaveIfXMLInvalid>false</w:SaveIfXMLInvalid>
+  <w:IgnoreMixedContent>false</w:IgnoreMixedContent>
+  <w:AlwaysShowPlaceholderText>false</w:AlwaysShowPlaceholderText>
+  <w:Compatibility>
+   <w:BreakWrappedTables/>
+   <w:SnapToGridInCell/>
+   <w:WrapTextWithPunct/>
+   <w:UseAsianBreakRules/>
+   <w:DontGrowAutofit/>
+  </w:Compatibility>
+  <w:BrowserLevel>MicrosoftInternetExplorer4</w:BrowserLevel>
+ </w:WordDocument>
+</xml><![endif]--> 
+  <h5 align="center" style="margin-left: -7.1pt; text-align: center; line-height: 18pt;"><span style="font-size: 11pt; font-family: Tahoma; font-style: normal;"><span> </span>AVISO DE LICITAÇÃO</span></h5> 
+  <p style="margin-left: -7.1pt; line-height: 18pt;" class="MsoNormal"><span style="font-size: 11pt; font-family: Tahoma;"> </span></p> 
+  <p style="margin-left: -7.1pt; line-height: 18pt;" class="MsoNormal"><span style="font-size: 11pt; font-family: Tahoma;">Acha-se aberta na
+Prefeitura Municipal de Campinas a <strong>Concorrência<span> nº 005/2012 </span></strong>-<strong> </strong><strong>Processo Administrativo <span>nº </span></strong>12/10/18.710 - <strong>Interessado:</strong> Secretaria Municipal de Comunicação
+- <span> </span><strong>Objeto:</strong></span><span style="font-size: 11pt; font-family: Tahoma;"> Contratação,
+sob demanda, de serviços de publicidade e atividades complementares, a serem
+prestados por intermédio de agência de propaganda</span><span style="font-size: 11pt; font-family: Tahoma;">.</span><span style="font-size: 11pt; font-family: Tahoma;"> </span><strong><span style="font-size: 11pt; font-family: Tahoma; color: black;">En</span></strong><strong><span style="font-size: 11pt; font-family: Tahoma;">trega dos invólucros 1, 2, 3 e 4: </span></strong><span style="font-size: 11pt; font-family: Tahoma;">até 06</span><span style="font-size: 11pt; font-family: Tahoma;">/08/2012 <span>à</span>s 10h30min<span>. <strong>Sessão de
+abertura dos invólucros 1 e 3:</strong> 06</span>/08/2012 às 10h30min<span>. <strong>Disponibilidade do edital</strong></span>: a
+partir de<span> 19/06/2012,</span> para
+consulta, ou para aquisição, ao preço de R$ 10,00 (dez reais), <strong>acompanhado do</strong> <strong>invólucro 1</strong>, <span>na Secretaria
+Municipal de Administração, localizada na Avenida Anchieta nº 200, 6º andar -
+Campinas (SP), das 08h30min às 12h e das 13h30min às 16h30min. O edital poderá
+ser disponibilizado, a critério da Prefeitura Municipal de Campinas, sem ônus,
+no portal eletrônico <a href="http://www.campinas.sp.gov.br/">www.campinas.sp.gov.br</a>.</span></span></p> 
+  <p style="margin-left: -7.1pt; line-height: 18pt;" class="MsoNormal"><span style="font-size: 11pt; font-family: Tahoma;"> </span></p> 
+  <p align="center" style="margin-left: -7.1pt; text-align: center; line-height: 18pt;" class="MsoNormal"><span style="font-size: 11pt; font-family: Tahoma;">Campinas, 15 de junho de 2012.</span></p> 
+  <p align="center" style="margin-left: -7.1pt; text-align: center; line-height: 18pt;" class="MsoNormal"><span style="font-size: 11pt; font-family: Tahoma;"> </span></p> 
+  <h3 style="margin-left: -7.1pt; text-indent: 0cm; line-height: 18pt;"><span style="font-size: 11pt; font-family: Tahoma;">Comissão Permanente de Licitações</span></h3> 
+  <p style="margin-left: -7.1pt; line-height: 18pt;" class="MsoNormal"><span style="font-size: 11pt; font-family: Tahoma;"> </span></p> 
+  <p style="margin-left: -7.1pt; line-height: 18pt;" class="MsoNormal"><span style="font-size: 11pt; font-family: Tahoma;"> </span></p> <!--[if gte mso 9]><xml>
+ <w:LatentStyles DefLockedState="false" LatentStyleCount="156">
+ </w:LatentStyles>
+</xml><![endif]--><!--[if gte mso 10]>
+<style>
+ /* Style Definitions */
+ table.MsoNormalTable
+	{mso-style-name:"Tabela normal";
+	mso-tstyle-rowband-size:0;
+	mso-tstyle-colband-size:0;
+	mso-style-noshow:yes;
+	mso-style-parent:"";
+	mso-padding-alt:0cm 5.4pt 0cm 5.4pt;
+	mso-para-margin:0cm;
+	mso-para-margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:10.0pt;
+	font-family:"Times New Roman";
+	mso-ansi-language:#0400;
+	mso-fareast-language:#0400;
+	mso-bidi-language:#0400;}
+</style>
+<![endif]--><!--[if gte mso 9]><xml>
+ <o:shapedefaults v:ext="edit" spidmax="1026"/>
+</xml><![endif]--><!--[if gte mso 9]><xml>
+ <o:shapelayout v:ext="edit">
+  <o:idmap v:ext="edit" data="1"/>
+ </o:shapelayout></xml><![endif]--></kbd></div> </div>   </td></tr>
+<tr id='linha253'  ><td colspan="17"><br><div id="tabs253" class="tabs" style="width:97%">
+          <ul><li><a href="#tabs1-253"         >Concorrência 004/2012 </a></li> <li><a href="#tabs4-253">Aviso de Licitação</a></li> <li><a href="#tabs3-253">Publicações</a></li> </ul><div id="tabs1-253" style="width:97%;margin:2px;padding:2px;" tabindex="1"><table cellpadding="0" cellspacing="0"><tr><td valign="top" style="width:100%;"><b>Protocolo: </b><kbd class="simple-text">99/10/62.919</kbd>&nbsp;&nbsp; <b>Ano: </b><kbd class="simple-text">2012</kbd><br> <b>Interessado: </b><kbd class="simple-text">Alcimar leitão Paravidini</kbd><br>  <b>Objeto: </b><kbd class="simple-text" style="color:#1D5987;">Venda de área de terreno destinado a passagem de pedestres</kbd><br> <b>Encerramento e abertura dos envelopes: </b><kbd class="simple-text">15/05/2012 10:30 - <b style='color:#ff0000;'>encerrado há 235 dias</b></kbd><br> <b>Entrega dos envelopes e sessão pública: </b><kbd class="simple-text">15/05/2012 10:30 - <b style='color:#ff0000;'>encerrado há 235 dias</b></kbd><br> </td><td valign="top" ><div style="width:200px;text-align:right;"><b>Publicado em </b><kbd class="simple-text">12/11/2012 08:00<br>publicado há 55 dias</kbd><br> </div></td></tr></table></div><div id="tabs3-253" style="width:97%;margin:0px;padding:0px;" tabindex="3" ><table cellpadding="4" cellspacing="0"><tr><td valign="top" style="width:100%;"><tr><td ><a href="#" onclick="download_anexo(this);" id="anex_381" title="Clique para iniciar o download"><b>resultado de julgamento e classificação de proposta</b>: <img src="./images/doc.png" border="0"  align="absmiddle" ></a><kbd class="simple-text"> &nbsp; ( publicado em 12/11/2012 08:00 )</kbd></td></tr><tr><td ><a href="#" onclick="download_anexo(this);" id="anex_426" title="Clique para iniciar o download"><b>HOMOLOGAÇÃO E ADJUDICAÇÃO</b>: <img src="./images/doc.png" border="0"  align="absmiddle" ></a><kbd class="simple-text"> &nbsp; ( publicado em 26/11/2012 18:37 )</kbd></td></tr></table></div><div id="tabs4-253" style="width:97%;margin:0px;padding:0px;" tabindex="4"  ><kbd class="simple-text"><!--[if gte mso 9]><xml>
+ <w:WordDocument>
+  <w:View>Normal</w:View>
+  <w:Zoom>0</w:Zoom>
+  <w:HyphenationZone>21</w:HyphenationZone>
+  <w:PunctuationKerning/>
+  <w:ValidateAgainstSchemas/>
+  <w:SaveIfXMLInvalid>false</w:SaveIfXMLInvalid>
+  <w:IgnoreMixedContent>false</w:IgnoreMixedContent>
+  <w:AlwaysShowPlaceholderText>false</w:AlwaysShowPlaceholderText>
+  <w:Compatibility>
+   <w:BreakWrappedTables/>
+   <w:SnapToGridInCell/>
+   <w:WrapTextWithPunct/>
+   <w:UseAsianBreakRules/>
+   <w:DontGrowAutofit/>
+  </w:Compatibility>
+  <w:BrowserLevel>MicrosoftInternetExplorer4</w:BrowserLevel>
+ </w:WordDocument>
+</xml><![endif]--> 
+  <h5 align="center" style="margin-left: -7.1pt; text-align: center; line-height: 18pt;"><span style="font-size: 11pt; font-family: Tahoma; font-style: normal;">AVISO
+DE LICITAÇÃO</span></h5> 
+  <p style="margin-left: -7.1pt; line-height: 18pt;" class="MsoNormal"><span style="font-size: 11pt; font-family: Tahoma;"> </span></p> 
+  <p style="margin-left: -7.1pt; line-height: 18pt;" class="MsoNormal"><span style="font-size: 11pt; font-family: Tahoma;">Acha-se aberta na
+Prefeitura Municipal de Campinas a <strong>CONCORRÊNCIA<span> nº 004/2012 </span></strong>-<strong> </strong>Processo
+Administrativo <span>nº<strong> </strong>99/0/62.919 </span>-
+Interessado: Alcimar Leitão Paravidini -<span> </span><span>Objeto: Venda de área de terreno
+destinado a passagem de pedestres</span><span style="color: black;">.</span><span> </span><span style="color: black;">En</span><span>trega dos envelopes até <strong>15</strong></span><strong>/05/2012 <span>à</span>s 10h30min</strong><span>. Sessão de
+abertura: <strong>15</strong></span><strong>/05/2012 às
+10h30min</strong><span>. O edital estará
+disponível para consulta, ou para aquisição ao preço de R$ 10,00 (dez reais), a
+partir de 12/04/2012 até</span> 14<span>/05/2012,
+na Secretaria Municipal de Administração, localizada na Avenida Anchieta, nº
+200 - 6º andar, Campinas (SP), das 08h30min às 12h e das 13h30min às 16h30min.</span><span style="color: black;"></span></span></p> 
+  <h4 align="center" style="margin-left: -7.1pt; text-align: center; line-height: 18pt;"><span style="font-size: 11pt; font-family: Tahoma; font-weight: normal;">Campinas, 10 de abril de 2012.</span></h4> 
+  <h3 style="margin-left: -7.1pt; text-indent: 0cm; line-height: 18pt;"><span style="font-size: 11pt; font-family: Tahoma;">Comissão Permanente de Licitações</span></h3> 
+  <p style="margin-left: -7.1pt; line-height: 18pt;" class="MsoNormal"><span style="font-size: 11pt; font-family: Tahoma;"> </span></p> <!--[if gte mso 9]><xml>
+ <w:LatentStyles DefLockedState="false" LatentStyleCount="156">
+ </w:LatentStyles>
+</xml><![endif]--><!--[if gte mso 10]>
+<style>
+ /* Style Definitions */
+ table.MsoNormalTable
+	{mso-style-name:"Tabela normal";
+	mso-tstyle-rowband-size:0;
+	mso-tstyle-colband-size:0;
+	mso-style-noshow:yes;
+	mso-style-parent:"";
+	mso-padding-alt:0cm 5.4pt 0cm 5.4pt;
+	mso-para-margin:0cm;
+	mso-para-margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:10.0pt;
+	font-family:"Times New Roman";
+	mso-ansi-language:#0400;
+	mso-fareast-language:#0400;
+	mso-bidi-language:#0400;}
+</style>
+<![endif]--></kbd></div> </div>   </td></tr>
+<tr><td style=" width:1px;height:16px;background-color:#F4F4FF;" nowrap></td><td style=" width:1px;height:16px;background-color:#F4F4FF;" nowrap></td><td style="background-color:#F4F4FF;"><input type="text" name="nro_licitacao" class="input" id="imput_width1" style="display:none;"></td><td style="background-color:#F4F4FF;"><input type="text" name="interessado" class="input" id="imput_width2" style="display:none;"></td><td style="background-color:#F4F4FF;"><input type="text" name="publish" class="input" id="imput_width3" style="display:none;"></td><td style="background-color:#F4F4FF;"><input type="text" name="expire" class="input" id="imput_width4" style="display:none;"></td><td style="background-color:#F4F4FF;"><input type="text" name="abertura_envelopes" class="input" id="imput_width5" style="display:none;"></td><td style="background-color:#F4F4FF;"><input type="text" name="entrega_envelopes" class="input" id="imput_width6" style="display:none;"></td><td style="background-color:#F4F4FF;"><input type="text" name="objeto" class="input" id="imput_width7" style="display:none;"></td></tr></table><TABLE width=100% BORDER="0" CELLPADDING="2" CELLSPACING="0" bgcolor="#ffffff" STYLE="width:px;font-size:12px;">
+<tr><td align='left'><FONT color=silver><< Primeira</FONT></td><td align='center'><FONT color=silver><< Anterior</font>  <strong>(</strong> <strong style='color=#000000;'>1</strong>&nbsp;</a><strong>)</strong> <FONT color=silver>Próxima >></font></td><td align='right'><FONT color=silver>Última >></font></td></tr>
+</table><input type="hidden" name="fields_value" value="nro_licitacao,interessado,publish,expire,abertura_envelopes,entrega_envelopes,objeto">
+<iframe frameborder="0" NAME="grid_iframe" WIDTH="1" HEIGHT="1" style="display:none;">No Inlineframes</iframe>
+
+<script>mostra_resultados('<strong>Resultados: <font color=#0000ff>1 - 7 de 7</font></strong>');</script>
+</td></tr> </form>     
+    </table>
+    
+    
+    </td>
+    </tr>
+    
+  </table>
+  </td>
+  
+  
+ 
+  </tr>
+</table>
+</center>
+
+
+ <script>
+$(".tabs").tabs();	// spry tabs  // precisa carregar antes do xinha senão dá bug no IE
+</script>
+<form name="anexo"><input name="anexo_name" type="hidden"></form>
+<br /><br />
+</body>

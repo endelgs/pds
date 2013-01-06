@@ -6,7 +6,13 @@ include "../html_dom/simple_html_dom.php";
 $ckfile = tempnam ("/home/endel/www/pds/crawlers/saopaulo/cookie", "CURLCOOKIE");
 
 //setCookie();
-grabWebPage();
+try{
+  grabWebPage();
+}catch (Exception $e){
+  $mensagem = "Problema no crawler de SÃO PAULO. Detalhes abaixo:\n";
+  $mensagem .= $e->getMessage();
+  mail("endel.gs@gmail.com","QuickLic - Crawlers",$mensagem);
+}
 /**
  * function grabWebPage
  * 
@@ -148,6 +154,9 @@ function extractInfoFromHTML($pagenum = 1){
   
   // Tem uma tabela com class grid-resultado que armazena os resultados
   $licitacoes = $html->find('.grid-resultado tr');
+  if(empty($licitacoes))
+    throw new Exception("Não existe uma tabela .grid-resultado");
+  
   foreach($licitacoes as $key => $l){
     // Pulando a primeira linha que contem os cabecalhos
     if($key == 0) continue;

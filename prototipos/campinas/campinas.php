@@ -1,7 +1,7 @@
 <?php 
-error_reporting(E_ALL);
+error_reporting(0);
 header("Content-type: text/html; charset:utf-8");
-include "html_dom/simple_html_dom.php";
+include "../html_dom/simple_html_dom.php";
 $structure = array("protocolo","interessado","objeto","publicado_em");
 $dateFields = array("recebimento_propostas","inicio_disputa_precos","publicado_em","");
 $conexao = new mysqli("localhost","root","root","pds_crawler");
@@ -24,19 +24,19 @@ try{
   curl_setopt($ch, CURLOPT_AUTOREFERER, true); 
   curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1); 
   curl_setopt($ch, CURLOPT_TIMEOUT, 10);
-  curl_setopt($ch, CURLOPT_URL,"http://licitacoes.campinas.sp.gov.br/listar.php?id_tipo=2");
+  curl_setopt($ch, CURLOPT_URL,"http://licitacoes.campinas.sp.gov.br/listar.php?id_tipo=2&ano=2012");
   curl_setopt($ch, CURLOPT_RETURNTRANSFER, TRUE); 
   
-  //$htmlResult = utf8_encode(curl_exec($ch));
-  //file_put_contents("html2.html",$htmlResult);
+  $htmlResult = utf8_encode(curl_exec($ch));
+  file_put_contents("html2.html",$htmlResult);
   curl_close($ch);
   $htmlResult = file_get_contents("html2.html");
+  if(strlen($htmlResult) < 1) throw new Exception("Não foi possível baixar o HTML");
   $str = str_get_html($htmlResult);
   $lista = array();
   $tmp = array();
   
   $licitacoes = $str->find('#tabela tr');
-  $sql = "INSERT INTO licitacoes (protocolo,interessado,objeto, objeto_free,publicado_em,aviso,aviso_free,outros,all_data,id_cidade) VALUES ";
   $inserts = array();
   $counter = 0;
   for($i = 1; $i<count($licitacoes);$i++){
@@ -45,18 +45,17 @@ try{
     // A tag kbd
     $propriedades = $lic->find('kbd');
     foreach($propriedades as $prop){
-      $key = normalize(sanitize($prop->previousSibling()->innertext));
+      $key = sanitize(normalize($prop->previousSibling()->innertext));
       if(!empty($key))
         $tmp[$key] = sanitize($prop->innertext);
     }
     $lista[] = $tmp;
     //die();
   }
-  print_r($lista);
-/*  if(empty($licitacoes)) throw new Exception("não foi possível encontrar a tag kbd");
+  //print_r($lista);
+  if(empty($licitacoes)) throw new Exception("Não foi possível encontrar a tag kbd. Provavelmente a estrutura do site mudou.");
   foreach($licitacoes as $t){
-    $key = (empty($t->previousSibling()->innertext))?'aviso':str_replace(":","",normalize($t->previousSibling()->innertext));
-    
+    $key = (empty($t->previousSibling()->innertext))?'aviso':mb_ereg_replace("|:|","",normalize($t->previousSibling()->innertext));
     // Como o protocolo eh sempre a primeira coisa, uso ele como 'separador'
     if($key == "protocolo"){
         if($counter > 0){
@@ -73,7 +72,7 @@ try{
       }
     $tmp[$key] = $value;
   }
-  print_r($lista);
+  //print_r($lista);
   foreach($lista as $tmp){
     if(isset($tmp['protocolo'])){
       
@@ -103,21 +102,20 @@ try{
       $db_row['all_data'] = str_replace('campinas','xxxx',$db_row['all_data']);
       $db_row['all_data'] = str_replace('secretaria','xxxx',$db_row['all_data']);
       $db_row['all_data'] = str_replace('prefeitura','xxxx',$db_row['all_data']);
-      
-      $inserts[] = "('".implode("','",$db_row)."')";     
-
+      $sql = "INSERT INTO licitacoes (protocolo,interessado,objeto, objeto_free,publicado_em,aviso,aviso_free,outros,all_data,id_cidade) VALUES ";
+      $sql .= "('".implode("','",$db_row)."')";     
+      $conexao->query(utf8_decode($sql));
+      if($conexao->errno){
+        throw new Exception("Problema no acesso ao banco de dados: ".$conexao->error);
+      }
     }
     
   }
-  if(count($inserts) > 0){
-    $sql .= implode(",",$inserts);
-    //$conexao->query(utf8_decode($sql));
-    echo $conexao->error;
-  }
- *
- */
+ 
 }catch(Exception $e){
-  echo "".$e->getMessage();
+  $mensagem = "Problema no crawler de CAMPINAS. Detalhes abaixo:\n";
+  $mensagem .= $e->getMessage();
+  mail("endel.gs@gmail.com","QuickLic - Crawlers",$mensagem);
 }
 
 function normalize($str){
@@ -128,18 +126,18 @@ function normalize($str){
   $u = array("ú","ù","û","ũ","ü","Ú","Ù","Û","Ũ","Ü");
   $c = array("ç","Ç");
   
-  $str = strtolower(trim($str));
+  $str = mb_strtolower(trim($str));
   
-  foreach($a as $v) $str = str_replace($v,"a",$str);
-  foreach($e as $v) $str = str_replace($v,"e",$str);
-  foreach($i as $v) $str = str_replace($v,"i",$str);
-  foreach($o as $v) $str = str_replace($v,"o",$str);
-  foreach($u as $v) $str = str_replace($v,"u",$str);
-  foreach($c as $v) $str = str_replace($v,"c",$str);
+  foreach($a as $v) $str = mb_ereg_replace($v,"a",$str);
+  foreach($e as $v) $str = mb_ereg_replace($v,"e",$str);
+  foreach($i as $v) $str = mb_ereg_replace($v,"i",$str);
+  foreach($o as $v) $str = mb_ereg_replace($v,"o",$str);
+  foreach($u as $v) $str = mb_ereg_replace($v,"u",$str);
+  foreach($c as $v) $str = mb_ereg_replace($v,"c",$str);
   
   $str = preg_replace("|\s|","_",$str);
-  $str = preg_replace("|<[^>]+>|","",$str);
-  $str = preg_replace("&_d(a|e|o|as|os)_&","_",$str);
+  $str = mb_ereg_replace("|<[^>]+>|","",$str);
+  $str = mb_ereg_replace("&_d(a|e|o|as|os)_&","_",$str);
 
   return $str;
 }
@@ -147,7 +145,8 @@ function sanitize($str){
   // Logica sinistra pra apagar os comentarios
   $str = preg_replace("|<!.*-->|","",$str);
   $str = preg_replace("|<[^>]+>|","",$str);
-  $str = str_replace("&nbsp;","",$str);
+  $str = preg_replace("|&nbsp;|","",$str);
+  $str = preg_replace("|:|","",$str);
   //echo $str."\n";
   return $str;
 }
