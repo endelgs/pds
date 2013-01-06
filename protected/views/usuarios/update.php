@@ -1,3 +1,7 @@
+<?php $this->breadcrumbs=array(
+	'Meu cadastro'
+);
+?>
 <div class="row span_6 center">
 <?php echo CHtml::image(Yii::app()->baseUrl."/images/logo.png","QuickLic");?>
 

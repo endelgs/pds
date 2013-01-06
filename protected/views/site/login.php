@@ -4,6 +4,9 @@
 /* @var $form CActiveForm  */
 
 $this->pageTitle=Yii::app()->name . ' - Login';
+$this->breadcrumbs=array(
+	'Login'
+);
 
 ?>
 <div class="row span_6 center clr">
@@ -53,6 +56,7 @@ $this->pageTitle=Yii::app()->name . ' - Login';
 
 	<div class="row buttons">
 		<?php echo CHtml::submitButton('Login'); ?>
+                <?php echo CHtml::link('Ooops... esqueci minha senha!',array('/site/esqueci')); ?>
 	</div>
 
 <?php $this->endWidget(); ?>

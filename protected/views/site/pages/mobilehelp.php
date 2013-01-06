@@ -1,17 +1,6 @@
 <?php
 /* @var $this SiteController */
-if($this->isMobile()){
-  $widget = 'CJuiAccordion';
-  $container = 'panels';
-  $options = array(
-        'animated' => 'bounceslide',
-        'collapsible' => 'true',
-        'heightStyle' => 'content');
-}else{
-  $widget = 'CJuiTabs';
-  $container = 'tabs';
-  $options = array();
-}
+
 $this->pageTitle=Yii::app()->name . ' - Ajuda';
 $this->breadcrumbs=array(
 	'Ajuda'
@@ -43,8 +32,8 @@ $this->breadcrumbs=array(
 }
 </style>
 <br><br>
-<?php $this->widget('zii.widgets.jui.'.$widget, array(
-        $container=>array(
+<?php $this->widget('zii.widgets.jui.CJuiTabs', array(
+        'tabs'=>array(
         'Como Pesquisar'=>
             '<h3>Como Pesquisar</h3>
               <p>Para efetuar uma pesquisa é muito simples, vá até a página principal do site e digite a palavra na qual deseja buscar no campo de busca (localizado no centro da sua tela). Após isto, clique em "Procurar" e o QuickLic lhe apresentará todos os resultados.</p>
@@ -102,6 +91,5 @@ Para efetuar a busca avançada, clique em "Busca Avançada" no menu superior de 
 <h3>Q10: Gostaria de saber como funciona o site de voces.</h3>
 <p>R: Vá em "Sobre Nós" no menu superior do site e leia um pouco sobre o site e seu funcionamento.</p>'
         ),
-    'options' => $options
 )); ?>
 </div>

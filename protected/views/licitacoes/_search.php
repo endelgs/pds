@@ -12,11 +12,6 @@
 )); ?>
 
 	<div class="row">
-		<?php echo $form->label($model,'id_licitacao'); ?>
-		<?php echo $form->textField($model,'id_licitacao'); ?>
-	</div>
-
-	<div class="row">
 		<?php echo $form->label($model,'protocolo'); ?>
 		<?php echo $form->textField($model,'protocolo',array('size'=>20,'maxlength'=>20)); ?>
 	</div>
@@ -32,11 +27,6 @@
 	</div>
 
 	<div class="row">
-		<?php echo $form->label($model,'objeto_free'); ?>
-		<?php echo $form->textArea($model,'objeto_free',array('rows'=>6, 'cols'=>50)); ?>
-	</div>
-
-	<div class="row">
 		<?php echo $form->label($model,'publicado_em'); ?>
 		<?php echo $form->textField($model,'publicado_em'); ?>
 	</div>
@@ -47,27 +37,16 @@
 	</div>
 
 	<div class="row">
-		<?php echo $form->label($model,'aviso_free'); ?>
-		<?php echo $form->textField($model,'aviso_free',array('size'=>60,'maxlength'=>100)); ?>
+		<?php echo $form->label($model,'relCidade'); ?>
+		<?php echo $form->dropDownList($model,'id_cidade',CHtml::listData(Cidades::model()->findAll(), 'id_cidade', 'nome')); ?>
 	</div>
-
-	<div class="row">
-		<?php echo $form->label($model,'outros'); ?>
-		<?php echo $form->textArea($model,'outros',array('rows'=>6, 'cols'=>50)); ?>
-	</div>
-
-	<div class="row">
-		<?php echo $form->label($model,'all_data'); ?>
-		<?php echo $form->textArea($model,'all_data',array('rows'=>6, 'cols'=>50)); ?>
-	</div>
-
-	<div class="row">
-		<?php echo $form->label($model,'id_cidade'); ?>
-		<?php echo $form->textField($model,'id_cidade'); ?>
+        <div class="row">
+		<?php echo $form->label($model,'relModalidade'); ?>
+		<?php echo $form->dropDownList($model,'modalidade',CHtml::listData(Modalidades::model()->findAll(), 'modalidade', 'nome')); ?>
 	</div>
 
 	<div class="row buttons">
-		<?php echo CHtml::submitButton('Search'); ?>
+		<?php echo CHtml::submitButton('Pesquisar'); ?>
 	</div>
 
 <?php $this->endWidget(); ?>

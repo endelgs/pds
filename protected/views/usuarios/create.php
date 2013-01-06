@@ -1,3 +1,7 @@
+<?php $this->breadcrumbs=array(
+	'Cadastre-se'
+);
+?>
 <div class="row span_6 center">
 <img src="<?php echo Yii::app()->baseUrl?>/images/logo.png"/>
 <h1>Cadastre-se</h1>

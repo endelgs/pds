@@ -26,15 +26,15 @@ class UsuariosController extends Controller {
   public function accessRules() {
     return array(
         array('allow', // allow all users to perform 'index' and 'view' actions
-            'actions' => array('create'),
+            'actions' => array('create','ajaxDelete'),
             'users' => array('*'),
         ),
         array('allow', // allow admin user to perform 'admin' and 'delete' actions
-            'actions' => array('admin', 'delete'),
+            'actions' => array('admin'),
             'users' => array('admin'),
         ),
         array('allow', // allow admin user to perform 'admin' and 'delete' actions
-            'actions' => array('update'),
+            'actions' => array('update','delete'),
             'users' => array('@'),
         ),
         array('deny', // deny all users
@@ -61,12 +61,20 @@ class UsuariosController extends Controller {
     $model = new Usuarios;
 
     // Uncomment the following line if AJAX validation is needed
-    // $this->performAjaxValidation($model);
+     $this->performAjaxValidation($model);
 
     if (isset($_POST['Usuarios'])) {
       $model->attributes = $_POST['Usuarios'];
-      if ($model->save())
-        $this->redirect(array('/site/login','msg'=>'ok'));
+      if ($model->save()) {
+        $model = new LoginForm;
+
+        // collect user input data
+        $model->attributes = array('username'=>$_POST['Usuarios']['nome_usuario'],'password'=>$_POST['Usuarios']['senha']);
+          // validate user input and redirect to the previous page if valid
+          if ($model->validate() && $model->login())
+            $this->redirect(Yii::app()->user->returnUrl);
+      }
+      //$this->redirect(array('/site/login','msg'=>'ok'));
     }
 
     $this->render('create', array(
@@ -80,30 +88,37 @@ class UsuariosController extends Controller {
    * @param integer $id the ID of the model to be updated
    */
   public function actionUpdate() {
-    $model = $this->loadModel(Yii::app()->user->getId());//Yii::app()->user->id_usuario);
-
+    $model = $this->loadModel(Yii::app()->user->getId()); //Yii::app()->user->id_usuario);
     // Uncomment the following line if AJAX validation is needed
     $this->performAjaxValidation($model);
 
     if (isset($_POST['Usuarios'])) {
       $model->attributes = $_POST['Usuarios'];
-      if ($model->save()){
-        $this->render('update',array('model' => $model, 'cadastroOK' => true));
+      if ($model->save()) {
+        $this->render('update', array('model' => $model, 'cadastroOK' => true));
         return;
       }
     }
     $this->render('update', array(
-          'model' => $model
-      ));
-    
+        'model' => $model
+    ));
   }
-
+  public function actionAjaxDelete(){
+    if(Yii::app()->request->isAjaxRequest){
+      $this->loadModel($_POST['id'])->delete();
+      //echo "Seu usuário foi excluído!";
+      Yii::app()->user->logout();
+    }
+  }
   /**
    * Deletes a particular model.
    * If deletion is successful, the browser will be redirected to the 'admin' page.
    * @param integer $id the ID of the model to be deleted
    */
   public function actionDelete($id) {
+    if(Yii::app()->request->isAjaxRequest){
+      $this->loadModel($id)->delete();
+    }
     $this->loadModel($id)->delete();
 
     // if AJAX request (triggered by deletion via admin grid view), we should not redirect the browser

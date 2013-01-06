@@ -2,6 +2,7 @@
 /**
  * @var $pages CPagination
  */
+
 ?>
 <div class="busca-header">
   <div class="row">

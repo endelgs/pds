@@ -7,7 +7,12 @@ class LicitacoesController extends Controller
 	 * using two-column layout. See 'protected/views/layouts/column2.php'.
 	 */
 	public $layout='//layouts/column2';
-
+        
+        public function init(){
+          parent::init();
+          if ($this->isMobile())
+            $this->layout = 'mobile';
+        }
 	/**
 	 * @return array action filters
 	 */
@@ -32,11 +37,11 @@ class LicitacoesController extends Controller
 				'users'=>array('*'),
 			),
 			array('allow', // allow authenticated user to perform 'create' and 'update' actions
-				'actions'=>array('create','update'),
+				'actions'=>array('create','update','buscaAvancada'),
 				'users'=>array('@'),
 			),
 			array('allow', // allow admin user to perform 'admin' and 'delete' actions
-				'actions'=>array('admin','delete'),
+				'actions'=>array('buscaAvancada','delete'),
 				'users'=>array('admin'),
 			),
 			array('deny',  // deny all users
@@ -127,7 +132,7 @@ class LicitacoesController extends Controller
             //$model = Licitacoes::model()->findAll('MATCH(objeto_free,aviso_free) AGAINST(:value IN NATURAL LANGUAGE MODE)',array('value' => $_GET['query']));
             
             $criteria = new CDbCriteria();
-            $criteria->condition = 'MATCH(objeto_free,aviso_free) AGAINST(:value IN NATURAL LANGUAGE MODE)';
+            $criteria->condition = 'MATCH(objeto_free,aviso_free) AGAINST(:value)';
             $criteria->params = array('value' => $_GET['query']);
             
             $count = Licitacoes::model()->count($criteria);
@@ -137,6 +142,9 @@ class LicitacoesController extends Controller
             $pages->pageSize = 5;
             $pages->applyLimit($criteria);
             $model = Licitacoes::model()->findAll($criteria);
+            
+            if ($this->isMobile())
+              $this->layout = 'mobile';
             
             $this->render('search',array(
               'dataProvider'=>$model,
@@ -161,14 +169,14 @@ class LicitacoesController extends Controller
 	/**
 	 * Manages all models.
 	 */
-	public function actionAdmin()
+	public function actionBuscaAvancada()
 	{
 		$model=new Licitacoes('search');
 		$model->unsetAttributes();  // clear any default values
 		if(isset($_GET['Licitacoes']))
 			$model->attributes=$_GET['Licitacoes'];
 
-		$this->render('admin',array(
+		$this->render('buscaAvancada',array(
 			'model'=>$model,
 		));
 	}
@@ -198,4 +206,7 @@ class LicitacoesController extends Controller
 			Yii::app()->end();
 		}
 	}
+        private function isMobile(){
+    return(strpos(strtolower($_SERVER['HTTP_USER_AGENT']), 'android') || strpos(strtolower($_SERVER['HTTP_USER_AGENT']), 'ipad') || strpos(strtolower($_SERVER['HTTP_USER_AGENT']), 'iphone'));
+  }
 }

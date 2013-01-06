@@ -8,82 +8,77 @@
  * @property string $nome
  * @property string $estado
  */
-class Cidades extends CActiveRecord
-{
-	/**
-	 * Returns the static model of the specified AR class.
-	 * @param string $className active record class name.
-	 * @return Cidades the static model class
-	 */
-	public static function model($className=__CLASS__)
-	{
-		return parent::model($className);
-	}
+class Cidades extends CActiveRecord {
 
-	/**
-	 * @return string the associated database table name
-	 */
-	public function tableName()
-	{
-		return 'cidades';
-	}
+  /**
+   * Returns the static model of the specified AR class.
+   * @param string $className active record class name.
+   * @return Cidades the static model class
+   */
+  public static function model($className = __CLASS__) {
+    return parent::model($className);
+  }
 
-	/**
-	 * @return array validation rules for model attributes.
-	 */
-	public function rules()
-	{
-		// NOTE: you should only define rules for those attributes that
-		// will receive user inputs.
-		return array(
-			array('nome', 'length', 'max'=>100),
-			array('estado', 'length', 'max'=>2),
-			// The following rule is used by search().
-			// Please remove those attributes that should not be searched.
-			array('id_cidade, nome, estado', 'safe', 'on'=>'search'),
-		);
-	}
+  /**
+   * @return string the associated database table name
+   */
+  public function tableName() {
+    return 'cidades';
+  }
 
-	/**
-	 * @return array relational rules.
-	 */
-	public function relations()
-	{
-		// NOTE: you may need to adjust the relation name and the related
-		// class name for the relations automatically generated below.
-		return array(
-		);
-	}
+  /**
+   * @return array validation rules for model attributes.
+   */
+  public function rules() {
+    // NOTE: you should only define rules for those attributes that
+    // will receive user inputs.
+    return array(
+        array('nome', 'length', 'max' => 100),
+        array('estado', 'length', 'max' => 2),
+        // The following rule is used by search().
+        // Please remove those attributes that should not be searched.
+        array('id_cidade, nome, estado', 'safe', 'on' => 'search'),
+    );
+  }
 
-	/**
-	 * @return array customized attribute labels (name=>label)
-	 */
-	public function attributeLabels()
-	{
-		return array(
-			'id_cidade' => 'Id Cidade',
-			'nome' => 'Nome',
-			'estado' => 'Estado',
-		);
-	}
+  /**
+   * @return array relational rules.
+   */
+  public function relations() {
+    // NOTE: you may need to adjust the relation name and the related
+    // class name for the relations automatically generated below.
+    return array(
+    );
+  }
 
-	/**
-	 * Retrieves a list of models based on the current search/filter conditions.
-	 * @return CActiveDataProvider the data provider that can return the models based on the search/filter conditions.
-	 */
-	public function search()
-	{
-		// Warning: Please modify the following code to remove attributes that
-		// should not be searched.
+  /**
+   * @return array customized attribute labels (name=>label)
+   */
+  public function attributeLabels() {
+    return array(
+        'id_cidade' => 'Id Cidade',
+        'nome' => 'Nome',
+        'estado' => 'Estado',
+    );
+  }
 
-		$criteria=new CDbCriteria;
+  /**
+   * Retrieves a list of models based on the current search/filter conditions.
+   * @return CActiveDataProvider the data provider that can return the models based on the search/filter conditions.
+   */
+  public function search() {
+    // Warning: Please modify the following code to remove attributes that
+    // should not be searched.
 
-		$criteria->compare('id_cidade',$this->id_cidade);
-		$criteria->compare('nome',$this->nome,true);
-		$criteria->compare('estado',$this->estado,true);
+    $criteria = new CDbCriteria;
 
-		return new CActiveDataProvider($this, array(
-			'criteria'=>$criteria,
-		));
-	}
+    $criteria->compare('id_cidade', $this->id_cidade);
+    $criteria->compare('nome', $this->nome, true);
+    $criteria->compare('estado', $this->estado, true);
+
+    return new CActiveDataProvider($this, array(
+                'criteria' => $criteria,
+            ));
+  }
+
 }

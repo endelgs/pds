@@ -2,6 +2,9 @@
 /* @var $this SiteController */
 
 $this->pageTitle=Yii::app()->name;
+$this->breadcrumbs=array(
+	'Pesquisa'
+);
 ?>
 <div class="row center span_6">
   <div class="col span_12 align-center">
@@ -22,6 +25,7 @@ $this->pageTitle=Yii::app()->name;
       
     </div>
     </form>
+  <?php /*
   <h1>jCloud Example</h1>
 <?php $this->widget('ext.jcloud.JCloud', array(
     'id'=>'my_favorite_latin_words',
@@ -92,7 +96,7 @@ $this->pageTitle=Yii::app()->name;
             'weight'=> 1,            
         ),
     )
-)); ?><!-- cloud -->
+)); */ ?><!-- cloud -->
   <script type="text/javascript">
     jQuery(document).ready(function(){
       jQuery('#barra-de-busca').focus();

@@ -1,7 +1,10 @@
 <?php
 /* @var $this LicitacoesController */
 /* @var $model Licitacoes */
-
+$this->breadcrumbs=array(
+      'Resultados de busca',
+      'Licitação '.$_GET['id']
+);
 ?>
 <div class="row span_6 center">
   <img class="center logo" src="<?php echo Yii::app()->baseUrl?>/images/logo.png">
